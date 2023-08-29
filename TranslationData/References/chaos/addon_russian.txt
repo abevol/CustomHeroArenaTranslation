@@ -934,7 +934,7 @@
 		"auto_creeps_camera_hint"		"По окончании Вашего раунда, камера автоматически переместится к случайной сражающейся команде"
 		
 		"DOTA_Tooltip_ability_ogre_magi_multicast_lua" 							"Multicast"
-		"DOTA_Tooltip_ability_ogre_magi_multicast_lua_Description" 				"Позволяет способностям героя срабатывать по нескольку раз за одно применение и усиливает каждую из них: <font color="#EEF10D">Fireblast</font> получает уменьшенное время перезарядки и увеличенную дальность применения. <font color="#DE8930">Ignite</font> действует на область вокруг цели, получает увеличенную дальность применения и может сработать на случайных врагов вокруг. <font color="#E34F4F">Bloodlust</font> получает уменьшенное время перезарядки и может сработать на случайных союзников вокруг."
+		"DOTA_Tooltip_ability_ogre_magi_multicast_lua_Description" 				"Позволяет способностям героя срабатывать по нескольку раз за одно применение и усиливает каждую из них: <font color=\"#EEF10D\">Fireblast</font> получает уменьшенное время перезарядки и увеличенную дальность применения. <font color=\"#DE8930\">Ignite</font> действует на область вокруг цели, получает увеличенную дальность применения и может сработать на случайных врагов вокруг. <font color=\"#E34F4F\">Bloodlust</font> получает уменьшенное время перезарядки и может сработать на случайных союзников вокруг."
 		"DOTA_Tooltip_ability_ogre_magi_multicast_lua_multicast_2_times"			"%ШАНС 2Х:"
 		"DOTA_Tooltip_ability_ogre_magi_multicast_lua_multicast_3_times"			"%ШАНС 3Х:"
 		"DOTA_Tooltip_ability_ogre_magi_multicast_lua_multicast_4_times"			"%ШАНС 4Х:"
