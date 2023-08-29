@@ -4,14 +4,6 @@
 	"Tokens"
 	{
 		//russian/abilities.txt
-		"DOTA_Tooltip_ability_item_hand_of_midas_lua"       "HAND OF MIDAS"
-		"DOTA_Tooltip_ability_item_hand_of_midas_lua_Description"  "<h1>Активное: Закал золота</h1>Немедленно закалить обычную цель, и получить за нее %bonus_gold% золота и в %xp_multiplier% раза больше опыта. При применении на нейтрального крипа гарантирует получение нейтрального предмета, если не все из них получены."
-		"DOTA_Tooltip_ability_item_hand_of_midas_lua_bonus_attack_speed"   "+$attack"
-		
-		"DOTA_Tooltip_ability_item_smoke_of_deceit_lua"       "Дым обмана"
-		"DOTA_Tooltip_ability_item_smoke_of_deceit_lua_Description"  "<h1>Использование：</h1>Все подконтрольные игрокам существа и герои в радиусе %application_radius% на%duration% сек. становятся невидимыми, а скорость их передвижения увеличивается на%bonus_movement_speed%%%. <br><br>Если совершить атаку или приблизиться к вражескому герою или башне на расстояние в %visibility_radius%, то невидимость раскроется. <br><br>Другие эффекты, раскрывающие невидимость, не действуют."
-		"DOTA_Tooltip_modifier_item_smoke_of_deceit_lua"                              "Дым обмана"
-		"DOTA_Tooltip_modifier_item_smoke_of_deceit_lua_Description"            "В состоянии невидимости скорость передвижения увеличивается, а эффект невидимости нарушается только при приближении к вражескому герою."
 		
 		"DOTA_Tooltip_ability_storm_spirit_ball_lightning_lua"  "BALL LIGHTNING"
 		"DOTA_Tooltip_ability_storm_spirit_ball_lightning_lua_Description"  "Герой оборачивается нестабильным электричеством и несется по полю боя, пока не достигнет своей цели либо не исчерпает запас маны. Заклинание имеет начальную стоимость в %ball_lightning_initial_mana_base%+%ball_lightning_initial_mana_percentage%%% от общего запаса маны. Затем тратится%ball_lightning_travel_cost_base% единиц+%ball_lightning_travel_cost_percent%%% от общего запаса маны за каждые 100 единиц передвижения. Урон выражен в количестве урона за 100 единиц передвижения."
@@ -126,14 +118,6 @@
 		"DOTA_Tooltip_modifier_dragon_knight_elder_dragon_form_lua_blue_Description"	"Атаки замедляют жертв."
 		"DOTA_Tooltip_modifier_dragon_knight_elder_dragon_form_lua_frost"			"Замедление от леденящей атаки"
 		"DOTA_Tooltip_modifier_dragon_knight_elder_dragon_form_lua_frost_Description"	"Скорость передвижения уменьшена на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%, скорость атаки уменьшена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%."
-		
-		"DOTA_Tooltip_ability_life_stealer_feast_lua"										"Feast"
-		"DOTA_Tooltip_ability_life_stealer_feast_lua_Description"							"Добавляет к атакам героя дополнительный урон и вампиризм, зависящие от максимального здоровья противника."		
-		"DOTA_Tooltip_ability_life_stealer_feast_lua_Lore"									"После побега из темницы Деварка Н'эйкс начал питаться плотью и костьми тех, кому не посчастливилось с ним встретиться." 
-		"DOTA_Tooltip_ability_life_stealer_feast_lua_Note0"									"Количество восстановленного здоровья не зависит от нанесённого урона."
-		"DOTA_Tooltip_ability_life_stealer_feast_lua_Note1"									"Складывается с другими источниками вампиризма."
-		"DOTA_Tooltip_ability_life_stealer_feast_lua_hp_leech_percent"						"%ВАМПИРИЗМ ОТ МАКС. ЗДОРОВЬЯ:"
-		"DOTA_Tooltip_ability_life_stealer_feast_lua_hp_damage_percent"						"%УРОН ОТ МАКС. ЗДОРОВЬЯ:"
 		
 		"DOTA_Tooltip_ability_furion_force_of_nature_lua"									"Nature's Call"
 		"DOTA_Tooltip_ability_furion_force_of_nature_lua_Description"						"Преобразует деревья в выбранной области в подконтрольных энтов."
@@ -289,6 +273,18 @@
 		"DOTA_Tooltip_modifier_faceless_void_time_lock_lua_stun_Description"		"Faceless Void заморозил вас во времени!"
 		
 		"DOTA_AbilityTooltip_TorturePipe"	"<br><font color='#f7ab00'>Torture Pipe</font> увеличивает урон способности"
+		"DOTA_AbilityTooltip_Sealing"	"<br>Это <font color='#bd49ff'>Sealing Ability</font>. Снижение времени перезарядки с помощью <font color='#B694FF'>Bad Juju</font> или сброс времени перезарядки с помощью <font color='#B694FF'>Rearm</font> требует более высокую цену. <br>"
+		
+		"DOTA_Tooltip_ability_enraged_wildkin_hurricane_lua"										"Hurricane"
+		"DOTA_Tooltip_ability_enraged_wildkin_hurricane_lua_Description"							"Создаёт ураган, который толкает выбранное существо в направлении волшебникa."
+		"DOTA_Tooltip_ability_enraged_wildkin_hurricane_lua_distance"								"ДАЛЬНОСТЬ ТОЛЧКА:"
+		"DOTA_Tooltip_modifier_enraged_wildkin_hurricane_lua"										"Hurricane"
+		"DOTA_Tooltip_modifier_enraged_wildkin_hurricane_lua_Description"							"Ураган толкает это существо."
+		
+		"DOTA_Tooltip_ability_neutral_upgrade_lua"										"Эволюция"
+		"DOTA_Tooltip_ability_neutral_upgrade_lua_Description"							"С каждым раундом этот нейтральное существо становится сильнее.\n Скорость атаки увеличивается на %attack_speed%.\n Броня увеличивается на %bonus_armor%, до максимума в %max_bonus_armor%.\n Маг. сопротивление увеличивается на %bonus_magical_resistance%%%, до максимума в %max_bonus_magical_resistance%%%.\n Интервал базовой атаки уменьшается на %base_attack_time_reduction%, до минимума в %min_base_attack_time_reduction%."
+		"DOTA_Tooltip_modifier_neutral_upgrade_lua"										"Эволюция"
+		"DOTA_Tooltip_modifier_neutral_upgrade_lua_Description"							"Это нейтральное существо было улучшено!"
 
 		//russian/addon_russian_origin.txt
 		
@@ -697,7 +693,7 @@
 		"DOTA_Tooltip_ability_frostivus2018_dark_willow_bedlam_roaming_radius"	   				"РАДИУС ОБЛЁТА:"
 		"DOTA_Tooltip_ability_frostivus2018_dark_willow_bedlam_roaming_duration"				"ДЛИТЕЛЬНОСТЬ:"
 		"DOTA_Tooltip_ability_frostivus2018_dark_willow_bedlam_secondary_targets"				"ДОП. ЦЕЛЕЙ:"
-		"DOTA_Tooltip_ability_dark_willow_shadow_realm_ability_note"							"Нельзя <font color='#B694FF'>повторно установить</font>"
+		"DOTA_Tooltip_ability_dark_willow_shadow_realm_ability_note"							""
 		
 		"DOTA_Tooltip_modifier_hero_refreshing"                                     "Fountain Aura"
 		"DOTA_Tooltip_modifier_hero_refreshing_Description"                         "Неуязвимость. Значительно увеличивает восстановление маны и здоровья. Ускоряет перезарядку умений и предметов на 1 секунду каждую секунду"
@@ -975,10 +971,10 @@
 		
 		
 		//Abaddon
-		"DOTA_Tooltip_ability_abaddon_borrowed_time_ability_note"               "Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_abaddon_borrowed_time_ability_note"               ""
 		
 		//Arc Warden
-		"DOTA_Tooltip_ability_arc_warden_tempest_double_ability_note"           "Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_arc_warden_tempest_double_ability_note"           ""
 		
 		//Axe
 		
@@ -1011,7 +1007,7 @@
 		"DOTA_Tooltip_ability_clinkz_burning_army_ability_note"		"<font color='#B694FF'>Burning Army</font> может атаковать <font color='#B694FF'>нейтральных существ</font>"
 		
 		//Clockwerk
-		"DOTA_Tooltip_ability_arc_warden_tempest_double_ability_note"            "Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_arc_warden_tempest_double_ability_note"            ""
 		
 		//Crystal Maiden
 		
@@ -1026,8 +1022,8 @@
 		"DOTA_Tooltip_ability_dawnbreaker_celestial_hammer_ability_note"		"На эту способность не работает <font color='#B694FF'>Multicast</font>."
 		
 		//Dazzle
-		"DOTA_Tooltip_ability_dazzle_bad_juju_ability_note"                     "Невозможно найти <font color='#B694FF'>Dark Willow's <b>Shadow Realm</b></font>,<font color='#B694FF'>Tusk's <b>Walrus Punch</b></font> если у вас есть <font color='#B694FF'>Bad Juju</font>"
-		"DOTA_Tooltip_ability_dazzle_shallow_grave_ability_note"                "Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_dazzle_bad_juju_ability_note"                     ""
+		"DOTA_Tooltip_ability_dazzle_shallow_grave_ability_note"                ""
 		
 		//Death Prophet
 		
@@ -1062,7 +1058,7 @@
 		//Elder Titan
 		
 		//Ember Spirit
-		"DOTA_Tooltip_ability_ember_spirit_sleight_of_fist_ability_note"		"Нельзя <font color='#B694FF'>применять несколько раз</font>"
+		// "DOTA_Tooltip_ability_ember_spirit_sleight_of_fist_ability_note"		"Нельзя <font color='#B694FF'>применять несколько раз</font>"
 		
 		//Enchantress
 		
@@ -1158,7 +1154,7 @@
 		"DOTA_Tooltip_modifier_naga_siren_rip_tide_lua_count"                       "Rip Tide"
 		
 		//Nature's Prophet
-		"DOTA_Tooltip_ability_furion_wrath_of_nature_ability_note"          "Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_furion_wrath_of_nature_ability_note"          ""
 		
 		//Necrophos
 		
@@ -1172,7 +1168,7 @@
 		//Omniknight
 		
 		//Oracle
-		"DOTA_Tooltip_ability_oracle_false_promise_ability_note"            "Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_oracle_false_promise_ability_note"            ""
 		
 		//Outworld Devourer
 		"DOTA_Tooltip_ability_obsidian_destroyer_sanity_eclipse_lua"							"Sanity's Eclipse"
@@ -1194,10 +1190,10 @@
 		"DOTA_Tooltip_ability_phantom_lancer_juxtapose_ability_note"		"Нельзя наследовать навыки <font color='#B694FF'>Разрывающая стрела</font>,<font color='#B694FF'> Лунный меч</font>,<font color='#B694FF'> Таланты лучника</font>,<font color='#B694FF'> Выстрел дракона</font>"
 		
 		//Phoenix
-		"DOTA_Tooltip_ability_phoenix_supernova_ability_note"               "Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_phoenix_supernova_ability_note"               ""
 		
 		//Puck
-		"DOTA_Tooltip_ability_puck_dream_coil_ability_note"					"Применяется к <font color='#B694FF'>нейтр. созданиям</font>."
+		// "DOTA_Tooltip_ability_puck_dream_coil_ability_note"					"Применяется к <font color='#B694FF'>нейтр. созданиям</font>."
 		//Pudge
 		"DOTA_Tooltip_ability_pudge_flesh_heap_lua_ability_note"                               "Можно применять на <font color='#B694FF'>крипов.</font><br><font color='#B694FF'>Flesh Heap</font> бонус к силе будет потерян если заменить способность <font color='#B694FF'>Flesh Heap</font>"
 		"DOTA_Tooltip_ability_pudge_flesh_heap_lua"                                            "Flesh Heap"
@@ -1231,7 +1227,7 @@
 		"DOTA_Tooltip_ability_nevermore_requiem_ability_note"                  "Для работы требует <font color='#B694FF'>Necromastery</font>"
 		
 		//Shadow Shaman
-		"DOTA_Tooltip_ability_shadow_shaman_mass_serpent_ward_ability_note"     "<font color='#B694FF'>Summon power</font> влияет на эту способность с <font color='#B694FF'>45% эффективностью</font>.Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_shadow_shaman_mass_serpent_ward_ability_note"     "<font color='#B694FF'>Summon power</font> влияет на эту способность с <font color='#B694FF'>45% эффективностью</font>."
 		
 		//Silencer
 		"DOTA_Tooltip_ability_silencer_glaives_of_wisdom_ability_note"		"Мудрость будет утрачена после повторного изучения <font color='#B694FF'>Glaives of Wisdom</font>"
@@ -1244,7 +1240,7 @@
 		
 		
 		//Slark
-		"DOTA_Tooltip_ability_slark_shadow_dance_ability_note"       "Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_slark_shadow_dance_ability_note"       ""
 		"DOTA_Tooltip_ability_slark_essence_shift_lua_ability_note"	"Так же ворует ловкость у крипов."
 		"DOTA_Tooltip_ability_slark_essence_shift_lua"			    "Essence Shift"
 		"DOTA_Tooltip_ability_slark_essence_shift_lua_Description"  "Герой истощает врагов, воруя их атрибуты которые превращаются в бонусную ловкость для обладателя способности. Если герой убьет врага, он навсегда украдет единицу  1 ловкости."
@@ -1266,7 +1262,7 @@
 		"DOTA_Tooltip_ability_sniper_take_aim_ability_note"		"Только для стрелков" 
 		
 		//Spectre
-		"DOTA_Tooltip_ability_spectre_haunt_ability_note"		"Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_spectre_haunt_ability_note"		""
 		
 		//Spirit Breaker
 		"DOTA_Tooltip_ability_spirit_breaker_nether_strike_ability_note"   "Требует <font color='#B694FF'>Greater Bash</font> чтобы застанить цель"
@@ -1294,7 +1290,7 @@
 		"DOTA_Tooltip_ability_shredder_chakram_lua_damage_per_second"				"УРОН В СЕКУНДУ:"
 		"DOTA_Tooltip_ability_shredder_chakram_lua_slow"							"%ЗАМЕДЛЕНИЕ:"
 		"DOTA_Tooltip_ability_shredder_chakram_lua_mana_per_second"				"РАСХОД МАНЫ В СЕКУНДУ:"
-		"DOTA_Tooltip_ability_shredder_chakram_lua_scepter_description"			"Даёт запасной Chakram."
+		// "DOTA_Tooltip_ability_shredder_chakram_lua_scepter_description"			"Даёт запасной Chakram."
 		
 		"DOTA_Tooltip_ability_shredder_chakram_lua_return"							"Return Chakram"
 		"DOTA_Tooltip_ability_shredder_chakram_lua_return_Description"				"Возвращает пилу от способности Chakram к герою."		
@@ -1376,9 +1372,9 @@
 		"DOTA_Tooltip_ability_undying_tombstone_lua_zombie_interval"              "ИНТЕРВАЛ ПОЯВЛЕНИЯ ЗОМБИ:"
 		"DOTA_Tooltip_ability_undying_tombstone_lua_zombie_health"                "ЗДОРОВЬЯ:"
 		"DOTA_Tooltip_ability_undying_tombstone_lua_zombie_damage"                "УРОН:"
-		"DOTA_Tooltip_ability_undying_tombstone_lua_ability_note"					"Нельзя <font color='#B694FF'>повторно установить</font>"
+		"DOTA_Tooltip_ability_undying_tombstone_lua_ability_note"					""
 		
-		"DOTA_Tooltip_ability_undying_tombstone_ability_note"               "Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_undying_tombstone_ability_note"               ""
 		"DOTA_Tooltip_ability_undying_decay_lua"							"Decay"
 		"DOTA_Tooltip_ability_undying_decay_lua_Description"				"Герой ворует силу вражеских существ по области, нанося им урон от способности. Наносит %creep_damage_mult%%% урона крипам."
 		"DOTA_Tooltip_ability_undying_decay_lua_Lore"						"Сила живых, заимствуется силами мертвых"
@@ -1420,7 +1416,7 @@
 		
 		//Warlock
 		"DOTA_Tooltip_ability_warlock_fatal_bonds_ability_note"				"На эту способность не работает <font color='#B694FF'>Multicast</font><br><font color='#B694FF'>Усиление способностей</font> влияет на распространяющийся урон"
-		"DOTA_Tooltip_ability_warlock_rain_of_chaos_ability_note"			"<font color='#B694FF'>Summon power</font> влияет на эту способность с <font color='#B694FF'>70% эффективностью</font>.Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_warlock_rain_of_chaos_ability_note"			"<font color='#B694FF'>Summon power</font> влияет на эту способность с <font color='#B694FF'>70% эффективностью</font>."
 		
 		//Weaver
 		
@@ -1431,10 +1427,10 @@
 		//Witch Doctor
 		"DOTA_Tooltip_ability_witch_doctor_maledict_ability_note"			"Применяется к <font color='#B694FF'>нейтр. созданиям</font>."
 		//Wraith King
-		"DOTA_Tooltip_ability_skeleton_king_reincarnation_ability_note"         "Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font><br>Эффект от <font color='#B694FF'>Aghanim's Scepter</font> удалён"
+		"DOTA_Tooltip_ability_skeleton_king_reincarnation_ability_note"         "<br>Эффект от <font color='#B694FF'>Aghanim's Scepter</font> удалён"
 		
 		//Zeus
-		"DOTA_Tooltip_ability_zuus_thundergods_wrath_ability_note"          "Перезарядка не сбрасывается способностью<font color='#B694FF'>Rearm</font>"
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath_ability_note"          ""
 		
 		"DOTA_Tooltip_ability_zeus_static_field_lua"										"Static Field"
 		"DOTA_Tooltip_ability_zeus_static_field_lua_Description"							"Все враги, задетые способностями героя, получат дополнительный урон, пропорциональный их текущему здоровью. Этот эффект срабатывает не чаще одного раза в %shock_duration% секунд на каждом задетом враге, если вызван не родными способностями Zeus.<br>Не родные способности Zeus наносят %nonzeus_multiplier%%% урона Static Field."
@@ -1674,15 +1670,6 @@
 		"DOTA_Tooltip_ability_harpy_storm_chain_lightning_lua_Description"						"Выпускает электрический разряд, который поражает находящихся поблизости противников, с каждым ударом нанося урон в %initial_damage%."
 		"DOTA_Tooltip_ability_harpy_storm_chain_lightning_lua_radius"							"РАДИУС СКАЧКА:"
 		
-		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua"	                	"Tempest Double"
-		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua_Description"	        "Сконцентрировав свои осколки в единую сущность, герой создаёт свою электрическую копию, которая может применять его способности и использовать все предметы, кроме многих расходуемых и тех, что теряются при смерти. Копия имеет отдельное время перезарядки способностей и предметов. За убийство копии противник получит золото. Копия теряет себя, если находится на слишком большом расстоянии от своего создателя, и наносит меньше урона атаками."
-		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua_Lore"		            "Искажённый мощью своих сверстников, Зет принимает своего злейшего врага: внутренний хаос."
-		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua_duration"	            "ДЛИТЕЛЬНОСТЬ:"
-		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua_Note0"		            "Копия не может использовать способность Tempest Double."
-		"DOTA_Tooltip_modifier_tempest_double_illusion"                                    "Tempest Double"
-		"DOTA_Tooltip_modifier_tempest_double_illusion_Description"                    	"Полная копия героя, которая может применять его способности и использовать имеющиеся предметы, кроме Gem of True Sight и Divine Rapier."
-		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua_ability_note"			"Нельзя <font color='#B694FF'>повторно установить</font> Нельзя <font color='#B694FF'>применить несколько раз</font>"
-		
 		"DOTA_Tooltip_ability_wisp_spirits_in_lua"									"Spirits In"
 		"DOTA_Tooltip_ability_wisp_spirits_in_lua_Description"						"Приближает духов к герою. Повторное применение остановит приближение."
 		
@@ -1815,12 +1802,6 @@
 		"DOTA_Tooltip_ability_item_extra_creature_timber_spider"					"Timber Spider"
 		"DOTA_Tooltip_ability_item_extra_creature_timber_spider_Description"		"<h1>Используйте</h1> расходный предмет, чтобы со следующего раунда дополнительно вызвать одного Timbersaw во всех зонах противника."
 		
-		"DOTA_Tooltip_ability_item_dark_moon_shard"									"Dark Moon Shard"
-		"DOTA_Tooltip_ability_item_dark_moon_shard_Description""<h1>Применение: поглощение</h1> навсегда уменьшает скорость атаки на %base_attack_time_reduction%%. Применяется 1 раз."
-		"DOTA_Tooltip_modifier_item_dark_moon_shard"								"Dark Moon Shard"
-		"DOTA_Tooltip_modifier_item_dark_moon_shard_Description"					"Интервал между атаками уменьшен до %fMODIFIER_PROPERTY_BASE_ATTACK_TIME_CONSTANT%."
-		"DOTA_Tooltip_ability_item_dark_moon_shard_bonus_attack_speed"				"+$attack"
-		
 		"DOTA_Tooltip_ability_item_aegis_lua"										"Aegis of Immortal"
 		"DOTA_Tooltip_ability_item_aegis_lua_Description"							"<h1>Применение: вечность</h1> Дает бонус вечности (1 ур.)"
 		
@@ -1920,7 +1901,43 @@
 		"DOTA_Tooltip_ability_lycan_summon_wolves_ability_note""Эффект от <font color='#B694FF'>Dominator</font> с <font color='#B694FF'>160% силой</font>"
 		
 
-		//russian/heroes/axe/abilities
+		//russian/Draw.txt
+		"Draw"			"Исследование диких земель"
+		"Draw_PoolCountDownTitle"	"Оставшееся время:"
+		"Draw_PoolNextPoolTitle"	"Следующее исследование:"
+		"OpenBoxResult" "Поздравляем!"
+		"Draw_do_1"	"Исследовать ×1"
+		"Draw_do_10" "Исследовать ×10"
+		"Draw_go_draw"	"Исследовать"
+		"Draw_go_redeem"	"Обмен"
+		"Draw_reach_limit"	"Недостаточно кол-во обмена"
+		"Draw_token_not_enough"	" недостаточно"
+		"Draw_fail"	"Не удалось!"
+
+		//russian/Econ.txt
+		"item_4000001"		"Боевое знамя"
+		"item_4000002"		"Шарик года Крысы"
+		"item_4000003"		"Танцующий лев"
+		"item_4000004"		"Петарды"
+		"item_4000005"		"Кинуть снежок"
+		"item_4000006"		"Сделать снеговика"
+		"item_4000007"		"Запустить фейерверк"
+		"item_4000008"		"Верная лопата"
+		"item_4000009"		"Барабаны войны"
+		"item_4000010"		"Призвать обезьянку"
+		"item_4000011"		"Призвать небесного змея"
+
+		//russian/heroes/arc_warden/abilities.txt
+		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua"	"Tempest Double[CHC]"
+		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua_Description"	"Сконцентрировав свои осколки в единую сущность, герой создаёт свою электрическую копию, которая может применять его способности и использовать все предметы, кроме многих расходуемых и тех, что теряются при смерти. Копия имеет отдельное время перезарядки способностей и предметов. За убийство копии противник получит золото. Копия теряет себя, если находится на слишком большом расстоянии от своего создателя, и наносит меньше урона атаками."
+		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua_Lore"	"Искажённый мощью своих сверстников, Зет принимает своего злейшего врага: внутренний хаос."
+		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua_duration"	"ДЛИТЕЛЬНОСТЬ:"
+		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua_Note0"		            "Копия не может использовать способность Tempest Double."
+		"DOTA_Tooltip_modifier_arc_warden_tempest_double_lua"	"Tempest Double[CHC]"
+		"DOTA_Tooltip_modifier_arc_warden_tempest_double_lua_Description"	"Полная копия героя, которая может применять его способности и использовать имеющиеся предметы, кроме Gem of True Sight и Divine Rapier."
+		"DOTA_Tooltip_ability_arc_warden_tempest_double_lua_ability_note"	" Нельзя <font color='#B694FF'>применить несколько раз</font>"
+
+		//russian/heroes/axe/abilities.txt
 		"DOTA_Tooltip_ability_axe_counter_helix_lua"								    "Counter Helix"
 		"DOTA_Tooltip_ability_axe_counter_helix_lua_Description"						"Герой с некоторой вероятностью отвечает на удары противников, нанося чистый урон всем врагам вокруг себя."
 		"DOTA_Tooltip_ability_axe_counter_helix_lua_Lore"								"Могул Хан — сам себе войско."
@@ -1936,6 +1953,45 @@
 		"DOTA_Tooltip_modifier_axe_counter_helix_lua_debuff"					"Снижение урона от Counter Helix"
 		"DOTA_Tooltip_modifier_axe_counter_helix_lua_debuff_Description"		"Это существо наносит на %dMODIFIER_PROPERTY_TOOLTIP%%% меньше урона владельцу способности Counter Helix."
 		"DOTA_Tooltip_ability_axe_counter_helix_lua_shard_description"			"Убирает перезарядку способности. Counter Helix теперь накладывает на поражаемых противников увеличивающийся отрицательный эффект, снижающий урон от атак по Axe на %shard_damage_reduction%%% в течение %shard_debuff_duration% сек., максимум %shard_max_stacks% р. "
+		
+
+		//russian/heroes/bloodseeker/abilities.txt
+		"DOTA_Tooltip_ability_bloodseeker_thirst_lua"										"Thirst[CHC]"
+		"DOTA_Tooltip_ability_bloodseeker_thirst_lua_Description"							"Герой может чувствовать кровь, вытекающую из ран врагов  <font color='#70EA72'>в радиусе %radius%</font>, восстанавливая часть здоровья с каждым убийством. Это также увеличивает скорость передвижения Bloodseeker. Чем меньше здоровья у врагов вокруг, тем сильнее эффект усиления скорости. Бонус к скорости достигает максимума, когда здоровье врага падает ниже %max_threshold_pct%%%. Bloodseeker может превысить макс. лимит скорости."
+		"DOTA_Tooltip_ability_bloodseeker_thirst_lua_Lore"									"Когда проливается кровь, Стригвира охватывает неистовство."
+		"DOTA_Tooltip_ability_bloodseeker_thirst_lua_bonus_movement_speed"					"%Макс. Скорость Передвижения за Героя:"		
+		"DOTA_Tooltip_ability_bloodseeker_thirst_lua_kill_heal"					"%<font color='#70EA72'>Лечение от макс. здоровья: </font>"			
+		
+		// "DOTA_Tooltip_ability_bloodseeker_blood_mist_lua"										"Blood Mist"
+		// "DOTA_Tooltip_ability_bloodseeker_blood_mist_lua_Description"							"Bloodseeker постоянно теряет своё здоровье, <font color='#70EA72'>нанося равный урон окружающим врагам</font>. При активации Bloodseeker получает <font color='#70EA72'>усиление лечения, усиление вампиризма и усиление вампиризма заклинаниями, превращая избыточное лечение в макс. здоровье</font>, длительностью %duration% сек. <br>Надо изучить <font color='#70EA72'>Thirst</font>."
+		// "DOTA_Tooltip_ability_bloodseeker_blood_mist_lua_Note0"									"Урон, нанесенный герою, не может убить его."
+		// "DOTA_Tooltip_ability_bloodseeker_blood_mist_lua_damage_pct"					"%Урон/ Потеря Здоровья в сек:"
+		// "DOTA_Tooltip_ability_bloodseeker_blood_mist_lua_radius"							"Радиус:"
+		// "DOTA_Tooltip_ability_bloodseeker_blood_mist_lua_tick"							"Интервал Урона:"
+		// "DOTA_Tooltip_ability_bloodseeker_blood_mist_lua_heal_amplify"						"%Усиление Лечения:"
+		// "DOTA_Tooltip_ability_bloodseeker_blood_mist_lua_lifesteal_amplify"						"%Усиление Вампиризма:"
+		// "DOTA_Tooltip_ability_bloodseeker_blood_mist_lua_spell_lifesteal_amplify"						"%Усиление Вампиризма Заклинаниями:"
+		// "DOTA_Tooltip_modifier_bloodseeker_blood_mist_lua"									"Blood Mist"
+		// "DOTA_Tooltip_modifier_bloodseeker_blood_mist_lua_Description"						"Испускает кровь, нанося урон врагам неподалёку. Лечение на Bloodseeker увеличено."
+		// "DOTA_Tooltip_modifier_bloodseeker_blood_mist_lua_hp"									"Blood Mist"
+		// "DOTA_Tooltip_modifier_bloodseeker_blood_mist_lua_hp_Description"						"Временно получает доп. макс. здоровье."
+
+		//russian/heroes/dazzle/abilities.txt
+		"DOTA_Tooltip_ability_dazzle_bad_juju_lua"	"Bad Juju[CHC]"
+		"DOTA_Tooltip_ability_dazzle_bad_juju_lua_Description"	"Активное применение способности расходует здоровье, уменьшает оставшееся время перезарядки всех других способностей и предметов. Применение Bad Juju временно увеличивает расход здоровья, <font color='#70EA72'> временно увеличивает собственное сопротивление магии и уменьшает сопротивление магии ближайших врагов.</font>\n За каждое <font color='#bd49ff'>Sealing Ability</font>, находящееся в перезарядке, увеличиваются время перезарядки Bad Juju и расход здоровья. Чем меньше время перезарядки, тем сильнее влияние <font color='#bd49ff'>Sealing Ability</font>. \n<font color='#ed2d4d'>Нельзя уменьшить время перезарядки нейтральных предметов </font>\n<font color='#ed2d4d'>Нельзя применить при недостаточном здоровье</font>"
+		"DOTA_Tooltip_ability_dazzle_bad_juju_lua_Lore"	"С каждым зовом мир Нотл всё сильнее проникает в нашу реальность."
+		"DOTA_Tooltip_ability_dazzle_bad_juju_lua_armor_reduction"	"%Снижение/Повышение Сопротивления Магии за Эффект:"
+		"DOTA_Tooltip_ability_dazzle_bad_juju_lua_duration"	"ДЛИТЕЛЬНОСТЬ:"
+		"DOTA_Tooltip_ability_dazzle_bad_juju_lua_cooldown_reduction"	"УМЕНЬШЕНИЕ ПЕРЕЗАРЯДКИ СПОСОБНОСТЕЙ:"
+		"DOTA_Tooltip_ability_dazzle_bad_juju_lua_cooldown_reduction_items"	"УМЕНЬШЕНИЕ ПЕРЕЗАРЯДКИ ПРЕДМЕТОВ:"
+		"DOTA_Tooltip_ability_dazzle_bad_juju_lua_mana_cost_increase_pct"	"%УВЕЛИЧЕНИЕ РАСХОДА ЗДОРОВЬЯ ЗА ПРИМЕНЕНИЕ:"
+		"DOTA_Tooltip_ability_dazzle_bad_juju_lua_mana_cost_increase_duration"	"ДЛИТЕЛЬНОСТЬ УВЕЛИЧЕНИЯ РАСХОДА ЗДОРОВЬЯ:"
+		"DOTA_Tooltip_ability_dazzle_bad_juju_lua_radius"	"РАДИУС:"
+		"DOTA_Tooltip_modifier_dazzle_bad_juju_lua"	"Bad Juju[CHC]"
+		"DOTA_Tooltip_modifier_dazzle_bad_juju_lua_Description"	"Сопротивление магии увеличено на %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%%. Расход здоровья на способность Bad Juju повышен."
+		"DOTA_Tooltip_modifier_dazzle_bad_juju_lua_debuff"	"Bad Juju[CHC]"
+		"DOTA_Tooltip_modifier_dazzle_bad_juju_lua_debuff_Description"	"Сопротивление магии уменьшено на %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%%."
+		"DOTA_Tooltip_ability_special_bonus_unique_dazzle_4"	"+1% Снижение/Повышение Сопротивления Магии Bad Juju"
 		
 
 		//russian/heroes/huskar/abilities.txt
@@ -1962,6 +2018,28 @@
 		"DOTA_Tooltip_modifier_forged_spirit_melting_strike_lua_debuff"				"Melting Strike"
 		"DOTA_Tooltip_modifier_forged_spirit_melting_strike_lua_debuff_Description"	"Броня снижена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%."
 
+		//russian/heroes/life_stealer/abilities.txt
+		"DOTA_Tooltip_ability_life_stealer_feast_lua"										"Feast[CHC]"
+		"DOTA_Tooltip_ability_life_stealer_feast_lua_Description"							"Добавляет к атакам героя дополнительный урон и вампиризм, зависящие от максимального здоровья противника."		
+		"DOTA_Tooltip_ability_life_stealer_feast_lua_Lore"									"После побега из темницы Деварка Н'эйкс начал питаться плотью и костьми тех, кому не посчастливилось с ним встретиться." 
+		"DOTA_Tooltip_ability_life_stealer_feast_lua_Note0"									"Не действует на Рошана."
+		"DOTA_Tooltip_ability_life_stealer_feast_lua_Note1"									"Количество восстановленного здоровья не зависит от нанесённого урона."
+		"DOTA_Tooltip_ability_life_stealer_feast_lua_Note2"									"Складывается с другими источниками вампиризма."
+		"DOTA_Tooltip_ability_life_stealer_feast_lua_hp_leech_percent"						"%ВАМПИРИЗМ ОТ МАКС. ЗДОРОВЬЯ:"
+		"DOTA_Tooltip_ability_life_stealer_feast_lua_hp_damage_percent"						"%УРОН ОТ МАКС. ЗДОРОВЬЯ:"
+		"DOTA_Tooltip_ability_special_bonus_unique_lifestealer_3"	"+{s:bonus_hp_leech_percent}% к вампиризму от Feast"
+
+		//russian/heroes/pangolier/abilities.txt
+		"DOTA_Tooltip_ability_pangolier_lucky_shot_lua"						"Lucky Shot"
+		"DOTA_Tooltip_ability_pangolier_lucky_shot_lua_Description"			"Герой бросает кости, оставляя врагов на милость судьбы. Даёт шанс наложить на цель атаки бессилие и уменьшить её броню при нанесении любого урона атакой или способностью. <br><font color='#ed2d4d'>При срабатывании Lucky Shot переходит в перезарядку в %abilitycooldown% сек. </font>"		
+		"DOTA_Tooltip_ability_pangolier_lucky_shot_lua_Lore"			"Клинок Донтé больше ведом прихотью, а не логикой."		
+		"DOTA_Tooltip_ability_pangolier_lucky_shot_lua_chance_pct"			"%<font color='#70EA72'>ШАНС:</font>"
+		"DOTA_Tooltip_ability_pangolier_lucky_shot_lua_duration"			"ДЛИТЕЛЬНОСТЬ:"
+		"DOTA_Tooltip_ability_pangolier_lucky_shot_lua_armor"			"СНИЖЕНИЕ БРОНИ:"
+		
+		"DOTA_Tooltip_modifier_pangolier_lucky_shot_lua_debuff"	"Lucky Shot"
+		"DOTA_Tooltip_modifier_pangolier_lucky_shot_lua_debuff_Description"	"Бессилие. Броня снижена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%."
+
 		//russian/heroes/terrorblade/abilities.txt
 		"DOTA_Tooltip_ability_terrorblade_reflection_lua"										"Reflection"
 		"DOTA_Tooltip_ability_terrorblade_reflection_lua_Description"							"Создаёт неуязвимых тёмных двойников всех вражеских героев в указанной области. Каждый двойник атакует свою цель и замедляет её передвижение и атаку.\nВражеские крипы замедленыи получают физический урон зависящий от их базового урона. Интервалы урона основаны на базовом времени атаки крипа. Влияет максимум на%max_creep_affect% вражеских крипов."
@@ -1979,7 +2057,23 @@
 		"DOTA_Tooltip_ability_terrorblade_sunder_lua_Description"		"Меняет местами жизненные силы героя и его цели.Некоторая часть здоровья остаётся на месте."
 		"DOTA_Tooltip_ability_terrorblade_sunder_lua_hit_point_minimum_pct"		"МИН. ЗДОРОВЬЕ ПОСЛЕ ОБМЕНА:"
 
-		//russian/heroes/zuus/abilities
+		//russian/heroes/tinker/abilities.txt
+		"DOTA_Tooltip_ability_tinker_rearm_lua"	"Rearm[CHC]"
+		"DOTA_Tooltip_ability_tinker_rearm_lua_Description"	"Прерываемая - сбрасывает время перезарядки способностей и большинства предметов Tinker, <font color='#70EA72'>и предоставляет складывающееся усиление отрицательных эффектов. </font>\n За каждое <font color='#bd49ff'>Sealing Ability</font>, находящееся в перезарядке, увеличиваются время применения и время перезарядки. Чем дольше оставшееся время перезарядки, тем сильнее влияние <font color='#bd49ff'>Sealing Ability</font>.\n Если время перезарядки <font color='#bd49ff'>Sealing Ability</font> успешно сброшено, время перезарядки Rearm не сбрасывается."
+		"DOTA_Tooltip_ability_tinker_rearm_lua_AbilityChannelTime"	"Время Применения:"
+		"DOTA_Tooltip_ability_tinker_rearm_lua_bonus_status_resistance"	"%<font color='#70EA72'>Усиление Отрицательных Эффектов за Эффект: </font>"
+		"DOTA_Tooltip_ability_tinker_rearm_lua_buff_duration"	"<font color='#70EA72'>Длительность: </font>"
+		"DOTA_Tooltip_ability_tinker_rearm_lua_sealing_bonus_time"	"Время Наказания за каждое <font color='#bd49ff'>Sealing Ability</font>:"
+		"DOTA_Tooltip_ability_tinker_rearm_lua_Note0"	"Действует на все предметы за исключением Aeon Disk, Arcane Boots, Black King Bar, Hand of Midas, Helm of the Dominator, Helm of the Overlord, Linken's Sphere, Meteor Hammer, Pipe of Insight, Refresher Orb, пассивной способности Revenant's Brooch и всех нейтральных предметов."
+		"DOTA_Tooltip_ability_tinker_rearm_lua_Lore"										"Новую батарею сюда, пару ракет туда — Боуш постоянно совершенствует и обновляет свои устройства."
+		"DOTA_Tooltip_modifier_tinker_rearm_lua"	"Rearm[CHC]"
+		"DOTA_Tooltip_modifier_tinker_rearm_lua_Description"	"Сбрасывает время перезарядки способностей."
+		"DOTA_Tooltip_modifier_tinker_rearm_lua_buff"	"Rearm[CHC]"
+		"DOTA_Tooltip_modifier_tinker_rearm_lua_buff_Description"	"Усиление отрицательных эффектов уменьшено на %dMODIFIER_PROPERTY_STATUS_RESISTANCE_CASTER%%%."
+		"DOTA_Tooltip_modifier_tinker_rearm_lua_counter"	"Rearm[CHC]"
+		"DOTA_Tooltip_modifier_tinker_rearm_lua_counter_Description"	"Время перезарядки Rearm увеличена до %fMODIFIER_PROPERTY_TOOLTIP% сек. и время применения увеличено до %fMODIFIER_PROPERTY_TOOLTIP2% сек."
+
+		//russian/heroes/zuus/abilities.txt
 		"DOTA_Tooltip_ability_zuus_arc_lightning_lua"										"Arc Lightning"
 		"DOTA_Tooltip_ability_zuus_arc_lightning_lua_Description"							"Выпускает молнию, которая перескакивает с одного врага на другого, нанося им базовый урон и отнимая часть от максимального здоровья."
 		"DOTA_Tooltip_ability_zuus_arc_lightning_lua_shard_description"						"Grant Lightning Hands"
@@ -1999,6 +2093,8 @@
 		"HUD_Abilityselect_ChoseaAbility"	"Выберите новый навык"
 		"HUD_Abilityselect_ForgetaAbility"	"Забыть навык"
 		"HUD_Abilityselect_HideaAbility"	"Скрыть навык"
+		"HUD_ItemSelect_Chose"	"Выберите нейтральный предмет {value} Тира."
+		"HUD_ItemSelect_Reroll"	"Повторно выберите нейтральный предмет {value} Тира."
 
 		//russian/HUD_Ban.txt
 		"HUD_Ban_confirm_ban"	"Подтвердить запрет"
@@ -2006,6 +2102,8 @@
 		"HUD_Ban_recent_ban"	"Недавно запрещенные"
 		"HUD_Ban_ability_times"	"Запрет навыка"
 		"HUD_Ban_hero_times"	"Запрет героя"
+		"HUD_Ban_ban_ability"	"Бан Умения"
+		"HUD_Ban_your_bans"	"Ваш Бан"
 
 		//russian/HUD_EndGame.txt
 		"HUD_EndGame_score"	"Очки рейтинга"
@@ -2038,6 +2136,14 @@
 		"Hud_Loading_vip_getting"		"Вход..."
 		"Hud_Loading_vip_got"		"Успешный вход"
 		"Round" "Раунд"
+		"NeutralItemSlot_Empty"		"Должен иметь нейтральный предмет."
+		"NeutralItemSlot_LevelDiff1"		"Должен иметь нейтральный предмет 1-го Тира."
+		"NeutralItemSlot_LevelDiff2"		"Должен иметь нейтральный предмет 2-го Тира."
+		"NeutralItemSlot_LevelDiff3"		"Должен иметь нейтральный предмет 3-го Тира."
+		"NeutralItemSlot_LevelDiff4"		"Должен иметь нейтральный предмет 4-го Тира."
+		"NeutralItemSlot_LevelDiff5"		"Должен иметь нейтральный предмет 5-го Тира."
+		"Hud_DamageCounter_CurrentTotal"    "Урон в этом раунде: "
+		"Hud_DamageCounter_PassTooltip"    "Открыть CHC VIP для просмотра подробных данных"
 
 		//russian/HUD_Hero_select.txt
 		"card_primary_strength" "Основной атрибут: сила"
@@ -2196,13 +2302,15 @@
 		
 
 		//russian/items.txt
-		"DOTA_Tooltip_ability_item_hand_of_midas_lua"	"Hand of Midas"
-		// "DOTA_Tooltip_ability_item_hand_of_midas_lua_Description"	"<h1>Active: Transmute</h1> Kills a non-hero target for %bonus_gold% gold and %xp_multiplier%× EXP. When used on a Neutral Creep, guarantees to create a neutral item if available."
-		"DOTA_Tooltip_ability_item_hand_of_midas_lua_bonus_attack_speed"	"+$attack"
-		"DOTA_Tooltip_ability_item_smoke_of_deceit_lua"	"Smoke of Chaos"
-		"DOTA_Tooltip_ability_item_smoke_of_deceit_lua_Description"	"<h1>Use: Disguise</h1> Turns the caster and allied player-controlled units within a %application_radius% radius invisible, and grants %bonus_movement_speed%%% bonus movement speed for %duration%s. Their icons will also disappear from the mini-map. <br><br>Attacking and spell casting won't cancel Invisibility, which only breaks within a %visibility_radius%distance from an enemy hero. <br><br>Disguise grants invisibility that is immune to True Sight."
-		"DOTA_Tooltip_modifier_item_smoke_of_deceit_lua"	"Smoke of Chaos"
-		"DOTA_Tooltip_modifier_item_smoke_of_deceit_lua_Description"	"Invisibility: Increases Movement Speed and only fails when in close proximity to enemies."
+		"DOTA_Tooltip_ability_item_hand_of_midas_lua"       "HAND OF MIDAS"
+		"DOTA_Tooltip_ability_item_hand_of_midas_lua_Description"  "<h1><h1>Активная: Преобразование</h1>Убивает цель, не являющуюся героем, за %bonus_gold% золота и %xp_multiplier% опыта. При использовании на нейтральном существе перед раундом %drop_end% гарантирует создание токена нейтрального предмета, если таковой имеется."
+		"DOTA_Tooltip_ability_item_hand_of_midas_lua_bonus_attack_speed"   "+$attack"
+		
+		"DOTA_Tooltip_ability_item_smoke_of_deceit_lua"       "Дым обмана"
+		"DOTA_Tooltip_ability_item_smoke_of_deceit_lua_Description"  "<h1>Использование：</h1>Все подконтрольные игрокам существа и герои в радиусе %application_radius% на%duration% сек. становятся невидимыми, а скорость их передвижения увеличивается на%bonus_movement_speed%%%. <br><br>Если совершить атаку или приблизиться к вражескому герою или башне на расстояние в %visibility_radius%, то невидимость раскроется. <br><br>Другие эффекты, раскрывающие невидимость, не действуют."
+		"DOTA_Tooltip_modifier_item_smoke_of_deceit_lua"                              "Дым обмана"
+		"DOTA_Tooltip_modifier_item_smoke_of_deceit_lua_Description"            "В состоянии невидимости скорость передвижения увеличивается, а эффект невидимости нарушается только при приближении к вражескому герою."
+		
 		"DOTA_Tooltip_ability_item_refresher_lua"	"Refreshed Orb"
 		"DOTA_Tooltip_ability_item_refresher_lua_Description"	"<h1>Active: Full Reset Cooldowns</h1>: Resets the cooldowns of all your items and abilities."
 		"DOTA_Tooltip_ability_item_refresher_lua_bonus_health_regen"	"+$hp_regen"
@@ -2242,16 +2350,104 @@
 		"DOTA_Tooltip_ability_item_greater_mango_lua_Description"			"<h1>Использование: Eat Unbelievably Good Mango!</h1>Уменьшает свое здоровье до %hp%, без возможности восполнения здоровья или исцеления в течение %duration% сек. Этот период времени не проходит в зоне источника. Не тратится ни одно очко способности, и сразу изучаются все ваши таланты (даже если вы не достигли нужного уровня).<br><br>Невозможно использовать в зоне источника."
 		"DOTA_Tooltip_modifier_item_greater_mango_lua"							"Очень вкусно!"
 		"DOTA_Tooltip_modifier_item_greater_mango_lua_Description"				"Исцеление и восстановление здоровья недоступно"
+		
+		"DOTA_Tooltip_ability_item_token_lua_tier1"			"Tier 1 Token"
+		"DOTA_Tooltip_ability_item_token_lua_tier1_Description"			"<h1>Use: Redeem</h1><h1>Использовать: Покупайте</h1>Изучите %choice% Тира-%tier% нейтральные предметы  и выберите один из них. "
+		"DOTA_Tooltip_ability_item_token_lua_tier2"			"Tier 2 Token"
+		"DOTA_Tooltip_ability_item_token_lua_tier2_Description"			"<h1>Use: Redeem</h1><h1>Использовать: Покупайте</h1>Изучите %choice% Тира-%tier% нейтральные предметы  и выберите один из них. "
+		"DOTA_Tooltip_ability_item_token_lua_tier3"			"Tier 3 Token"
+		"DOTA_Tooltip_ability_item_token_lua_tier3_Description"			"<h1>Use: Redeem</h1><h1>Использовать: Покупайте</h1>Изучите %choice% Тира-%tier% нейтральные предметы  и выберите один из них. "
+		"DOTA_Tooltip_ability_item_token_lua_tier4"			"Tier 4 Token"
+		"DOTA_Tooltip_ability_item_token_lua_tier4_Description"			"<h1>Use: Redeem</h1><h1>Использовать: Покупайте</h1>Изучите %choice% Тира-%tier% нейтральные предметы  и выберите один из них. "
+		"DOTA_Tooltip_ability_item_token_lua_tier5"			"Tier 5 Token"
+		"DOTA_Tooltip_ability_item_token_lua_tier5_Description"			"<h1>Use: Redeem</h1><h1>Использовать: Покупайте</h1>Изучите %choice% Тира-%tier% нейтральные предметы  и выберите один из них. "
+		
+		"DOTA_Tooltip_ability_item_reroll_token_lua_tier1"			"Tier 1 Reroll Token"
+		"DOTA_Tooltip_ability_item_reroll_token_lua_tier1_Description"			"<h1>Использовать: Реролл</h1>Изучите %choice% новые нейтральные предметы %tier% Тира и выберите один из них. Заменяет текущий нейтральный предмет %tier% Тира. "
+		"DOTA_Tooltip_ability_item_reroll_token_lua_tier2"			"Tier 2 Reroll Token"
+		"DOTA_Tooltip_ability_item_reroll_token_lua_tier2_Description"			"<h1>Использовать: Реролл</h1>Изучите %choice% новые нейтральные предметы %tier% Тира и выберите один из них. Заменяет текущий нейтральный предмет %tier% Тира. "
+		"DOTA_Tooltip_ability_item_reroll_token_lua_tier3"			"Tier 3 Reroll Token"
+		"DOTA_Tooltip_ability_item_reroll_token_lua_tier3_Description"			"<h1>Использовать: Реролл</h1>Изучите %choice% новые нейтральные предметы %tier% Тира и выберите один из них. Заменяет текущий нейтральный предмет %tier% Тира. "
+		"DOTA_Tooltip_ability_item_reroll_token_lua_tier4"			"Tier 4 Reroll Token"
+		"DOTA_Tooltip_ability_item_reroll_token_lua_tier4_Description"			"<h1>Использовать: Реролл</h1>Изучите %choice% новые нейтральные предметы %tier% Тира и выберите один из них. Заменяет текущий нейтральный предмет %tier% Тира. "
+		"DOTA_Tooltip_ability_item_reroll_token_lua_tier5"			"Tier 5 Reroll Token"
+		"DOTA_Tooltip_ability_item_reroll_token_lua_tier5_Description"			"<h1>Использовать: Реролл</h1>Изучите %choice% новые нейтральные предметы %tier% Тира и выберите один из них. Заменяет текущий нейтральный предмет %tier% Тира. "
+		
+		"DOTA_Tooltip_ability_item_dark_moon_shard"									"Dark Moon Shard"
+		"DOTA_Tooltip_ability_item_dark_moon_shard_Description""<h1>Использование: Поглощение</h1> Поглотите Dark Moon Shard, что позволит навсегда снизить базовый интервал атаки на %base_attack_time_reduction%%, но не менее чем на %base_attack_time_min%. Можно использовать только один раз."
+		"DOTA_Tooltip_modifier_item_dark_moon_shard"								"Dark Moon Shard"
+		"DOTA_Tooltip_modifier_item_dark_moon_shard_Description"					"Интервал между атаками уменьшен до%fMODIFIER_PROPERTY_BASE_ATTACK_TIME_CONSTANT%."
+		"DOTA_Tooltip_ability_item_dark_moon_shard_bonus_attack_speed"				"+$attack"
+
+		//russian/popup.txt
+		// "Store_Exchange_Placeholder"	"输入兑换码"
+		// "Store_Exchange_Button"			"兑换"
+		
+		"Popup_StoreBuyItem_title"	"Предмет для покупки"
+		"Popup_StoreBuyItem_cost"	"Сумма"
+		"Popup_StoreBuyItem_count"	"Номер"
+		"Popup_StoreBuyItem_Result"	"Результат"
+		"Popup_StoreBuyItem_Success"	"Покупка удалась."
+		"Popup_StoreBuyItem_Failure"	"Покупка не удалась."
+		"Popup_StoreOverseaPayment_Loading"	"Загрузка"
+		"Popup_StoreOverseaPayment_GotoURL"	"Перенаправление на внешние платежные страницы..."
+		"Popup_StoreOverseaPayment_GotoURL_Button"	"Нет всплывающих окон? Кликни сюда"
+		"Popup_StoreOverseaPayment_Success"	"Покупка удалась."
+		"Popup_StoreOverseaPayment_Failure"	"Покупка не удалась."
+		
+		"Popup_Button_Buy"		"Делать покупку"
+		"Popup_Button_Cancel"	"Отменить"
+		"Popup_Button_Confirm"	"Подтвердить"
+		"Popup_StoreMoneyPayment_Title"			"Платеж"
+		
+		"PaymentNormalType"	"Рекомендованные"
+		"PaymentMoreType"	"Больше"
+		"ClickPaymentMoreType"	"点击"
+		"WaitingPayment"	"正在拉起外部支付网页，请在浏览器继续下一步。"
+		"PaymentCurrency_CNY"	"Юань"
+		"PaymentCurrency_USD"	"Доллар"
+		"PaymentCurrency_RUB"	"Рубль"
+		"PaymentFillinEmail"	"Пожалуйста, заполните почтовый ящик"
+		
 
 		//russian/Store.txt
+		"Store"	"Store"
+		"StorePage_Pass"	"Pass"
+		"StorePage_Resource"	"Resource"
+		
 		// 以下为商品
 		"Goods_1100001"	"Мешочек смайликов"
 		"Goods_1100002"	"Мешок смайликов"
 		"Goods_1100003"	"Куча смайликов"
 		
+		"Goods_1100001_description"	"80 монет хуацзи"
+		"Goods_1100002_description"	"400 монет хуацзи"
+		"Goods_1100003_description"	"1,280 монет хуацзи"
+		"Goods_1100004_description"	""
+		"Goods_1100005_description"	""
 		
 		// 以下为具体的物品
-		"StoreItem_1200001"	"Смайлики"
+		"wallet_moonstone"  "Смешные монеты"
+		"wallet_moonstone_description"  "Смешные монеты, которые используют для исследования"
+		"wallet_starlight"  "Осколки"
+		"wallet_starlight_description"  "Дубликаты снаряжений, полученные при исследовании, будут разбиты на осколки (Common+10, Rare+20, Mythical+60, Immortal+200)"
+		
+		// 以下为具体的物品
+		"StoreItem_1200001"	"Joker Coin"
+		"item_token1"	"Exploration Voucher"
+		"item_token1_description"	"С помошью Exploration Voucher можно совершить Исследование диких земель.(Исследовать ×1)"
+		"item_token2"	"Veteran Medal"
+		"item_token2_description"	"Доказательства дубликатов исследований могут быть использованы для обмена предметов"
+		
+		"token" "Жетоны"
+		"skin" "Личность"
+		"material_effect" "Эффект предмета"
+		"rarity_5"  "Ancient"
+		
+		// 奖池名称
+		"Draw_pool_19"  "Glorious Tyrant"
+		"Draw_pool_20"  "Rosy Heroine"
+		"Draw_pool_21"  "Flash Reward"
 
 		//russian/units.txt
 		"npc_dota_elf_wolf"	"Волк"
