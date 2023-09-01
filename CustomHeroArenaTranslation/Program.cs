@@ -70,12 +70,12 @@ namespace CustomHeroArenaTranslation
             return value;
         }
 
-        static void Main(string[] args)
+        private static void GenerateFirstDraft()
         {
             var serializer = KVSerializer.Create(KVSerializationFormat.KeyValues1Text);
 
-            KVObject arenaRussian = serializer.Deserialize(File.OpenRead($"{ReferencesPath}\\arena\\addon_russian.txt"), 
-                new KVSerializerOptions{ HasEscapeSequences = true }).First(x => x.Name == "Tokens");
+            KVObject arenaRussian = serializer.Deserialize(File.OpenRead($"{ReferencesPath}\\arena\\addon_russian.txt"),
+                new KVSerializerOptions { HasEscapeSequences = true }).First(x => x.Name == "Tokens");
             KVObject chaosRussian = serializer.Deserialize(File.OpenRead($"{ReferencesPath}\\chaos\\addon_russian.txt"),
                 new KVSerializerOptions { HasEscapeSequences = true }).First(x => x.Name == "Tokens");
             KVObject chaosSChinese = serializer.Deserialize(File.OpenRead($"{ReferencesPath}\\chaos\\addon_schinese.txt"),
@@ -187,6 +187,20 @@ namespace CustomHeroArenaTranslation
 
             using var ws = File.OpenWrite($"{GeneratedPath}\\arena\\addon_schinese.txt");
             serializer.Serialize(ws, arenaSChinese, "lang", new KVSerializerOptions { HasEscapeSequences = true });
+        }
+
+        private static void ProofreadFinalDraft()
+        {
+            var serializer = KVSerializer.Create(KVSerializationFormat.KeyValues1Text);
+
+            KVObject arenaSChinese = serializer.Deserialize(File.OpenRead($"{GeneratedPath}\\arena\\addon_schinese.txt"),
+                new KVSerializerOptions { HasEscapeSequences = true }).First(x => x.Name == "Tokens");
+            Console.WriteLine($"arenaSChinese: {arenaSChinese["addon_game_name"]}");
+        }
+
+        static void Main(string[] args)
+        {
+            ProofreadFinalDraft();
         }
     }
 }
