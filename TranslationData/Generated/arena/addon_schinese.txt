@@ -1256,7 +1256,7 @@
 		"DOTA_Tooltip_ability_item_spell_book_lua_Description"	"<h1>使用:获取</h1>消耗技能卷，立即获得卷轴中保存的技能，同时获得等级与冷却时间。"
 		"save_spell_book"	"保存技能卷轴<b><font color='#FFE815'>（150金币）</font></b>"
 		"DOTA_Tooltip_ability_item_relearn_book_lua"	"重修之书"
-		"DOTA_Tooltip_ability_item_relearn_book_lua_Description"	"<h1>消耗：重修</h1>选择遗忘一个技能并返还技能点，然后重新选择一个技能。\n<font color='red'><b>购买时按 CTRL 键会在购买后自动消耗</b><br>（需要在商店有效范围内）</font>"
+		"DOTA_Tooltip_ability_item_relearn_book_lua_Description"	"<h1>消耗：重修</h1>选择遗忘一个技能并返还技能点，然后重新选择一个技能。\n<font color='red'><b>购买时按住 CTRL 键会在购买后自动消耗</b><br></font>（需要在商店有效范围内）"
 		"DOTA_Tooltip_ability_item_swap_essence"	"乾坤精华"
 		"DOTA_Tooltip_ability_item_swap_essence_Description"	"<h1>使用：乾坤交换</h1> 仅限2x6或5v5地图<br><br>与队友交换技能(必须经队友同意)。"
 		"DOTA_Tooltip_ability_item_bloodstone_2"	"血精石Ⅱ"
@@ -3576,11 +3576,11 @@
 		"DOTA_Tooltip_modifier_skill_overclocking_debuff_Description"	"受到的伤害增加 %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
 
 		"DOTA_Tooltip_ability_item_book_of_strength_custom"	"力量之书"
-		"DOTA_Tooltip_ability_item_book_of_strength_custom_Description"	"永久增加 3 点力量"
+		"DOTA_Tooltip_ability_item_book_of_strength_custom_Description"	"消耗后永久增加 3 点力量"
 		"DOTA_Tooltip_ability_item_book_of_agility_custom"	"敏捷之书"
-		"DOTA_Tooltip_ability_item_book_of_agility_custom_Description"	"永久增加 3 点敏捷"
+		"DOTA_Tooltip_ability_item_book_of_agility_custom_Description"	"消耗后永久增加 3 点敏捷"
 		"DOTA_Tooltip_ability_item_book_of_intelligence_custom"	"智力之书"
-		"DOTA_Tooltip_ability_item_book_of_intelligence_custom_Description"	"永久增加 3 点智力"
+		"DOTA_Tooltip_ability_item_book_of_intelligence_custom_Description"	"消耗后永久增加 3 点智力"
 
 		"DOTA_Tooltip_modifier_attributes_book_custom"	"属性之书"
 		"DOTA_Tooltip_modifier_attributes_book_custom_Description"	"力量增加 %dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS%<br>敏捷增加 %dMODIFIER_PROPERTY_STATS_AGILITY_BONUS%<br>智力增加 %dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS%"
