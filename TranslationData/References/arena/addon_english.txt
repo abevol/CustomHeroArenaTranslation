@@ -4855,5 +4855,8 @@
 
     "DOTA_Tooltip_modifier_skill_fearful_debuff"                 "Duelist"
     "DOTA_Tooltip_modifier_skill_fearful_debuff_description"     "Входящий урон увеличен на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
+
+    "DOTA_Tooltip_modifier_item_moon_shard_buff_custom"	"Moon Shard"
+	"DOTA_Tooltip_modifier_item_moon_shard_buff_custom_Description"	"От поглощённого Moon Shard скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%, а радиус обзора ночью увеличен на %dMODIFIER_PROPERTY_BONUS_NIGHT_VISION_UNIQUE%."
 } 
 }

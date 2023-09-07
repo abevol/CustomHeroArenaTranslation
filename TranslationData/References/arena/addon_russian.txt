@@ -4843,5 +4843,8 @@
     "DOTA_Tooltip_ability_centaur_return_damage_block"	                                    "%УМЕНЬШЕНИЕ ВХОДЯЩЕГО УРОНА:"
     "DOTA_Tooltip_modifier_underlord_atrophy_buff_custom"				                    "Atrophy Aura"
 	"DOTA_Tooltip_modifier_underlord_atrophy_buff_custom_Description"	                    "Имеет %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% дополнительного урона."
+
+    "DOTA_Tooltip_modifier_item_moon_shard_buff_custom"	"Moon Shard"
+	"DOTA_Tooltip_modifier_item_moon_shard_buff_custom_Description"	"От поглощённого Moon Shard скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%, а радиус обзора ночью увеличен на %dMODIFIER_PROPERTY_BONUS_NIGHT_VISION_UNIQUE%."
 } 
 }
