@@ -953,7 +953,7 @@
       "skill_zoo_enjoyer_desc"                                                      "-30% to the cost of purchased creeps.<br> Note! When learning a skill, it will not be possible to sell an item for the full cost of the first 10 seconds.<br> Gold is returned immediately after purchase (cashback) <br><br>With a 20% chance, an invitation is given for another unit worth more than 10 thousand gold."
 
       "skill_hookah_master"                                                         "Hookah Master"
-      "skill_hookah_master_desc"                                                    "+20% Damage Outgoing while affected by Smoke of Deceit and Ninja Gear"
+      "skill_hookah_master_desc"                                                    "+20% Damage Outgoing while affected by Smoke of Deceit and Ninja Gear. Under effect of Smoke, hero becomes immune to magic"
 
       "skill_killgolder"                                                            "Killgolder"
       "skill_killgolder_desc"                                                       "For killing a creep, they give additional gold in the amount of the level of your hero * 1.3"
@@ -4858,5 +4858,8 @@
 
     "DOTA_Tooltip_modifier_item_moon_shard_buff_custom"	"Moon Shard"
 	"DOTA_Tooltip_modifier_item_moon_shard_buff_custom_Description"	"От поглощённого Moon Shard скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%, а радиус обзора ночью увеличен на %dMODIFIER_PROPERTY_BONUS_NIGHT_VISION_UNIQUE%."
+
+    "npc_dota_elf_wolf"         "Волк"
+    "npc_dota_ogreseal_big"     "Моржогр"
 } 
 }

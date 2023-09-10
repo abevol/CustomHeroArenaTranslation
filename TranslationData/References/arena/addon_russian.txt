@@ -953,7 +953,7 @@
       "skill_zoo_enjoyer_desc"                                                      "-35% к стоимости покупных крипов<br>Примечание! При изучении навыка нельзя будет продать предмет за полную стоимость первые 10 секунд.<br>Золото возвращается сразу после покупки(кешбек)<br><br>С шансом 20% имеет призвать еще одного юнита стоимостью более 10к золота"
 
       "skill_hookah_master"                                                         "Hookah Master"
-      "skill_hookah_master_desc"                                                    "+20% исходящего урона под эффектом Smoke of Deceit и Ninja Gear"
+      "skill_hookah_master_desc"                                                    "+20% исходящего урона под эффектом Smoke of Deceit и Ninja Gear. Под эффектом Smoke герой получает иммунитет к магии"
 
       "skill_killgolder"                                                            "Killgolder"
       "skill_killgolder_desc"                                                       "За убийство крипа дают дополнительное золото в размере уровня героя * 1.3"
@@ -4846,5 +4846,9 @@
 
     "DOTA_Tooltip_modifier_item_moon_shard_buff_custom"	"Moon Shard"
 	"DOTA_Tooltip_modifier_item_moon_shard_buff_custom_Description"	"От поглощённого Moon Shard скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%, а радиус обзора ночью увеличен на %dMODIFIER_PROPERTY_BONUS_NIGHT_VISION_UNIQUE%."
+
+
+    "npc_dota_elf_wolf"         "Волк"
+    "npc_dota_ogreseal_big"     "Моржогр"
 } 
 }
