@@ -3984,7 +3984,8 @@
       "DOTA_Tooltip_ability_item_extra_creature_ogreseal_Description"            "<h1>Используемая: Призвать</h1>Призывает в следующем раунде всем врагам - Ogre Seal. <font color='#e03e2e'>Доступен с 80 волны</font>"
 
       "aviable_70_round"                                                         "Доступен с 80 волны"
-
+      "aviable_70_round_old"                                                         "Доступен с 70 волны"
+     
       "DOTA_Tooltip_ability_golem_anti_blademail"                               "Stone Skin"
       "DOTA_Tooltip_ability_golem_anti_blademail_Description"                   "Каменная броня возвращает полученный урон атакующему противнику."
       "DOTA_Tooltip_ability_golem_anti_blademail_damage_reduction"              "%ВОЗВРАЩАЕМЫЙ УРОН:"

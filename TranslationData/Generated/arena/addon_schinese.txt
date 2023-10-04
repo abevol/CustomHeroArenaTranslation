@@ -2886,6 +2886,7 @@
 		"DOTA_Tooltip_ability_item_extra_creature_ogreseal"	"海象"
 		"DOTA_Tooltip_ability_item_extra_creature_ogreseal_Description"	"<h1>消耗：释放野怪</h1>从下轮开始，所有敌方区域将额外刷出一只海象。<br><br><font color='#e03e2e'>80 回合后可用</font>\n<h1>技能：海象扑击</h1>向前扑打，造成伤害并眩晕目标。"
 		"aviable_70_round"	"80 回合后可用"
+		"aviable_70_round_old"	"70 回合后可用"
 		"DOTA_Tooltip_ability_golem_anti_blademail"	"硬化皮肤"
 		"DOTA_Tooltip_ability_golem_anti_blademail_Description"	"石头傀儡坚硬的皮肤使其减少受到刃甲的伤害。"
 		"DOTA_Tooltip_ability_golem_anti_blademail_damage_reduction"	"%减少伤害:"
