@@ -257,7 +257,7 @@
 		"TimeCost"	"用时"
 		"Score"	"天梯积分"
 		"time_left"	"剩余{d:times}次"
-		"custom_end_screen_bet_reward_gold"	"菠菜奖金"
+		"custom_end_screen_bet_reward_gold"	"竞猜收益"
 		"MatchKeyTitle"	""
 		"MatchWebTip"	""
 		"YourKey"	""
@@ -901,10 +901,10 @@
 		"skill_pilferer_desc"	"从决斗中获得 4 倍金币，从赏金神符中获得 3 倍金币。"
 
 		"skill_rake"	"彩金"
-		"skill_rake_desc"	"彩金为决斗中所有玩家总投注额的 7%。即使您没有下注，也没有参加决斗。"
+		"skill_rake_desc"	"彩金为决斗中所有玩家总投注额的 5%。即使您没有下注，也没有参加决斗。"
 
 		"skill_disarmer"	"解除武装"
-		"skill_disarmer_desc"	"造成的任何伤害都会对敌人造成影响，使其无法攻击（仅对英雄有效）。 持续时间 3 秒，冷却时间 7 秒。"
+		"skill_disarmer_desc"	"造成的任何伤害都会对敌人造成影响，使其无法攻击（仅对英雄有效）。 持续时间 3 秒，冷却时间 9 秒。"
 
 		"skill_breaker"	"破坏者"
 		"skill_breaker_desc"	"你的攻击会对敌人造成影响，使其被动技能失效（仅对英雄有效）。持续时间 3 秒，冷却时间 9 秒。"
@@ -913,16 +913,16 @@
 		"skill_magic_shroud_desc"	"将受到伤害的 20% 转化为法力值，10% 转化为生命值。如果法力值已满，则 20% 的伤害会转化为生命值。"
 
 		"skill_intimidation"	"恐吓"
-		"skill_intimidation_desc"	"对攻击你的敌人造成恐惧（仅对英雄有效）。 持续时间 1.5 秒，冷却时间 6 秒。"
+		"skill_intimidation_desc"	"对攻击你的敌人造成恐惧（仅对英雄有效）。 持续时间 1.5 秒，冷却时间 9 秒。"
 
 		"skill_wisdom"	"智慧"
 		"skill_wisdom_desc"	"根据英雄的等级提高技能伤害。每级增加 0.2% 技能伤害。"
 
 		"skill_wide_choice"	"更多选择"
-		"skill_wide_choice_desc"	"技能选择增加 2。"
+		"skill_wide_choice_desc"	"技能选择增加 2，并获得【完人之书】。"
 
 		"skill_all_inclusive"	"全包"
-		"skill_all_inclusive_desc"	"一次性获得以下消耗品效果：宝石碎片、速度精华、阿哈利姆权杖、阿哈利姆魔晶、银月之晶、暗月之晶和不朽之守护。如果已经拥有部分效果，则会用金币补偿。另外会将肉山掉落代币的几率提高至 100%。"
+		"skill_all_inclusive_desc"	"一次性获得以下消耗品效果：宝石碎片、速度精华、阿哈利姆权杖、阿哈利姆魔晶、银月之晶、暗月之晶。如果已经拥有部分效果，则会用金币补偿。另外会将肉山掉落代币的几率提高至 100%。"
 
 		"skill_creephater"	"野怪憎恨者"
 		"skill_creephater_desc"	"杀死敌方购买的野怪可获得 10 倍金币，每回合杀死第一个野怪可获得 10 倍金币。"
@@ -937,7 +937,7 @@
 		"skill_normal_juju_desc"	"每使用一个技能，所有其他技能的冷却时间就会减少 0.75 秒。 另外，物品冷却时间减少 25%。"
 
 		"skill_duelist"	"决斗者"
-		"skill_duelist_desc"	"对敌方英雄/单位的决斗伤害提高 35%，但对野怪的伤害降低 15%。"
+		"skill_duelist_desc"	"对敌方英雄/单位的决斗伤害提高 50%，但对野怪的伤害降低 15%。"
 
 		"skill_purger"	"净化者"
 		"skill_purger_desc"	"赋予英雄 800 范围光环，使敌人的技能和物品冷却时间增加 20%。 每 3 秒驱散 500 范围内敌人的所有正面效果。"
@@ -982,6 +982,7 @@
 		"Round_Nian"	"年兽"
 		"Round_Roshling"	"小肉山"
 		"Round_RandomCreeps"	"兽潮"
+		"Round_BossWave"	"首领"
 		"DOTA_Tooltip_ability_item_aegis_lua"	"不朽之守护"
 		"DOTA_Tooltip_ability_item_aegis_lua_Description"	"<h1>使用：不朽</h1>立即获得一层不朽之守护BUFF"
 		"DOTA_Tooltip_ability_item_saw_wheel"	"伐木飞轮"
@@ -1431,7 +1432,6 @@
 		"DOTA_Tooltip_modifier_axe_culling_blade_custom_armor_Description"	"+%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% 从淘汰之刃获得的护甲值。"
 		"DOTA_Tooltip_modifier_axe_culling_blade_custom"	"淘汰之刃"
 		"DOTA_Tooltip_modifier_axe_culling_blade_custom_Description"	"斧王的战吼提高了移动速度 %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%，攻击速度 %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%。"
-		"DOTA_Tooltip_ability_beastmaster_wild_axes_scepter_description"	"野性之斧没有冷却时间，返回后就能再次使用。"
 		"DOTA_Tooltip_ability_beastmaster_primal_roar_shard_description"	""
 		"DOTA_Tooltip_ability_beastmaster_call_of_the_wild_boar_ability_note"	"受<font color='#B694FF'>统御之力</font>影响，具有<font color='#B694FF'>180%效果</font>"
 		"DOTA_Tooltip_ability_brewmaster_primal_split_scepter_description"	""
@@ -2661,6 +2661,10 @@
 		"DOTA_Tooltip_ability_tinker_rearm_datadriven_Description"	"持续施法 - 重置英雄的大多数物品和技能的冷却时间。"
 		"DOTA_Tooltip_ability_tinker_rearm_datadriven_channel_tooltip"	"持续时间："
 		"DOTA_Tooltip_ability_tinker_rearm_datadriven_Note0"	"不影响某些技能。"
+		"DOTA_Tooltip_ability_tinker_rearm_datadriven_ability_note"	"每次在 6 秒内重复使用该技能，都会减少 25% 的输出伤害。"
+		"DOTA_Tooltip_modifier_tinker_rearm_datadriven_debuff"	"再装填"
+		"DOTA_Tooltip_modifier_tinker_rearm_datadriven_debuff_Description"	"输出伤害减少 %dMODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE%%%"  
+
 		"DOTA_Tooltip_ability_tinker_heat_seeking_missile_lua"	"热导飞弹"
 		"DOTA_Tooltip_ability_tinker_heat_seeking_missile_lua_Description"	"向%radius%范围内最近的可见单位发射飞弹。"
 		"DOTA_Tooltip_ability_tinker_heat_seeking_missile_lua_Lore"	"鲍什最后救下来的玩意儿，是一个改造过的制导式火箭筒。"
@@ -3625,5 +3629,11 @@
 		"DOTA_Tooltip_modifier_underlord_atrophy_buff_custom_Description"	"具有 %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% 额外攻击力。"
 		"DOTA_Tooltip_modifier_item_moon_shard_buff_custom"	"银月之晶"
 		"DOTA_Tooltip_modifier_item_moon_shard_buff_custom_Description" "消耗一个银月之晶后攻击速度提升%dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%，夜间视野提升%dMODIFIER_PROPERTY_BONUS_NIGHT_VISION_UNIQUE%。"
+
+		"DOTA_Tooltip_ability_item_hand_of_midas_custom"	"迈达斯之手"
+		"DOTA_Tooltip_ability_item_hand_of_midas_custom_Lore"	"这副手套被未知的魔法保护着，它通过在主人的口袋里塞满黄金来满足主人的贪婪。"
+		"DOTA_Tooltip_ability_item_hand_of_midas_custom_Description"	"<h1>主动：炼金</h1> 立刻炼化一个普通单位，获得%bonus_gold%金钱和%xp_multiplier%倍经验值。<br><br>无法用于远古单位、首领和精英野怪。<br><br>施法距离：%abilitycastrange%"
+		"DOTA_Tooltip_ability_item_hand_of_midas_custom_bonus_attack_speed"	"+$attack"
+		"LastDuelLabel"	"你同意最终对决吗？或者照常继续游戏。"
 	}
 }

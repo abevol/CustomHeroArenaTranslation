@@ -288,7 +288,7 @@
       "CardSelection_Reroll"                                                        "Refresh"
       "rerol_aviable_in_bp"                                                         "You can upgrade heroes in the level 3 pass"
       "rerol_description"                                                           "You will replace these heroes with 3 others"
-      "recent_ban_abilities"                                                        "Bans from the previous game:"
+      "recent_ban_abilities"                                                        "Your Popular bans"
       "DOTA_AbilityTooltip_AbilityDraftNote_Header"                                 "Note Custom Hero Arena"
       "Player"                                                                      "Player"
       "TeamScore"                                                                   "Networth"
@@ -1063,10 +1063,10 @@
         "skill_pilferer_desc"           "Дает х4 золота за монеты на дуэли и х3 золота с Bounty руны"
 
         "skill_rake"                    "Rake"
-        "skill_rake_desc"               "Дает 7% от общей ставки всех игроков на дуэли. Даже если вы не сделали ставку и не участвовали в дуэли"
+        "skill_rake_desc"               "Дает 5% от общей ставки всех игроков на дуэли. Даже если вы не сделали ставку и не участвовали в дуэли"
 
         "skill_disarmer"                "Disarmer"
-        "skill_disarmer_desc"           "Любое нанесение урона накладывает эффект на противника, которая запрещает ему атаковать (Рабоает только на героев). Длительность 3 сек. Перезарядка 7 сек."
+        "skill_disarmer_desc"           "Любое нанесение урона накладывает эффект на противника, которая запрещает ему атаковать (Рабоает только на героев). Длительность 3 сек. Перезарядка 9 сек."
 
         "skill_breaker"                 "Breaker"
         "skill_breaker_desc"            "Ваша атака накладывает на противника эффект, который отключает пассивные способности (Рабоает только на героев). Длительность 3 сек. Перезарядка 9 сек."
@@ -1075,16 +1075,16 @@
         "skill_magic_shroud_desc"       "Превращает 20% входящего урона в ману и 10% в здоровье. Если полный запас маны, то 20% урона уходит в здоровье"
 
         "skill_intimidation"            "Intimidation"
-        "skill_intimidation_desc"       "Накладывает на атакующего вас противника страх (Рабоает только на героев). Длительность 1.5 секунд. Перезарядка 6 сек."
+        "skill_intimidation_desc"       "Накладывает на атакующего вас противника страх (Рабоает только на героев). Длительность 1.5 секунд. Перезарядка 9 сек."
 
         "skill_wisdom"                  "Wisdom"
         "skill_wisdom_desc"             "Увеличивает урон заклинаний в зависимости от уровня героя. 1 уровень - 0.2% урона заклинаний"
 
         "skill_wide_choice"             "Wide Choice"
-        "skill_wide_choice_desc"        "Увеличивает выбор способностей на 2"
+        "skill_wide_choice_desc"        "Увеличивает выбор способностей на 2 и дает Book of Paragon"
 
         "skill_all_inclusive"           "All inclusive"
-        "skill_all_inclusive_desc"      "Выдает все расходники сразу в модификаторы(Gem Shard, Essence of speed, Aghanims Scepter, Aghanim shard, Moon Shard, Dark Moon shard и Aegis). Если у вас уже есть эти расходники, то просто компенсируется золотом. И увеличивает шанс выпадения жетона с Рошана до 100%"
+        "skill_all_inclusive_desc"      "Выдает все расходники сразу в модификаторы(Gem Shard, Essence of speed, Aghanims Scepter, Aghanim shard, Moon Shard, Dark Moon shard). Если у вас уже есть эти расходники, то просто компенсируется золотом. И увеличивает шанс выпадения жетона с Рошана до 100%"
 
         "skill_creephater"              "Creephater"
         "skill_creephater_desc"         "Дает х10 золота за убийство покупного вражеского крипа, а также х10 золота за первого убитого крипа в каждом раунде"
@@ -1099,7 +1099,7 @@
         "skill_normal_juju_desc"        "За каждую примененную способность уменьшает время перезарядки всех других способностей на 0.75 секунд. Дополнительно уменьшает на 25% время перезарядки предметов"
 
         "skill_duelist"                 "Duelist"
-        "skill_duelist_desc"            "Усиливает урон на дуэли по вражескому герою/юнитам на 35%, но уменьшает урон по крипам на 15%"
+        "skill_duelist_desc"            "Усиливает урон на дуэли по вражескому герою/юнитам на 50%, но уменьшает урон по крипам на 15%"
 
         "skill_purger"                  "Purger"
         "skill_purger_desc"             "Аура радиусом 800 увеличивающая время перезарядки способностей и предметов на 20% у противников. Каждые 3 секунды развеивает все положительные эффекты противников в радиусе 500"
@@ -1147,7 +1147,8 @@
       "Round_Timber_Spider"                                                       "Timber Spider"
       "Round_Nian"                                                                "Nian, Year Beast"
       "Round_Roshling"                                                            "Roshling"
-      "Round_RandomCreeps"                                                        "Creep Wave"
+      "Round_RandomCreeps"                                                        "Mix Wave"
+      "Round_BossWave"                                                            "Boss Wave"
 
       //=================================================================================================================
       // Items
@@ -1701,7 +1702,6 @@
       // Beastmaster
       //=================================================================================================================
 
-      "DOTA_Tooltip_ability_beastmaster_wild_axes_scepter_description"           "Removes cooldown: Ability may be used when axes return to their owner."
       "DOTA_Tooltip_ability_beastmaster_primal_roar_shard_description"           ""
       "DOTA_Tooltip_ability_beastmaster_call_of_the_wild_boar_ability_note"      "Affected by <font color='#B694FF'>Summon Power</font> with <font color='#B694FF'>180% potency</font>"
 
@@ -3660,9 +3660,13 @@
       //=================================================================================================================
          
       "DOTA_Tooltip_ability_tinker_rearm_datadriven"                                             "Rearm"
-      "DOTA_Tooltip_ability_tinker_rearm_datadriven_Description"                             "CHANNELED - Resets the cooldown on most of Tinker's items and abilities.<br><br>Global Ultimates can't refresh<br><br>Summonner's Ultimates can't refresh<br><br>Some life-saving skills's can't refresh"
+      "DOTA_Tooltip_ability_tinker_rearm_datadriven_Description"                             "CHANNELED - Resets the cooldown on most of Tinker's items and abilities."
       "DOTA_Tooltip_ability_tinker_rearm_datadriven_channel_tooltip"                         "REARM TIME："
       "DOTA_Tooltip_ability_tinker_rearm_datadriven_Note0"                                 "Do not affect some particular abilities."
+      "DOTA_Tooltip_ability_tinker_rearm_datadriven_ability_note"             "Each reuse of the ability within 6 sec. reduces outgoing damage by 25%"
+
+      "DOTA_Tooltip_modifier_tinker_rearm_datadriven_debuff"              "Rearm"
+      "DOTA_Tooltip_modifier_tinker_rearm_datadriven_debuff_Description"     "Outgoing damage reduces by %dMODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE%%%" 
     
       "DOTA_Tooltip_ability_tinker_heat_seeking_missile_lua"                       "Heat-Seeking Missile"
       "DOTA_Tooltip_ability_tinker_heat_seeking_missile_lua_Description"           "Launches rockets at the nearest visible heroes within %radius% range."
@@ -4862,5 +4866,12 @@
 
     "npc_dota_elf_wolf"         "Волк"
     "npc_dota_ogreseal_big"     "Моржогр"
+
+    "DOTA_Tooltip_ability_item_hand_of_midas_custom"							"Hand of Midas"
+	"DOTA_Tooltip_ability_item_hand_of_midas_custom_Lore"						"This glove, preserved by some unknown magic, serves the wearer's greed by filling his pockets with gold."
+	"DOTA_Tooltip_ability_item_hand_of_midas_custom_Description"				"<h1>Active: Transmute</h1> Kills a non-hero target for %bonus_gold% gold and %xp_multiplier%x experience. <br><br> Cannot be used on ancient creeps, bosses, and champion creeps.<br><br>Range: %abilitycastrange%"
+	"DOTA_Tooltip_ability_item_hand_of_midas_custom_bonus_attack_speed"			"+$attack"
+
+    "LastDuelLabel"         "Согласны ли на последнюю дуэль? Или же продолжить игру в обычном формате"
 } 
 }
