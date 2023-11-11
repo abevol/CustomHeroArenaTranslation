@@ -467,6 +467,7 @@
 		"sounds_165"	"О, я приехал"
 		"sounds_166"	"Первый скил и третий"
 		"sounds_167"	"Это не майнкрафт, это дота долбоеб"
+		"sounds_168"	"qeqoqeq: Бредишь"
 		"item_0"	"+50 Arena Coin"
 		"item_1"	"Absolutely Perfect"
 		"item_2"	"Ceeeeeeeb"
@@ -635,6 +636,7 @@
 		"item_165"	"О, я приехал"
 		"item_166"	"Первый скил и третий"
 		"item_167"	"Это не майнкрафт, это дота долбоеб"
+		"item_168"	"qeqoqeq: Бредишь"
 		"update_quest_button_label"	"刷新"
 		"quest_kill_skeletons"	"杀死小兵：僵尸"
 		"quest_kill_kobolds"	"杀死小兵：狗头人"
@@ -922,7 +924,7 @@
 		"skill_wide_choice_desc"	"技能选择增加 2，并获得【完人之书】。"
 
 		"skill_all_inclusive"	"全包"
-		"skill_all_inclusive_desc"	"一次性获得以下消耗品效果：宝石碎片、速度精华、阿哈利姆权杖、阿哈利姆魔晶、银月之晶、暗月之晶。如果已经拥有部分效果，则会用金币补偿。另外会将肉山掉落代币的几率提高至 100%。"
+		"skill_all_inclusive_desc"	"一次性获得以下消耗品效果：宝石碎片、速度精华、阿哈利姆权杖、阿哈利姆魔晶、银月之晶、暗月之晶。如果已经拥有部分效果，则会用金币补偿。"
 
 		"skill_creephater"	"野怪憎恨者"
 		"skill_creephater_desc"	"杀死敌方购买的野怪可获得 10 倍金币，每回合杀死第一个野怪可获得 10 倍金币。"
@@ -2510,7 +2512,7 @@
 		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_lua_mana_regen"	"每次击杀提供魔法恢复："
 		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_lua_regen_duration"	"恢复持续时间："
 		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_lua_hero_multiplier"	"英雄击杀提供恢复倍数："
-		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_lua_scepter_description"	"将佩戴者当前生命恢复值的 60% 添加到竭心光环的伤害。"
+		"DOTA_Tooltip_ability_necrolyte_heartstopper_aura_lua_scepter_description"	"将佩戴者当前生命恢复值的 30% 添加到竭心光环的伤害。"
 		"DOTA_Tooltip_modifier_necrolyte_heartstopper_aura_lua_counter"	"竭心光环恢复"
 		"DOTA_Tooltip_modifier_necrolyte_heartstopper_aura_lua_counter_Description"	"暂时获得%fMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%点/秒生命恢复和%fMODIFIER_PROPERTY_MANA_REGEN_CONSTANT%点/秒魔法恢复。"
 		"DOTA_Tooltip_modifier_ghost_shroud_custom_active"	"幽魂护罩"
@@ -3634,6 +3636,8 @@
 		"DOTA_Tooltip_ability_item_hand_of_midas_custom_Lore"	"这副手套被未知的魔法保护着，它通过在主人的口袋里塞满黄金来满足主人的贪婪。"
 		"DOTA_Tooltip_ability_item_hand_of_midas_custom_Description"	"<h1>主动：炼金</h1> 立刻炼化一个普通单位，获得%bonus_gold%金钱和%xp_multiplier%倍经验值。<br><br>无法用于远古单位、首领和精英野怪。<br><br>施法距离：%abilitycastrange%"
 		"DOTA_Tooltip_ability_item_hand_of_midas_custom_bonus_attack_speed"	"+$attack"
-		"LastDuelLabel"	"你同意最终对决吗？或者照常继续游戏。"
+		"LastDuelLabel"	"你同意最终对决吗？<br>或者照常继续游戏。"
+		"duel_bonus_information"	"进行一系列最多 3 场胜利的决斗。 决斗前，双方玩家都将获得3本重修之书和10k金币！ 决斗开始前和准备时间为3分钟。 或者双方都按下\"准备\"按钮，决斗将在 3 分钟后立即开始！ 获胜 3 次（可能的结果：3-0、3-1、3-2）的玩家将被视为获胜者，游戏将结束！ <br>注意事项：如果玩家在\"最终对决\"中获胜，他将获得 1.5 倍的积分（如果失败，他将失去两倍的积分）。"
+		"leave_banned_info"	"如果你在第5分钟之前离开游戏或者死于野怪，那么在下一场比赛中将被禁止主动选择英雄！ <br>要解除禁令，您需要使用最初随机到的默认英雄并至少获得前 4 名！ <br>如果玩家连续 3 次放弃游戏而没有解除禁令，将会受到逃跑惩罚，他会获得一个减益效果（诅咒标记）！ （该处罚是根据 322 禁令颁发的！）。 <br>该减益效果会减少玩家对小兵造成的伤害并增加玩家受到伤害！ 要移除处罚，您至少需要取得前 4 名！"
 	}
 }

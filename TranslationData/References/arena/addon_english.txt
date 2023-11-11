@@ -543,6 +543,7 @@
       "sounds_165"                                                                  "О, я приехал"
       "sounds_166"                                                                  "Первый скил и третий"
       "sounds_167"                                                                  "Это не майнкрафт, это дота долбоеб"
+      "sounds_168"                                                                  "qeqoqeq: Бредишь"
 
       "item_0"        "+50 Arena Coin"
       "item_1"        "[Sound] Absolutely Perfect"
@@ -712,6 +713,7 @@
       "item_165"                                                                    "О, я приехал"
       "item_166"                                                                    "Первый скил и третий"
       "item_167"                                                                    "Это не майнкрафт, это дота долбоеб"
+      "item_168"                                                                  "qeqoqeq: Бредишь"
 
       //=================================================================================================================
       // Задания
@@ -1084,7 +1086,7 @@
         "skill_wide_choice_desc"        "Увеличивает выбор способностей на 2 и дает Book of Paragon"
 
         "skill_all_inclusive"           "All inclusive"
-        "skill_all_inclusive_desc"      "Выдает все расходники сразу в модификаторы(Gem Shard, Essence of speed, Aghanims Scepter, Aghanim shard, Moon Shard, Dark Moon shard). Если у вас уже есть эти расходники, то просто компенсируется золотом. И увеличивает шанс выпадения жетона с Рошана до 100%"
+        "skill_all_inclusive_desc"      "Выдает все расходники сразу в модификаторы(Gem Shard, Essence of speed, Aghanims Scepter, Aghanim shard, Moon Shard, Dark Moon shard). Если у вас уже есть эти расходники, то просто компенсируется золотом"
 
         "skill_creephater"              "Creephater"
         "skill_creephater_desc"         "Дает х10 золота за убийство покупного вражеского крипа, а также х10 золота за первого убитого крипа в каждом раунде"
@@ -3415,7 +3417,7 @@
       "DOTA_Tooltip_ability_necrolyte_heartstopper_aura_lua_Note0"                "Damage won't disable items like Blink Dagger."
       "DOTA_Tooltip_ability_necrolyte_heartstopper_aura_lua_Note1"                "Does not affect ancient creeps."
       "DOTA_Tooltip_ability_necrolyte_heartstopper_aura_lua_aghanim_description"  "Increases Heartstopper Aura damage while Ghost Shroud is active."
-      "DOTA_Tooltip_ability_necrolyte_heartstopper_aura_lua_scepter_description"			"К уменьшению здоровья добавляется 60% от текущего восстановления здоровья владельца."
+      "DOTA_Tooltip_ability_necrolyte_heartstopper_aura_lua_scepter_description"			"К уменьшению здоровья добавляется 30% от текущего восстановления здоровья владельца."
 
       "DOTA_Tooltip_modifier_necrolyte_heartstopper_aura_lua"                   "Heartstopper Aura"
       
@@ -4872,6 +4874,8 @@
 	"DOTA_Tooltip_ability_item_hand_of_midas_custom_Description"				"<h1>Active: Transmute</h1> Kills a non-hero target for %bonus_gold% gold and %xp_multiplier%x experience. <br><br> Cannot be used on ancient creeps, bosses, and champion creeps.<br><br>Range: %abilitycastrange%"
 	"DOTA_Tooltip_ability_item_hand_of_midas_custom_bonus_attack_speed"			"+$attack"
 
-    "LastDuelLabel"         "Согласны ли на последнюю дуэль? Или же продолжить игру в обычном формате"
+    "LastDuelLabel"         "Согласны ли на последнюю дуэль?<br>Или же продолжить игру в обычном формате"
+    "duel_bonus_information"        "Происходит серия дуэлей до 3 побед. Перед дуэлью оба игрока получат 3 книги переобучения и 10к золота! Время до начала дуэли и подготовки - 3 минуты. Либо оба игрока должны нажать кнопку Готов и дуэль сразу начнется до истечения 3-х минут! Игрок, выигравший 3 раза(возможные исходы: 3-0, 3-1, 3-2) будет считаться победителем. И игра окончится! <br> Примечания! При победе в бое на смерть игрок получает в полтора раза больше рейтинга(при поражений - в два раза меньше теряет)"
+    "leave_banned_info"             "Если покинуть игру или умереть от крипов до 5ой минуты, то в следующей игре выбор героев будет заблокирован! <br>Что бы снять блокировку, надо будет отыграть на герое, который выпал изначально, и занять как минимум топ 4! <br>Если игрок покидает игру 3 раза подряд, не отмыв, наказание за лив, то получает курсу(метка проклятого)! (курса которая выдается за 322! ). <br>Курса снижает исходящий урон по крипам и увеличивает входящий урон по вам! Что бы снять блокировку надо занять как минимум топ 4!"
 } 
 }
