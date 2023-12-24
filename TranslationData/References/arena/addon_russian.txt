@@ -1311,9 +1311,9 @@
       "DOTA_Tooltip_ability_item_kaya_3_lua_mana_regen_multiplier"               "%+к Регенерации маны"
 
       "DOTA_Tooltip_ability_item_dark_moon_shard"                                 "Dark Moon Shard"
-      "DOTA_Tooltip_ability_item_dark_moon_shard_Description"                     "<h1>Использование: Consume</h1> Увеличивает вашу скорость атаки на %base_attack_time_reduction%%%. Можно использовать 1 раз за игру."
+      "DOTA_Tooltip_ability_item_dark_moon_shard_Description"                     "<h1>Использование: Consume</h1> Уменьшает базовую скорость атаки на %base_attack_time_reduction%%%. Можно использовать 1 раз за игру."
       "DOTA_Tooltip_modifier_item_dark_moon_shard"                                "Dark Moon Shard"
-      "DOTA_Tooltip_modifier_item_dark_moon_shard_Description"                    "Скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_PERCENTAGE%%%"
+      "DOTA_Tooltip_modifier_item_dark_moon_shard_Description"                    "Уменьшена базовая скорость атаки на 23%%"
       "DOTA_Tooltip_ability_item_dark_moon_shard_passive_attack_speed"            "+$attack"
 
       "DOTA_Tooltip_ability_item_gem_shard"                                       "Gem Shard"
@@ -2145,7 +2145,7 @@
       "DOTA_Tooltip_ability_tiny_tree_throw_lua_splash_radius"                "РАДИУС ДЕЙСТВИЯ:"   
       "DOTA_Tooltip_ability_tiny_tree_throw_lua_splash_pct"                   "%УРОН ПО ПЛОЩАДИ:"
 
-      "DOTA_Tooltip_ability_tiny_grow_attack_speed_reduction"                                         "%УСКОРЕНИЕ АТАКИ:"
+      "DOTA_Tooltip_ability_tiny_grow_bonus_attack_speed_grow"                                         "ДОП. СКОРОСТЬ АТАКИ:"
 
       //=================================================================================================================
       // Treant protector
@@ -2971,7 +2971,7 @@
       "DOTA_Tooltip_ability_chen_hand_of_god_custom_heal_amount"                          "%НАЧАЛЬНОЕ ЛЕЧЕНИЕ:"
       "DOTA_Tooltip_ability_chen_hand_of_god_custom_heal_per_second"                      "%ЛЕЧЕНИЕ В СЕКУНДУ:"
       "DOTA_Tooltip_ability_chen_hand_of_god_custom_status_resistance"                    "%МАГ. СОПРОТИВЛЕНИЯ:"
-      "DOTA_Tooltip_ability_special_bonus_unique_chen_2"                                  "+30%/+5% к нач. и период. лечению от Hand of God"
+      "DOTA_Tooltip_ability_special_bonus_unique_chen_2"                                  "+20%/+2.5% к нач. и период. лечению от Hand of God"
 
       "DOTA_Tooltip_modifier_chen_hand_of_god_custom"                                     "Hand of God"
       "DOTA_Tooltip_modifier_chen_hand_of_god_custom_Description"                         "Излечивает 5%%% здоровья в секунду."
@@ -3063,13 +3063,26 @@
 
       "DOTA_Tooltip_ability_dazzle_bad_juju_shard_description"                       ""
 
-      "DOTA_Tooltip_ability_dazzle_good_juju_lua"                        "Good Juju"
+      "DOTA_Tooltip_ability_dazzle_good_juju_lua"                           "Good Juju"
       "DOTA_Tooltip_ability_dazzle_good_juju_lua_Description"               "Когда герой применяет одну способность, оставшиеся перезарядки всех остальных уменьшаются."
-      "DOTA_Tooltip_ability_dazzle_good_juju_lua_scepter_Description"          "Снижает все перезарядки предметов на %item_cooldown_reduction%%%. Позволяет применить эту способность на союзника, чтобы перезарядить все его предметы."
-      "DOTA_Tooltip_ability_dazzle_good_juju_lua_Lore"                   "С каждым зовом мир Нотл всё сильнее проникает в нашу реальность."
+      "DOTA_Tooltip_ability_dazzle_good_juju_lua_scepter_Description"       "Снижает все перезарядки предметов на %item_cooldown_reduction%%%. Позволяет применить эту способность на союзника, чтобы перезарядить все его предметы."
+      "DOTA_Tooltip_ability_dazzle_good_juju_lua_Lore"                      "С каждым зовом мир Нотл всё сильнее проникает в нашу реальность."
       "DOTA_Tooltip_ability_dazzle_good_juju_lua_cooldown_reduction"        "СНИЖЕНИЕ ПЕРЕЗАРЯДКИ:"
 
       "DOTA_Tooltip_ability_dazzle_poison_touch_shard_description"                              "Способность превращает жертв в зверушек на 2 сек."
+
+      "DOTA_Tooltip_ability_dazzle_bad_juju_custom"											"Bad Juju"
+	  "DOTA_Tooltip_ability_dazzle_bad_juju_custom_Description"								"Способности героя временно увеличивают/уменьшают броню союзников/врагов, на которых они подействовали.\nЭту способность можно применить, чтобы ценой своего здоровья уменьшить перезарядки остальных способностей и предметов. Применение этой способности временно повышает расход здоровья на неё."
+	  "DOTA_Tooltip_ability_dazzle_bad_juju_custom_Lore"										"С каждым зовом мир Нотл всё сильнее проникает в нашу реальность."
+	  "DOTA_Tooltip_ability_dazzle_bad_juju_custom_armor_reduction"							"ИЗМЕНЕНИЕ БРОНИ ЗА ЭФФЕКТ:"
+	  "DOTA_Tooltip_ability_dazzle_bad_juju_custom_duration"									"ДЛИТЕЛЬНОСТЬ:"
+	  "DOTA_Tooltip_ability_dazzle_bad_juju_custom_cooldown_reduction"						"УМЕНЬШЕНИЕ ПЕРЕЗАРЯДОК СПОСОБНОСТЕЙ:"
+	  "DOTA_Tooltip_ability_dazzle_bad_juju_custom_cooldown_reduction_items"					"УМЕНЬШЕНИЕ ПЕРЕЗАРЯДОК ПРЕДМЕТОВ:"
+	  "DOTA_Tooltip_ability_dazzle_bad_juju_custom_mana_cost_increase_pct"					"%УВЕЛИЧЕНИЕ РАСХОДА ЗДОРОВЬЯ ЗА ПРИМЕНЕНИЕ:"
+	  "DOTA_Tooltip_ability_dazzle_bad_juju_custom_mana_cost_increase_duration"				"ДЛИТЕЛЬНОСТЬ УВЕЛИЧЕНИЯ РАСХОДА ЗДОРОВЬЯ:"
+
+      "DOTA_Tooltip_modifier_dazzle_bad_juju_custom"			"Bad Juju"
+	  "DOTA_Tooltip_modifier_dazzle_bad_juju_custom_Description"	"Расход здоровья на способность Bad Juju повышен."
 
       //=================================================================================================================
       // Death prophet
@@ -3527,7 +3540,23 @@
       "DOTA_Tooltip_modifier_puck_phase_shift_custom"           "Phase Shift"
       "DOTA_Tooltip_modifier_puck_phase_shift_custom_Description"  "Временно за гранью бытия"
 
-      "DOTA_Tooltip_ability_puck_dream_coil_ability_note"                 "Можно использовать на <font color='#B694FF'>крипов</font>."
+      "DOTA_Tooltip_ability_puck_dream_coil_custom"											"Dream Coil"
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_Description"								"Цепляет вражеских героев нестабильной магической спиралью, накладывая на них эффект привязки и нанося им урон. Если враг отойдёт слишком далеко от центра спирали, то она разорвётся, оглушив его и нанеся дополнительный урон."
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_scepter_Description"						"Владелец способности атакует всех врагов под её действием с интервалом 0.5. Если враг разорвёт спираль, то атаки превратятся лишь после того, как закончится оглушение."		
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_Lore"										"Волшебный дракончик сеет смятение в рядах врагов, заставляя их осознать свою смертность."
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_duration"							"ВРЕМЯ ДЕЙСТВИЯ СПИРАЛИ:"
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_initial_damage"							"НАЧАЛЬНЫЙ УРОН:"
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_break_radius"						"РАДИУС РАЗРЫВА:"
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_stun_duration"						"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_break_damage"						"УРОН ПРИ РАЗРЫВЕ:"
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_duration_scepter"					"ВРЕМЯ ДЕЙСТВИЯ СПИРАЛИ СО СКИПЕТРОМ:"
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_stun_duration_scepter"				"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ СО СКИПЕТРОМ:"
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_break_damage_scepter"				"УРОН ПРИ РАЗРЫВЕ СО СКИПЕТРОМ:"
+
+      "DOTA_Tooltip_modifier_puck_dream_coil_custom"						"Привязан Dream Coil"
+	  "DOTA_Tooltip_modifier_puck_dream_coil_custom_Description"			"Это существо привязано к петле видений"
+     
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_ability_note"                 "Можно использовать на <font color='#B694FF'>крипов</font>."
 
       //=================================================================================================================
       // Pugna

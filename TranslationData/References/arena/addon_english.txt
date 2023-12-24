@@ -1310,9 +1310,9 @@
       "DOTA_Tooltip_ability_item_kaya_3_lua_mana_regen_multiplier"  "%+Mana Regen Amplification"
 
       "DOTA_Tooltip_ability_item_dark_moon_shard"                                 "Dark Moon Shard"
-      "DOTA_Tooltip_ability_item_dark_moon_shard_Description"                     "<h1>Use: Consume</h1> Consume the Dark Moon Shard to permanently increased attack speed by %base_attack_time_reduction%%% .Max 1 use."
+      "DOTA_Tooltip_ability_item_dark_moon_shard_Description"                     "<h1>Use: Consume</h1> Consume the Dark Moon Shard to permanently increased base attack speed by %base_attack_time_reduction%%% .Max 1 use."
       "DOTA_Tooltip_modifier_item_dark_moon_shard"                                "Dark Moon Shard"
-      "DOTA_Tooltip_modifier_item_dark_moon_shard_Description"                    "Attack speed increased by %dMODIFIER_PROPERTY_ATTACKSPEED_PERCENTAGE%%%"
+      "DOTA_Tooltip_modifier_item_dark_moon_shard_Description"                    "Attack speed increased by 23%%"
       "DOTA_Tooltip_ability_item_dark_moon_shard_passive_attack_speed"           "+$attack"
 
       "DOTA_Tooltip_ability_item_gem_shard"                                       "Gem Shard"
@@ -2142,7 +2142,7 @@
       "DOTA_Tooltip_modifier_tiny_tree_throw_lua_slow"                                        "Tree Throw Slow"
       "DOTA_Tooltip_modifier_tiny_tree_throw_lua_slow_Description"                            "Movement speed reduced by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%% from tree trauma."
 
-      "DOTA_Tooltip_ability_tiny_grow_attack_speed_reduction"                                         "%INCREASED ATTACKSPEED:"
+      "DOTA_Tooltip_ability_tiny_grow_bonus_attack_speed_grow"                                          "ДОП. СКОРОСТЬ АТАКИ:"
 
       //=================================================================================================================
       // Treant protector
@@ -3525,7 +3525,23 @@
       "DOTA_Tooltip_modifier_puck_phase_shift_custom"           "Phase Shift"
       "DOTA_Tooltip_modifier_puck_phase_shift_custom_Description"  "Temporarily shifted out of existence"
 
-      "DOTA_Tooltip_ability_puck_dream_coil_ability_note"                 "Can be used on <font color='#B694FF'>creeps</font>."
+      "DOTA_Tooltip_ability_puck_dream_coil_custom"											"Dream Coil"
+	  "DOTA_Tooltip_ability_puck_dream_coil_custom_Description"								"Цепляет вражеских героев нестабильной магической спиралью, накладывая на них эффект привязки и нанося им урон. Если враг отойдёт слишком далеко от центра спирали, то она разорвётся, оглушив его и нанеся дополнительный урон."
+	  "DOTA_Tooltip_ability_puck_dream_coil_custom_scepter_Description"						"Владелец способности атакует всех врагов под её действием с интервалом 0.5. Если враг разорвёт спираль, то атаки превратятся лишь после того, как закончится оглушение."		
+	  "DOTA_Tooltip_ability_puck_dream_coil_custom_Lore"										"Волшебный дракончик сеет смятение в рядах врагов, заставляя их осознать свою смертность."
+	  "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_duration"							"ВРЕМЯ ДЕЙСТВИЯ СПИРАЛИ:"
+	  "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_initial_damage"							"НАЧАЛЬНЫЙ УРОН:"
+	  "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_break_radius"						"РАДИУС РАЗРЫВА:"
+	  "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_stun_duration"						"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
+	  "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_break_damage"						"УРОН ПРИ РАЗРЫВЕ:"
+	  "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_duration_scepter"					"ВРЕМЯ ДЕЙСТВИЯ СПИРАЛИ СО СКИПЕТРОМ:"
+	  "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_stun_duration_scepter"				"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ СО СКИПЕТРОМ:"
+	  "DOTA_Tooltip_ability_puck_dream_coil_custom_coil_break_damage_scepter"				"УРОН ПРИ РАЗРЫВЕ СО СКИПЕТРОМ:"
+
+      "DOTA_Tooltip_modifier_puck_dream_coil_custom"						"Привязан Dream Coil"
+	  "DOTA_Tooltip_modifier_puck_dream_coil_custom_Description"			"Это существо привязано к петле видений"
+
+      "DOTA_Tooltip_ability_puck_dream_coil_custom_ability_note"                 "Can be used on <font color='#B694FF'>creeps</font>."
 
       //=================================================================================================================
       // Pugna
