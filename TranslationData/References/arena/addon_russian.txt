@@ -4,9 +4,7 @@
 	"Tokens"
 	{
 
-      "addon_game_name"                                                             "CUSTOM HERO ARENA"
-
-      "best_tournament_mans"                                                        "Лучшие топ-8 рейтинга до начала турнира проходят в полуфинал ARENA CUP!"
+      "addon_game_name"                                                             "The Arena"
 
       //=================================================================================================================
       // Название команд
@@ -33,11 +31,12 @@
       "bp_error"                                                                    "Ошибка"
       "bp_accept"                                                                   "Успешно"
       "bp_error_no_arena_coin"                                                      "Недостаточно Arena Coin"
-      "bp_error_no_donate_coin"                                                     "Недостаточно Donate Coin"
+      "bp_error_no_donate_coin"                                                     "Недостаточно"
       "bp_error_server_disconnect"                                                  "Проблемы с данными игрока"
       "cha_sound_cooldown"                                                          "Звук будет доступен через: "
       "cha_taunt_cooldown"                                                          "Насмешка будет доступна через: "
       "cha_smile_cooldown"                                                          "Cмайл будет доступен через: "
+      "cha_highfive_cooldown"                                                          "Дай пять будет доступен через: "
       "cha_pause_cooldown_off"                                                      "Поставить паузу можно через: "
       "cha_pause_cooldown_on"                                                       "Выключить паузу можно через: "
       "cha_pause_count_null"                                                        "Вы больше не можете поставить паузу"
@@ -53,6 +52,7 @@
       "TopMenuIcon_Setting_message"                                                 "Настройки"
       "BanHeroTitle"                                                                "Герои в бане"
       "BanAbilityTitle"                                                             "Способности в бане"
+      "BanSkillTitle"                                                               "Навыки в бане"
       "right_ability_select"                                                        "Выбор способностей справа"
       "right_ability_select_hint"                                                   "Окно выбора способности будет справа от экрана"
       "auto_duel_vision"                                                            "Автоматически наблюдать за дуэлью"
@@ -90,6 +90,7 @@
       "button_shop"                              "Магазин"
       "button_bp"                                "Боевой пропуск"
       "button_profile"                           "Профиль"
+      "button_reach"                             "Топ Донатеры"
       "button_rewards"                           "Награды"
       "how_to_you"                               "Что вы получите?"
       "bp_inf_1"                                  "Покупка"
@@ -100,15 +101,37 @@
       "bp_inf_6"                                  "Если после перезахода в кастомку пропуск не активировался - бейте лицо пингвину внутри игры."
       "bp_inf_7"                                  "Выберите длительность действия Battle Pass"
 
+    "cha_hint_1"                                                                    "Вы можете перемещать позицию способностей в настройках или клавишей F8"
+      "cha_hint_2"                                                                  "Вы выбрали свой первый навык. Узнать список навыков можно наведя курсор на выделенную панель. Также вы можете посмотреть навыки противника"
+      "cha_hint_3"                                                                  "Зажав Alt, вы можете похвалить игрока на верхней панели"
+      "cha_hint_4"                                                                  "Вы можете использовать колесо чата, нажав клавишу Y"
+      "cha_hint_5"                                                                  "После 60-го раунда крипы могут перемещаться сквозь деревья"
+      "cha_hint_6"                                                                  "Предмет Sky staff <img class='sky_staff' /img> и Force of star <img class='force_starr' /img> усиливают магический урон. Обязательно приобретайте их на магической сборке"
+          "cha_hint_7"                            "В игре большое количество новых предметов, ознакомиться с ними можно в настройках -> Гайды о предметах"
+    "cha_hint_8"                            "Вы в любой момент можете заменить одну свою способность на другую, используя предмет Книга переобучения <img class='reroll_book_item' /img>"
+    "cha_hint_9"                            "Если вы достигли лимита по количеству способностей, то самое время приобрести в магазине Book of paragon <img class='paragon_book_item' /img>"
+    "cha_hint_10"                           "Если у вас плохой нейтральный предмет 5 разряда, то поменяйте его, купив предмет Neutral Book <img class='neutral_book_item' /img>"
+      "hint_enabled_button"                                                         "Игровые подсказки"
+      "hint_enabled_button_hint"                                                    "Отображение игровых подсказок во время игры"
+
+        "how_reach_name"                            "Как получить и что дает?"
+        "how_reach_desc"                            "Каждое пожертвование повышает ваш ранг в топе донатеров. Игрок занимающий первое место в топе - получает эффект над головой, пока его никто не обгонит"
+
       "bp_reward_inf1"                              "Возможность заблокировать 3 способности и 2 героя"
       "bp_reward_inf2"                              "Возможность похвалить игрока"
-      "bp_reward_inf3"                              "Пакет уникальных голосовых фраз для колеса"
+      "bp_reward_inf3"                              "Набор уникальных голосовых фраз для колеса"
       "bp_reward_inf4"                              "Возможность поставить паузу 2 раза за игру"
       "bp_reward_inf5"                              "Уникальный портрет героя и красивый золотой никнейм"
       "bp_reward_inf6"                              "Доступ к статистике входящего и исходящего урона"
-      "bp_reward_inf7"                              "Пакет уникальных смайликов с Twitch"
-      "bp_reward_inf8"                              "х2 увеличение награды Arena Coin за игру"
-      "bp_reward_inf9"                              "Лимит получаемых Arena Coin в день - 200шт"
+      "bp_reward_inf7"                              "Возможность дать пять"
+      "bp_reward_inf8"                              "Возможность использовать бесплатные насмешки"
+      "bp_reward_inf9"                              "Возможность видеть более подробную информацию на дуэлях"
+      "bp_reward_inf10"                             "Набор новых арен"
+      "bp_reward_inf11"                             "Набор новых эффектов"
+
+      "bp_buy_info_1"                               "Battle Pass на 1 месяц"
+      "bp_buy_info_2"                               "Battle Pass на 3 месяца (5% скидка)"
+      "bp_buy_info_3"                               "Battle Pass на 6 месяцев (10% скидка)"
 
       "cha_Pass"                                                                    "Пропуск"
       "cha_battlepass"                                                              "Боевой пропуск"
@@ -166,11 +189,6 @@
       "bp_coinshop_donate_coin_2_4"                                                 "1000"
       "bp_coinshop_donate_coin_1_5"                                                 "2000"
       "bp_coinshop_donate_coin_2_5"                                                 "2000"
-      "DonateCallbackInfo"                                                          "Укажите свой <b><font color=\"red\">Dota ID</font></b>, вы можете его узнать в самой игре в профиле.<br>Внимательно проверяйте, чтобы не возникало проблем.<br>Donate Coin выдаются вручную, а не автоматически, поэтому будьте терпеливы и ожидайте!<br>Обратная связь Телеграмм @CustomHeroArena"
-      "donate_qiwi_info"                                                            "QIWI (+10% к пополнению)"      
-      "donate_da_info"                                                              "DonationAlerts (Если недоступно Qiwi)"
-      "donate_button_description_1"                                                 "Для игроков из других стран"
-      "donate_button_description_2"                                                 "Для игроков РФ"
 
       //=================================================================================================================
       // Рулетка
@@ -199,9 +217,7 @@
       "reward_arena_coin_150"                                                       "150 Arena Coins"
       "reward_arena_coin_200"                                                       "200 Arena Coins"
       "reward_sound_6"                                                              "[Звук] Lakad matatag"
-      "reward_sound_12"                                                             "[Звук] Парни шо мы надрафтили" 
-      "reward_donate_coin_50"                                                       "50 Donate Coins"       
-      "reward_donate_coin_100"                                                      "100 Donate Coins"             
+      "reward_sound_12"                                                             "[Звук] Парни шо мы надрафтили"            
       "rating_ticket"                                                               "Билет рекалибровки" 
 
       //=================================================================================================================
@@ -212,9 +228,11 @@
       "change_keybind_settings"                                                     "Бинды"
       "customize_profile_settings"                                                  "Эффекты"
       "calibrate_settings"                                                          "Рекалибровка"
-      "level_reward"                                                                "За каждый новый уровень вы получаете 20 Arena Coin и 3 Donate Coin"
+      "level_reward"                                                                "За каждый новый уровень вы получаете 20 Arena Coin"
       "recalib_info"                                                                "Нужен билет рекалибровки 1 шт."
       "day_quests"                                                                  "Ежедневные задания"
+      "map_selected_locked_battlepass"                                              "В пропуске"
+      "map_selected_locked_shop"                                                    "Не разблокировано"
 
       "yes" "Да"
       "no"  "Нет"
@@ -228,6 +246,7 @@
       "CHAPass_sound_1"                                                             "Звуки"   
 
       "customize_nickname"                                                          "Цвет никнейма"
+      "customize_pets"                                                              "Питомцы"
       "customize_nickname_white"                                                    "Белый"
       "customize_nickname_team"                                                     "Цвет команды"
       "customize_nickname_rainbow"                                                  "Rainbow"
@@ -238,8 +257,17 @@
       "customize_frame_rainbow"                                                     "Rainbow"
       "customize_frame_gold"                                                        "Золотой"
       "customize_effect"                                                            "Эффект на герое"
-      "customize_effect_1_season"                                                   "Лучший 1 сезона"
-      "customize_effect_2_season"                                                   "Лучший 2 сезона" 
+      "customize_effect_1"                                                          "Огненный"
+      "customize_effect_2"                                                          "Aghanim" 
+      "cha_emblem_1"                                                                "Hallowen Green"
+      "cha_emblem_2"                                                                "Hallowen Blue"
+      "cha_emblem_3"                                                                "Hallowen Orange"
+      "cha_emblem_4"                                                                "Hallowen Yellow"
+      "cha_emblem_5"                                                                "Природная"
+      "cha_emblem_6"                                                                "Золотая"
+      "cha_emblem_7"                                                                "Цветочная"
+      "cha_emblem_8"                                                                "Кристальная"
+      "cha_emblem_9"                                                                "Водная"
       "select"                                                                      "Выбрать "
       "select_sounds"                                                               "Выбрать звуки"
       "keybind_cast_ability_7"                                                      "Способность 7"
@@ -270,6 +298,12 @@
       //=================================================================================================================
       // Отедльные текста в панораме
       //=================================================================================================================
+        "button_battle_shop_sound"  "Звуки"
+        "button_battle_shop_smile"  "Смайлы"
+        "button_battle_shop_arena"  "Арены"
+        "button_battle_shop_pets"   "Питомцы"
+        "button_battle_shop_emblems"   "Эмблемы"
+        "button_battle_shop_other"   "Прочее"
 
       "BetBegins"                                                                   "Делайте ваши ставки !"
       "Ready"                                                                       "Готов"
@@ -288,7 +322,7 @@
       "cheat_lobby_note"                                                            ""
       "CardSelection_Reroll"                                                        "Обновить"
       "rerol_aviable_in_bp"                                                         ""
-      "rerol_description"                                                           "Вы замените этих героев на 3 других"
+      "rerol_description"                                                           "Вы замените этих героев на 4 других"
       "recent_ban_abilities"                                                        "Ваши популярные баны"
       "DOTA_AbilityTooltip_AbilityDraftNote_Header" "Примечание Custom Hero Arena"
       "Player"                                                                      "Игрок"
@@ -303,6 +337,7 @@
       "Cooldown"                                                                    "Перезарядка:"
       "ChatWheelClose"                                                              "Закрыть (F6)"
       "TauntClose"                                                                  "Закрыть (F7)"
+      "game_lose_button"                                                            "Принять"
 
       "CardSelection_Close"                                                         "Закрыть"
       "CardSelection_Close_Description"                                             "Сражаться за текущего героя"
@@ -345,7 +380,7 @@
       "you"                                                                         "(Вы)"
       "confirn"                                                                     "Подтвердить ставку"
       "input_gold_value"                                                            "Сделайте вашу ставку"
-      "bet_max_gold"                                                                "Не больше 50% Вашего золота"
+      "bet_max_gold"                                                                   "Не больше 50% Вашего золота"
       "bet_must_positive_integer"                                                   "Поставьте 1 или больше золота"
       "confirm"                                                                     "Подтвердить ставку"
       "total"                                                                       "Всего"
@@ -546,6 +581,12 @@
       "sounds_166"                                                                  "Первый скил и третий"
       "sounds_167"                                                                  "Это не майнкрафт, это дота долбоеб"
       "sounds_168"                                                                  "qeqoqeq: Бредишь"
+      "sounds_169"                                                                  "Вы думаете, что я вас не переиграю"
+      "sounds_170"                                                                  "попабпопабпопаб"
+      "sounds_171"                                                                  "я рот"
+      "sounds_205"                                                                  "Ah shit, here we go again"
+      "sounds_206"                                                                  "Нихуя себе блять"
+      "sounds_207"                                                                  "Пиздец нахуй блять"
 
       "item_0"                                                                      "+50 Arena Coin"
       "item_1"                                                                      "Absolutely Perfect"
@@ -715,400 +756,135 @@
       "item_165"                                                                    "О, я приехал"
       "item_166"                                                                    "Первый скил и третий"
       "item_167"                                                                    "Это не майнкрафт, это дота долбоеб"
-      "item_168"                                                                  "qeqoqeq: Бредишь"
+      "item_168"                                                                    "qeqoqeq: Бредишь"
+      "item_169"                                                                    "Вы думаете, что я вас не переиграю"
+      "item_170"                                                                    "попабпопабпопаб"
+      "item_171"                                                                    "я рот"
+      "item_205"                                                                  "Ah shit, here we go again"
+      "item_206"                                                                  "Нихуя себе блять"
+      "item_207"                                                                  "Пиздец нахуй блять"
+    "cha_pet_1"                                                                 "Faceless Rex"
+    "cha_pet_2"                                                                 "Huntling"
+    "cha_pet_3"                                                                 "Seekling"
+    "cha_pet_4"                                                                 "Venoling"
+    "cha_pet_5"                                                                 "Hatchling"
+    "cha_pet_6"                                                                 "Devourling"
+    "cha_pet_7"                                                                 "Krobeling"
+    "cha_pet_8"                                                                 "Amaterasu"
+    "cha_pet_9"                                                                 "Baby Roshan"
+    "cha_pet_10"                                                                "Nian"
+    "cha_pet_11"                                                                "Shagbark"
+    "cha_pet_12"                                                                "Doomling"
+    "cha_pet_13"                                                                "Drodo"
 
-      //=================================================================================================================
-      // Задания
-      //=================================================================================================================
 
-      "update_quest_button_label"                                                   "Заменить"
-      "quest_kill_skeletons"                                                        "Убить крипов: Skeletons"
-      "quest_kill_kobolds"                                                          "Убить крипов: Kobolds"
-      "quest_kill_trolls"                                                           "Убить крипов: Trolls"
-      "quest_kill_ghoul_assassins"                                                  "Убить крипов: Ghoul Assassins"
-      "quest_kill_ghost"                                                            "Убить крипов: Ghost"
-      "quest_kill_harpy"                                                            "Убить крипов: Harpy"
-      "quest_kill_crocodiles"                                                       "Убить крипов: Crocodiles"
-      "quest_kill_hameleons"                                                        "Убить крипов: Hameleons"
-      "quest_kill_greevils"                                                         "Убить крипов: Greevils"
-      "quest_kill_timber_spider"                                                    "Убить крипов: Timber Spider"
-      "quest_kill_warpine_rider"                                                    "Убить крипов: Warpine Raider"
-      "quest_kill_banneling"                                                        "Убить крипов: Baneling"
-      "quest_kill_giant_wolf"                                                       "Убить крипов: Giant Wolf"
-      "quest_kill_elf_wolf"                                                         "Убить крипов: Elf wolf"
-      "quest_kill_satyrs"                                                           "Убить крипов: Satyrs"
-      "quest_kill_ogre"                                                             "Убить крипов: Ogre"
-      "quest_kill_ogreseal"                                                         "Убить крипов: Ogreseal"
-      "quest_kill_mud_golem"                                                        "Убить крипов: Mud golem"
-      "quest_kill_roshan"                                                           "Убить Рошана"
-      "quest_kill_nian"                                                             "Убить Годня"
-      "quest_top_4"                                                                 "Попасть в топ 4 1 раз"
-      "quest_duel_win_10"                                                           "Выиграть дуэль"
-      "quest_deff_60"                                                               "Задефать 60 волну"
-      "quest_bounty_pickup"                                                         "Подобрать Bounty rune"
-      "quest_bet_30k"                                                               "Заработать на ставках"
-      "quest_deffing_smoke"                                                         "Задефать волны в смоках"
-      "quest_reroll_book"                                                           "Использовать Книгу Переобучения"
-      "quest_tip_players"                                                           "Похвалить других игроков"
-      "quest_book_13k"                                                              "Использовать Book of Paragon"
-      "quest_deff_shiva"                                                            "Задеть крипов активной способностью предмета Shiva's Core"
-      "quest_abyssal_blade"                                                         "Использовать Abyssal Blade на вражеского героя "
-      "quest_nullifier"                                                             "Использовать Nullifier на вражеского героя "
-      "quest_hex"                                                                   "Использовать Scythe of Vyse на вражеского героя"
-      "quest_dagon"                                                                 "Использовать Dagon на вражеского героя"
-      "quest_orchid_bloodthorn"                                                     "Использовать Orchid Malevolence/Bloodthorn на вражеского героя"
-      "quest_ethereal_blade"                                                        "Использовать Ethereal Blade на вражеского героя"
-      "quest_bloodstone"                                                            "Использовать Bloodstone 2 на дуэли"
-      "quest_refresher"                                                             "Использовать Refresher на дуэли"
-      "quest_forget_rune"                                                           "Использовать Forge Rune"
-      "quest_blade_mail_kill_creeps"                                                "Убить крипов с помощью Blade Mail"
-      "quest_kill_summoners"                                                        "Убить крипов подконтрольными юнитами(илюзии/самоны/некрономиконы)"
-      "quest_skills_upgrade_full"                                                   "Выучить все 5 навыков героя"
-      "quest_smile_send"                                                            "Отправить в общий чат любой смайлик"
-      "quest_chat_wheel_send"                                                       "Использовать колесо чата(любую нашу фразу)"
-      "quest_kill_granite_golem"                                                    "Убить крипов: Ancient Granite Golem"
-      "quest_kill_hellbear"                                                         "Убить крипов: Hellbear"
-      "quest_kill_wildwings"                                                        "Убить крипов: Wildwings"
-      "quest_kill_centaur"                                                          "Убить крипов: Centaur Conqueror"
-      "quest_kill_toxin_spider"                                                     "Убить крипов: Toxin Spider"
-      "quest_kill_dark_troll"                                                       "Убить крипов: Dark Troll"
-      "quest_kill_dragon"                                                           "Убить крипов: Dragon"
-      "quest_kill_thunder_lizrds"                                                   "Убить крипов: Thunder Lizards"
-      "quest_kill_ancient_prowlers"                                                 "Убить крипов: Ancient Prowlers"
-      "quest_kill_frostbitten"                                                      "Убить крипов: Frostbitten"
-      "quest_kill_siltbreaker"                                                      "Убить крипов: Siltbreaker"
-      "quest_kill_roshling"                                                         "Убить крипов: Roshling"
-      "quest_kill_bosses"                                                           "Убить крипов: Боссы"
-      "quest_top_2"                                                                 "Попасть в топ 2"
-      "quest_duel_x2"                                                               "Победить с двухкратным или более перевесом по победам в дуэли (k/d больше двух)"
-      "quest_hellmask"                                                              "Набить 1000 зарядов на Hellmask"
-      "quest_bloodstone_stacks"                                                     "Набить заряды в Bloodstone 2"
-      "quest_oneshot"                                                               "Убить крипов ваншот способностью (мидас не считается)"
-      "quest_duel_win_35"                                                           "Выиграть дуэль"
-      "quest_deff_80"                                                               "Задефать 80 волну"
-      "quest_boss_20sec"                                                            "Убить Босса за 20 секунд или быстрее."
-      "quest_gold_reach"                                                            "Заработать с помощью Track, Devour или Greevil's Greed"
-      "quest_bet_50k"                                                               "Заработать на ставках"
-      "quest_reroll_10"                                                             "Использовать Книгу Переобучения"
-      "quest_tip_me_10"                                                             "Получить похвалы от других игроков"
-      "quest_book_30k"                                                              "Использовать Book of Paragon 2"
-      "quest_duel_win_15sec"                                                        "Выиграть дуэль за 15 секунд"
-      "quest_shiva_250creeps"                                                       "Задеть крипов активной способностью предмета Shiva's Core"
-      "quest_aegis_buy"                                                             "Купить Аегис"
-      "quest_kill_with_dagon"                                                       "Убить вражеского героя с помощью Dagon"
-      "quest_pereves_5k"                                                            "Победить с 5кратным или более перевесом по победам в дуэли (k/d больше 5)"
-      "quest_no_death"                                                              "Победить матч без смерти на крипах"
-      "quest_top_2_no_smoke"                                                        "Войти в топ2 без использования смоков (нинзя гир разрешен)"
-      "quest_hell_mask_400"                                                         "Набить заряды Hellmask"
-      "quest_top1"                                                                  "Занять топ 1"
-      "quest_duel_win_60"                                                           "Выиграть дуэль"
-      "quest_deff_10"                                                               "Задефать 100 волну"
-      "quest_bet_100k"                                                              "Заработать на ставках"
-      "quest_kill_with_rubick_skill"                                                "Убить врага сворованной способностью Spell Steal"
-      "quest_one_shot_30"                                                           "Убить крипов ваншот способностью (мидас не считается)"
-      "quest_curse"                                                                 "Выиграть дуэль находясь под Проклятьем проигравшего"
-      "quest_duel_6sec"                                                             "Выиграть дуэль за 6 секунд"
-      "quest_50k_inventory"                                                         "Накопить золото в тайнике"
-      "quest_networth_150k"                                                         "Достичь нетворса 150k"
-      "quest_fingerdeath_40_one_game"                                               "Накопить 40 зарядов Finger of Death за 1 игру"
-      "quest_laguna_blade_40_one_game"                                              "Накопить 40 зарядов Laguna Blade за 1 игру"
-      "quest_culling_blade_40_one_game"                                             "Накопить 40 зарядов  Culling Blade за 1 игру"
-      "quest_glaives_500_one_game"                                                  "Накопить 500 зарядов Glaives of Wisdom за 1 игру"
-      "quest_essenec_shift_400_one_game"                                            "Накопить 400 зарядов Essence Shift за 1 игру"
-      "quest_reaper_scythe_30_one_game"                                             "Накопить 30 зарядов Reaper's Scythe за 1 игру"
-      "quest_boss_10sec"                                                            "Убить Босса за 10 секунд или быстрее"
+      "cha_arena_name_default"    "Стандарт"
+      "cha_arena_name_forest"     "Forest"
+      "cha_arena_name_jungle"     "Jungle"
+      "cha_arena_name_counter"    "Counter-Strike"
+      "cha_arena_name_lava"       "Lava"
+      "cha_arena_name_minecraft"  "Minecraft"
+      "cha_arena_name_naruto"     "Naruto"
+      "cha_arena_name_winter"     "Winter"
+      "cha_arena_name_dark"       "Dark"
+      "avil_in_bp"                "В пропуске"
+      "cha_bundle_1"          "Пак звуков папича"
+      "cha_bundle_2"          "Пак звуков Гачи"
+      "cha_bundle_3"          "Пак звуков Аниме"
+      "button_battle_shop_bundle" "Наборы"
 
       //=================================================================================================================
       // Навыки
       //=================================================================================================================
 
-      "skill_based"                                                                 "Based"
-      "skill_based_desc"                                                            "+25% к базовому урону"
+        "spell_armor"                                "Chainmail"
+        "spell_armor_desc"                           " к броне"
 
-      "skill_damage_dealer"                                                         "Damage Dealer"
-      "skill_damage_dealer_desc"                                                    "+85 к урону"
+        "spell_movespeed"                            "Boots of speed"
+        "spell_movespeed_desc"                       " к скорости передвижения"
 
-      "skill_ultimate_strength"                                                     "Ultimate Strength"
-      "skill_ultimate_strength_desc"                                                "+15 ко всем аттрибутам"
+        "spell_attackspeed"                          "Gloves of haste"
+        "spell_attackspeed_desc"                     " к скорости атаки"
 
-      "skill_amplification"                                                         "Amplification"
-      "skill_amplification_desc"                                                    "+7% урона от способностей и уменьшение расхода маны на 7%"
+        "spell_evasion"                              "Talisman Evasion"
+        "spell_evasion_desc"                         "% к уклонению"
 
-      "skill_armorless"                                                             "Armorless"
-      "skill_armorless_desc"                                                        "Противники в радиусе 800 теряют 7 брони"
+        "spell_magical_resistance"                   "Cloak"
+        "spell_magical_resistance_desc"              "% к маг. сопротивлению"
 
-      "skill_lifestealer"                                                           "Lifestealer"
-      "skill_lifestealer_desc"                                                      "Физический вампиризм 18%, магический вампиризм 8%"
+        "spell_status_resistance"                    "Titan sliver"
+        "spell_status_resistance_desc"               "% к сопротивлению эффектам"
 
-      "skill_spell_lifestealer"                                                     "Spell Lifestealer"
-      "skill_spell_lifestealer_desc"                                                "Магический вампиризм 18%, физический вампиризм 8%"
+        "spell_amplify"                              "Kaya"
+        "spell_amplify_desc"                         "% к урону от заклинаий"
 
-      "skill_ceremonius"                                                            "Ceremonius"
-      "skill_ceremonius_desc"                                                       "Противники в радиусе 800 теряют 15% магического сопротивления и 10% сопротивления эффектам"
+        "spell_cooldown_reduction"                   "Octarine Core"
+        "spell_cooldown_reduction_desc"              "% перезарядка предметов и заклинаний"
 
-      "skill_speedster"                                                             "Speedster"
-      "skill_speedster_desc"                                                        "+60 скорости атаки"
+        "spell_attack_range"                         "Dragon lance"
+        "spell_attack_range_desc"                    " к дальности атаки"
 
-      "skill_dodger"                                                                "Dodger"
-      "skill_dodger_desc"                                                           "+25% к уклонению"
+        "spell_cast_range"                           "Psychic Headband"
+        "spell_cast_range_desc"                      " к дальности  применения заклинаний"
 
-      "skill_armored"                                                               "Armored"
-      "skill_armored_desc"                                                          "+15 брони"
+        "spell_bonus_damage"                         "Blades of attack"
+        "spell_bonus_damage_desc"                    " к урону"
 
-      "skill_splash"                                                                "Cleave"
-      "skill_splash_desc"                                                           "30% Cleave от цели атак"
+        "spell_health"                               "Vitality Booster"
+        "spell_health_desc"                          " к здоровью"
 
-      "skill_golden_warrior"                                                        "Golden Warrior"
-      "skill_golden_warrior_desc"                                                   "+70% к получению золота с крипов. Увеличивает золото от Hand of Midas в 2 раза"
+        "spell_mana"                                 "Energy Booster"
+        "spell_mana_desc"                            " к мане"
 
-      "skill_solo"                                                                  "Solo"
-      "skill_solo_desc"                                                             "+322 золота в минуту. После 50 волны золото увеличивается в 2 раза"
+        "spell_proj_speed"                           "Witch Blade"
+        "spell_proj_speed_desc"                      " к скорости снарядов"
 
-      "skill_veteran"                                                               "Veteran"
-      "skill_veteran_desc"                                                          "+100% к получению опыта"
+        "spell_fairy"                                "Fairy Trinket"
+        "spell_fairy_desc"                           "% к уменьшению расхода и сжигания маны"
 
-      "skill_benefiter"                                                             "Benefiter"
-      "skill_benefiter_desc"                                                        "+35% к золоту с дивидендов и возвращает 15% золота после проигранной ставки"
+        "spell_health_regen_perc"                    "Heart"
+        "spell_health_regen_perc_desc"               "% к макс. здоровья в секунду"
 
-      "skill_gambler"                                                               "Gambler"
-      "skill_gambler_desc"                                                          "+15% к золоту со ставок и возвращает 10% золота после проигранной ставки"
+        "spell_mana_regen_perc"                      "Bloodstone"
+        "spell_mana_regen_perc_desc"                 "% к макс. мане в секунду"
 
-      "skill_head_hunter"                                                           "Head Hunter"
-      "skill_head_hunter_desc"                                                      "х4 золото за убийство героев"
+        "spell_universal_evasion"                    "Backtrack"
+        "spell_universal_evasion_desc"               "% к универсальному уклонению"
 
-      "skill_good_job"                                                              "Good Job"
-      "skill_good_job_desc"                                                         "+75% золота за завершение раунда"
+        "spell_total_block"                          "Craggy Coat"
+        "spell_total_block_desc"                     "% блока всего входящего урона"
 
-      "skill_goldgainer"                                                            "Goldgainer"
-      "skill_goldgainer_desc"                                                       "Атака по вражескому герою (не иллюзия/темпест) даёт (70+уровень цели*2) золота, перезарядка 3 сек."
+        "spell_critical_strike"                      "Crystalys"
+        "spell_critical_strike_desc"                 "% вероятность нанести 160% критического физ. урона"
 
-      "skill_goldstealer"                                                           "Goldstealer"
-      "skill_goldstealer_desc"                                                      "Атака по врагу/крипу крадет (35+Ваш уровень) золота, перезарядка 3 сек."
+        "spell_magical_critical_strike"              "Magilys"
+        "spell_magical_critical_strike_desc"         "% вероятность нанести 160% критического маг. урона"
 
-      "skill_deposit"                                                               "Deposit"
-      "skill_deposit_desc"                                                          "Каждые 5 раундов Вам начисляется 25% от имеющегося золота (лимит не более 20к золота в тайнике)"
+        "spell_all_atributes"                        "Crown"
+        "spell_all_atributes_desc"                   " ко всем атрибутам"
 
-      "skill_investment"                                                            "Investment"
-      "skill_investment_desc"                                                       "Каждые 5 раундов Вам начисляется 3% от вашего нетворса(максимальный лимит нетворса 200к,все что выше дает как 200к)"
+        "spell_main_atributes"                       "Vambrace"
+        "spell_main_atributes_desc"                  " к основному атрибуту"
 
-      "skill_smoker"                                                                "Smoker"
-      "skill_smoker_desc"                                                           "+100% к длительности Smoke of Deceit. В начале каждого раунда вы получаете эффект Ninja Gear на 5 секунд"
+        "spell_other_atributes"                      "Pupils Gift"
+        "spell_other_atributes_desc"                 " к не основным атрибутам"
 
-      "skill_warrior_investor"                                                      "Warrior Investor"
-      "skill_warrior_investor_desc"                                                 "+1 к урону за каждые 25 золота и +1 брони за каждые 300 золота в вашем тайнике"
+        "spell_gold_second"                          "Philosophers Stone"
+        "spell_gold_second_desc"                     " золота в минуту"
 
-      "skill_damage_investor"                                                       "Warrior Investor"
-      "skill_damage_investor_desc"                                                  "+1 к урону за каждые 25 золота в вашем тайнике"
+        "spell_lifesteal"                            "Morbid Mask"
+        "spell_lifesteal_desc"                       "% к физ. вампиризму"
 
-      "skill_armor_investor"                                                        "Warrior Investor"
-      "skill_armor_investor_desc"                                                   "+1 броня за каждые 300 золота в вашем тайнике"
+        "spell_spell_lifesteal"                      "Voodoo Mask"
+        "spell_spell_lifesteal_desc"                 "% к маг. вампиризму"
 
-      "skill_magic_investor"                                                        "Magic Investor"
-      "skill_magic_investor_desc"                                                   "+0.75% урона заклинаниями за 500 золота в вашем тайнике(лимит не более 20к золота в тайнике)"
+        "spell_cast_point"                      "Arcane"
+        "spell_cast_point_desc"                 "% к уменьшению задержки перед применением способностей"
 
-      "skill_teachers_gift"                                                         "Teachers Gift"
-      "skill_teachers_gift_desc"                                                    "+75 к неосновным атрибутам. Универсальные герои получают +50 ко всем атрибутам"
+        "spell_time_reduction"                          "Timeless"
+        "spell_time_reduction_desc"                     "% к длительности отрицательных эффектов"
 
-      "skill_magefense"                                                             "Magefense"
-      "skill_magefense_desc"                                                        "+40% сопротивления магии"
-
-      "skill_trickster"                                                             "Trickster"
-      "skill_trickster_desc"                                                        "+45% к уклонению"
-
-      "skill_disregarding"                                                          "Disregarding"
-      "skill_disregarding_desc"                                                     "30% игнорировать входящий урон (Backtrack)"
-
-      "skill_velocity"                                                              "Velocity"
-      "skill_velocity_desc"                                                         "+75 к скорости передвижения и дает возможность проходить сквозь существ"
-
-      "skill_two_hearted"                                                           "Two Hearted"
-      "skill_two_hearted_desc"                                                      "+4% к регенерации максимального здоровья в сек."
-
-      "skill_requite"                                                               "Requite"
-      "skill_requite_desc"                                                          "Каждая атака по вам, возвращает 15% от вашего урона + 0.5 урона за каждый аттрибут силы. Не работает сквозь иммунитет к магии"
-
-      "skill_ranger"                                                                "Ranger"
-      "skill_ranger_desc"                                                           "+300 дальности атаки и +200 дальности применения способностей"
-
-      "skill_deceleration"                                                          "Deceleration"
-      "skill_deceleration_desc"                                                     "Противники в радиусе 900 теряют 45 скорости атаки и 40 скорости передвижения"
-
-      "skill_basher"                                                                "Basher"
-      "skill_basher_desc"                                                           "Атакуя, есть 10% шанс оглушить противника на 1.3 сек. Перезарядка 2 сек."
-
-      "skill_mage_slayer"                                                           "Mage Slayer"
-      "skill_mage_slayer_desc"                                                      "Атакуемые враги наносят на 40% меньше урона заклинаниями на 5 сек. Ваше сопротивление к магии увеличивается на 25%"
-
-      "skill_slackening"                                                            "Slackening"
-      "skill_slackening_desc"                                                       "Увеличивает ваше здоровье и ману на 20%. Уменьшает восстановление здоровья/вампиризм/лечение на 40% всем противникам в радиусе 1200."
-
-      "skill_craggy_man"                                                            "Craggy Man"
-      "skill_craggy_man_desc"                                                       "Враги, атакующие вас, могут быть оглушены на 1 сек.  с шансом 10%. Не работает сквозь иммунитет к магии, отключается истощением."
-
-      "skill_reducer"                                                               "Reducer"
-      "skill_reducer_desc"                                                          "Противники в радиусе 800 теряют 60% урона(Не работает на крипов, не работает сквозь к иммунитет к магии, отключается истощением)"
-
-      "skill_mana_degrade"                                                          "Mana Degrade"
-      "skill_mana_degrade_desc"                                                     "Выжигание 50 + 2% маны при атаке (наносит 50% физического урона)"
-
-      "skill_zoo_enjoyer"                                                           "Zoo Enjoyer"
-      "skill_zoo_enjoyer_desc"                                                      "-35% к стоимости покупных крипов<br>Примечание! При изучении навыка нельзя будет продать предмет за полную стоимость первые 10 секунд.<br>Золото возвращается сразу после покупки(кешбек)<br><br>С шансом 20% имеет призвать еще одного юнита стоимостью более 10к золота"
-
-      "skill_hookah_master"                                                         "Hookah Master"
-      "skill_hookah_master_desc"                                                    "+20% исходящего урона под эффектом Smoke of Deceit и Ninja Gear. Под эффектом Smoke герой получает иммунитет к магии"
-
-      "skill_killgolder"                                                            "Killgolder"
-      "skill_killgolder_desc"                                                       "За убийство крипа дают дополнительное золото в размере уровня героя * 1.3"
-
-      "skill_rebirth"                                                               "Rebirth"
-      "skill_rebirth_desc"                                                          "+20 сек. действия Aegis of Protection. В начале каждого раунда на Вас применяется эффект Aegis of Protection на 10 сек."
-
-      "skill_highroller"                                                            "Highroller"
-      "skill_highroller_desc"                                                       "Книги переобучения  стоят на 35% дешевле, книги парагона на 25% дешевле<br>Примечание! При изучении навыка нельзя будет продать предмет за полную стоимость первые 10 секунд.<br>Золото возвращается сразу после покупки(кешбек)"
-
-      "skill_merchant"                                                              "Merchant"
-      "skill_merchant_desc"                                                         "Стоимость покупки всех предметов в магазине на 20% дешевле<br>Примечание! При изучении навыка нельзя будет продать предмет за полную стоимость первые 10 секунд.<br>Золото возвращается сразу после покупки(кешбек)"
-
-      "skill_hellcrown"                                                             "Hellcrown"
-      "skill_hellcrown_desc"                                                        "+0.1 брони и 0.2%% урона за каждый заряд Hellmask"
-
-      "skill_bloodmage"                                                             "Bloodmage"
-      "skill_bloodmage_desc"                                                        "При взятии навыка заряды Bloodstone 2 увеличиваются в 2 раза. При убийстве противника увеличивает заряд Bloodstone 2 на 2"
-
-      "skill_swiftness"                                                             "Swiftness"
-      "skill_swiftness_desc"                                                        "-0.25 базового интервала атак"
-
-      "skill_resister"                                                              "Resister"
-      "skill_resister_desc"                                                         "+30% сопротивления эффектам"
-
-      "skill_statist"                                                               "Statist"
-      "skill_statist_desc"                                                          "+1.25 к приросту атрибутов за уровень"
-
-      "skill_overbuffed"                                                            "Overbuffed"
-      "skill_overbuffed_desc"                                                       "+0.75% к урону за единицу интеллекта от Sky Staff/Force of Star и +0.4% от Torture Pipe 1/2"
-
-      "skill_eternalist"                                                            "Eternalist"
-      "skill_eternalist_desc"                                                       "+90% к урону от Eternal Battle Fury и Eternal Beadies Boomstick"
-
-      "skill_linkens_sphere"                                                        "Linkens Sphere"
-      "skill_linkens_sphere_desc"                                                   "Блокирует любое направленное заклинение с перезарядкой 9 секунд"
-
-      "skill_master_chifu"                                                          "Master Chifu"
-      "skill_master_chifu_desc"                                                     "Каждая атака с шансом 35% наносит 250% критического урона"
-
-      "skill_forrest_gump"                                                          "Forrest Gump"
-      "skill_forrest_gump_desc"                                                     "Убран лимит на скорость передвижения, возможность проходить сквозь препятствия, +200 к скорости передвижения"
-
-      "skill_timeless_souvenir"                                                     "Timeless Souvenir"
-      "skill_timeless_souvenir_desc"                                                "+25% к длительности эффектов, +15% к урону от заклинаний (Не работает если в нейтральном слоте имеется Timeless Relic)"
-
-      "skill_overcharge"                                                            "Overcharge"
-      "skill_overcharge_desc"                                                       "+15% к перезарядке способностей и предметов (Не работает если в нейтральном слоте имеются нейтральные предметы уменьшающие перезарядку)"
-
-      "skill_double_trouble"                                                        "Double Trouble"
-      "skill_double_trouble_desc"                                                   "50% что любая исходящая способность нанесет х1.5 урон"
-
-      "skill_cashback"                                                              "Cashback"
-      "skill_cashback_desc"                                                         "Начисление 50% от стоимости вызванного крипа при выбивании аегиса им у вражеского героя, 100% при окончательной смерти. Дает 0.2% урона заклинаний и 7 урона от атаки за каждое потраченное золото на призыв крипов"
-
-      "skill_second_life"                                                           "Second Life"
-      "skill_second_life_desc"                                                      "После смерти герой возрождается через 5 сек. Перезарядка 5 минут . Отключается на дуэли за 5 секунд до начала берсерка."
-
-      "skill_zoo_director"                                                          "Zoo Director"
-      "skill_zoo_director_desc"                                                     "Купленные крипы имеют на 50% больше здоровья и атаки, 15% сопротивления эффектам и магии, на 15% больше брони и на 15% быстрее передвигаются"
-
-      "skill_multicast"                                                             "Multicast"
-      "skill_multicast_desc"                                                        "50% что использованная способность сработает дважды (если ульт, то 30%) (не работает на предметы)"
-
-      "skill_radioactive"                                                           "Radioactive"
-      "skill_radioactive_desc"                                                      "Огненная аура с уроном 120 в радиусе 600 и дополнительным 130 в радиусе 300"
-
-      "skill_pierce"                                                                "Pierce Master"
-      "skill_pierce_desc"                                                           "30% шанс игнорировать броню цели при атаке"
-
-      "skill_enervation"                                                            "Enervation"
-      "skill_enervation_desc"                                                       "Уменьшает дальность атаки и применения заклинаний врагов на 40% в радиусе 1500"
-
-      "skill_unbreakble"                                                            "Unbreakble"
-      "skill_unbreakble_desc"                                                       "+15% сопротивления эффектам, За каждый отрицательный эффект на герое, вы получаете доп. 7% сопротивления эффектам (макс. 5)"
-
-      "skill_slighting"                                                             "Slighting"
-      "skill_slighting_desc"                                                        "Любой урон меньше 120 не будет нанесен(подсчет урона идет после всех резистов и брони)"
-
-      "skill_overclocking"                                                          "Overclocking"
-      "skill_overclocking_desc"                                                     "За каждые пройденные 100 единиц увеличивается исходящий урон на 1%, но не более чем 30%"
-
-      "skill_fearful"                                                               "Fearful"
-      "skill_fearful_desc"                                                          "Враги в радиусе 500 получают на 30% больше урона (маг/физ)"
-
-      "skill_last_chance"                                                           "Last Chance"
-      "skill_last_chance_desc"                                                      "При получении смертельного урона применяется сильное развеивание и вы уходите в астрал на 5 секунд с 1 хп, где вы неуязвимы к урону и эффектам и можете передвигаться с 50% скоростью, по истечении этого времени вам восстанавливается 50% здоровья(Перезарядка 180 сек.). Отключается на дуэли за 5 секунд до начала берсерка."
-
-      "skill_berserker"                                                             "Berserker"
-      "skill_berserker_desc"                                                        "Исходящий урон увеличен на 40%, но получаемый урон на 15% больше"
-
-      "skill_recovery"                "Recovery"
-        "skill_recovery_desc"           "+40 регенерации здоровья и +15 регенерации маны"
-
-        "skill_dracarys"                "Dracarys"
-        "skill_dracarys_desc"           "Каждая атака поджигает врага на 5 секунд (Работает только на героев). Наносит 30 урона в секунду и замедляет скорость атаки на 20 и скорость передвижения на 10%. Перезарядка 5 сек."
-
-        "skill_acceleration"            "Acceleration"
-        "skill_acceleration_desc"       "За каждую использованную способность получаешь +20 скорости атаки и 10 скорости передвижения. Макс. кол-во эффектов 5. Длительность 10 сек."
-
-        "skill_corrosive"               "Corrosive"
-        "skill_corrosive_desc"          "Каждая атака уменьшает сопротивление магии противника на 3%. Макс. кол-во эффектов 7. Длительность 4 сек."
-
-        "skill_protection"              "Protection"
-        "skill_protection_desc"         "За каждые 30 полученного урона, вы получаете эффект, который дает +3 брони и +3% магического сопротивления. Макс. кол-во эффектов 8. Длительность 10 сек. Перестает обновляться при максимальном количестве эффектов"
-
-        "skill_pilferer"                "Pilferer"
-        "skill_pilferer_desc"           "Дает х4 золота за монеты на дуэли и х3 золота с Bounty руны"
-
-        "skill_rake"                    "Rake"
-        "skill_rake_desc"               "Дает 5% от общей ставки всех игроков на дуэли. Даже если вы не сделали ставку и не участвовали в дуэли"
-
-        "skill_disarmer"                "Disarmer"
-        "skill_disarmer_desc"           "Любое нанесение урона накладывает эффект на противника, которая запрещает ему атаковать (Рабоает только на героев). Длительность 3 сек. Перезарядка 9 сек."
-
-        "skill_breaker"                 "Breaker"
-        "skill_breaker_desc"            "Ваша атака накладывает на противника эффект, который отключает пассивные способности (Рабоает только на героев). Длительность 3 сек. Перезарядка 9 сек."
-
-        "skill_magic_shroud"            "Magic Shroud"
-        "skill_magic_shroud_desc"       "Превращает 20% входящего урона в ману и 10% в здоровье. Если полный запас маны, то 20% урона уходит в здоровье"
-
-        "skill_intimidation"            "Intimidation"
-        "skill_intimidation_desc"       "Накладывает на атакующего вас противника страх (Рабоает только на героев). Длительность 1.5 секунд. Перезарядка 9 сек."
-
-        "skill_wisdom"                  "Wisdom"
-        "skill_wisdom_desc"             "Увеличивает урон заклинаний в зависимости от уровня героя. 1 уровень - 0.2% урона заклинаний"
-
-        "skill_wide_choice"             "Wide Choice"
-        "skill_wide_choice_desc"        "Увеличивает выбор способностей на 2 и дает Book of Paragon"
-
-        "skill_all_inclusive"           "All inclusive"
-        "skill_all_inclusive_desc"      "Выдает все расходники сразу в модификаторы(Gem Shard, Essence of speed, Aghanims Scepter, Aghanim shard, Moon Shard, Dark Moon shard). Если у вас уже есть эти расходники, то просто компенсируется золотом"
-
-        "skill_creephater"              "Creephater"
-        "skill_creephater_desc"         "Дает х10 золота за убийство покупного вражеского крипа, а также х10 золота за первого убитого крипа в каждом раунде"
-
-        "skill_experience_is_gold"      "Experience is gold"
-        "skill_experience_is_gold_desc" "По окончанию раунда дает золото в размере уровня героя * 15"
-
-        "skill_rune_forge"              "Rune Forge"
-        "skill_rune_forge_desc"         "Каждые 15 секунд на вас накладывается эффект одной руны. Длительность 20 секунд."
-
-        "skill_normal_juju"             "Normal Juju"
-        "skill_normal_juju_desc"        "За каждую примененную способность уменьшает время перезарядки всех других способностей на 0.75 секунд. Дополнительно уменьшает на 25% время перезарядки предметов"
-
-        "skill_duelist"                 "Duelist"
-        "skill_duelist_desc"            "Усиливает урон на дуэли по вражескому герою/юнитам на 50%, но уменьшает урон по крипам на 15%"
-
-        "skill_purger"                  "Purger"
-        "skill_purger_desc"             "Аура радиусом 800 увеличивающая время перезарядки способностей и предметов на 20% у противников. Каждые 3 секунды развеивает все положительные эффекты противников в радиусе 500"
-
-        "skill_giants_aura"             "Giants Aura"
-        "skill_giants_aura_desc"        "Аура радиусом 500 уменьшающая сопротивление эффектам до 0 и магическое сопротивление на 20% у противников"
+        "spell_players_spells"                        "Навыки героя"
 
       //=================================================================================================================
       // Раунды
@@ -1152,6 +928,9 @@
       "Round_Roshling"                                                            "Roshling"
       "Round_RandomCreeps"                                                        "Mix Wave"
       "Round_BossWave"                                                            "Boss Wave"
+      "Round_AntiMagic"                                                           "AntiMagic"
+      "Round_AntiWarrior"                                                         "AntiWarrior"
+      "Round_AntiShield"                                                          "AntiShield"
 
       //=================================================================================================================
       // Предметы
@@ -1197,11 +976,22 @@
       "DOTA_Tooltip_modifier_item_wraith_dominator_active_buff"                       "Wraith of Dominator"
       "DOTA_Tooltip_modifier_item_wraith_dominator_active_buff_Description"           "Исходящий урон увеличен на %dMODIFIER_PROPERTY_BONUSDAMAGEOUTGOING_PERCENTAGE%%%"
 
-      
       "DOTA_Tooltip_Ability_item_apex_custom"                 "Apex"
       "DOTA_Tooltip_Ability_item_apex_custom_Lore"            "Этот скипетр объединил в себе три сферы исключительной мощи."
-      "DOTA_Tooltip_Ability_item_apex_custom_Description"     "<h1>Заметка</h1>Универсальные герои получают +20%% ко всем атрибутам"
-      "DOTA_Tooltip_Ability_item_apex_custom_primary_stat"    "%+$primary_attribute"
+      "DOTA_Tooltip_Ability_item_apex_custom_Description"     "<h1>Заметка</h1>Универсальные герои получают +%stats_all% ко всем атрибутам"
+      "DOTA_Tooltip_Ability_item_apex_custom_primary_stat"    "+$primary_attribute"
+      "DOTA_Tooltip_Ability_item_apex_custom_bonus_stats"     "+$all"
+
+      "DOTA_Tooltip_Ability_item_revenants_brooch_custom"                           "Revenant's Brooch"
+      "DOTA_Tooltip_ability_item_revenants_brooch_custom_Description"               "<h1>Активное: Phantom Province</h1>Следующие %number_of_attacks% атак владельца наносят магический урон, снижают сопротивлении магии жертв на %active_mres_reduction%%%, и ими нельзя промахнуться.<br><br> Позволяет атаковать бесплотных существ."
+      "DOTA_Tooltip_ability_item_revenants_brooch_custom_bonus_damage"				"+$damage"
+	  "DOTA_Tooltip_ability_item_revenants_brooch_custom_bonus_spell_lifesteal"     "+$spell_lifesteal"
+
+      "DOTA_Tooltip_modifier_misery_debuff_custom"									"Revenant's Wail"
+	  "DOTA_Tooltip_modifier_misery_debuff_custom_Description"						"Сопротивление магии уменьшено на %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%."
+
+      "DOTA_Tooltip_modifier_item_revenants_brooch_custom_counter"					"Revenant's Brooch"
+	  "DOTA_Tooltip_modifier_item_revenants_brooch_custom_counter_Description"		"Атаками нельзя промахнуться, и они наносят магический урон."
       
       "DOTA_Tooltip_Ability_item_seer_stone_custom"       "Seer Stone"
       "DOTA_Tooltip_ability_item_seer_stone_custom_Description"               "<h1>Активное: Reveal</h1>Даёт обзор по любой области радиусом %radius% на %duration% сек., раскрывая невидимость в ней."
@@ -1217,7 +1007,7 @@
       "DOTA_Tooltip_Ability_item_ex_machina_custom_bonus_armor"          "+$armor"
 
       "DOTA_Tooltip_Ability_item_shivas_guard_2"        "Shiva's Core"
-      "DOTA_Tooltip_ability_item_shivas_guard_2_Description"              "<h1>Активное: Arctic Blast</h1> Выпускает морозную волну, которая наносит противникам %blast_damage% магического урона.<br>Накладывает эффект на %blast_debuff_duration% сек., который снижает скорость передвижения на %blast_movement_speed%%%.<br><br>Радиус: %blast_radius%\n<h1>Пассивное: Freezing Aura</h1>Снижает скорость атаки противников на %aura_attack_speed%, а их лечение, восстановление здоровья и вампиризм — на %hp_regen_degen_aura%%%.<br><br>Радиус: %aura_radius%"
+      "DOTA_Tooltip_ability_item_shivas_guard_2_Description"              "<h1>Активное: Arctic Blast</h1> Выпускает морозную волну, которая наносит противникам %blast_damage% магического урона.<br>Накладывает эффект на %blast_debuff_duration% сек., который снижает скорость передвижения на %blast_movement_speed%%% и увелиивает входящий магический урон на %discord_effect%%%.<br><br>Радиус: %blast_radius%\n<h1>Пассивное: Freezing Aura</h1>Снижает скорость атаки противников на %aura_attack_speed%, а их лечение, восстановление здоровья и вампиризм — на %hp_regen_degen_aura%%%.<br><br>Радиус: %aura_radius%"
       "DOTA_Tooltip_ability_item_shivas_guard_2_Lore"                     "Говорят, когда-то этот артефакт принадлежал богине, и он не теряет былого могущества по сей день."
       "DOTA_Tooltip_ability_item_shivas_guard_2_Note0"                    "Волна распространяется со скоростью в %blast_speed% до максимального размера в %blast_radius%."
       "DOTA_Tooltip_ability_item_shivas_guard_2_Note1"                    "Морозная волна следует за владельцем."
@@ -1370,7 +1160,7 @@
       "DOTA_Tooltip_modifier_item_hellmask_Description"        "Дополнительная броня за убийство крипов увеличена на %fMODIFIER_PROPERTY_TOOLTIP% и урон на %dMODIFIER_PROPERTY_TOOLTIP2%"
 
       "DOTA_Tooltip_Ability_item_smoke_of_deceit_custom"       "Smoke of Deceit"
-      "DOTA_Tooltip_ability_item_smoke_of_deceit_custom_Description"             "<h1>Использование: Disguise</h1> Все подконтрольные игрокам существа и герои в радиусе %application_radius% на %duration% секунд становятся невидимыми, а скорость их передвижения увеличивается на %bonus_movement_speed%%%. <br><br>Если совершить приблизиться к вражескому герою на расстояние в %visibility_radius%, то невидимость раскроется.<br><br>Другие эффекты, раскрывающие невидимость, не действуют.<br><br>Эффект можно моментально остановить нажав CTRL + кнопку отмены действия ( Стандартно CTRL + S )"
+      "DOTA_Tooltip_ability_item_smoke_of_deceit_custom_Description"             "<h1>Использование: Disguise</h1> Все подконтрольные игрокам существа и герои в радиусе %application_radius% на %duration% секунд становятся невидимыми, а скорость их передвижения увеличивается на %bonus_movement_speed%%%. <br><br>Если совершить приблизиться к вражескому герою на расстояние в %visibility_radius%, то невидимость раскроется.<br><br>Другие эффекты, раскрывающие невидимость, не действуют."
       "DOTA_Tooltip_ability_item_smoke_of_deceit_custom_Lore"                 "Единственный достойный вклад волшебника-шарлатана Мирддина в колдовское искусство."
 
       "DOTA_Tooltip_modifier_smoke_of_deceit_cha_custom"          "Smoke of Deceit"
@@ -1381,7 +1171,8 @@
       "DOTA_Tooltip_ability_item_rapier_custom_Note0"                "Если Divine Rapier поднимет враг её первого владельца, то она выпадет только при смерти этого врага."
       "DOTA_Tooltip_ability_item_rapier_custom_Lore"                 "Такому могущественному оружию недостаточно одного владельца."
       "DOTA_Tooltip_ability_item_rapier_custom_bonus_damage"             "+$damage"
-
+      "DOTA_Tooltip_ability_item_rapier_custom_spell_amplify"             "+$spell_amp"
+        
       "DOTA_Tooltip_Ability_item_butterfly_2"            "Butterfly 2"
       "DOTA_Tooltip_ability_item_butterfly_2_Note0"                        "Складывается по закону убывающей полезности с другими источниками уклонения."
       "DOTA_Tooltip_ability_item_butterfly_2_Lore"                      "Этот клинок могут обуздать лишь самые могучие и опытные воины, но владельцу он даёт невероятное проворство в бою."
@@ -1405,7 +1196,7 @@
 
       "DOTA_Tooltip_Ability_item_bfury_3"                            "Eternal Battle Fury"
       "DOTA_Tooltip_Ability_item_recipe_bfury_2"                        "Рецепт: Eternal Battle Fury"
-      "DOTA_Tooltip_ability_item_bfury_3_Description"                   "<h1>Активное: Chop Tree</h1> Срубает выбранное дерево.<br><br>Дальность применения: %abilitycastrange%\n<h1>Пассивное: Quell</h1> Увеличивает урон от атак по существам, не являющимися героями, на %quelling_bonus% для героев ближнего боя и на %quelling_bonus_ranged% — для дальнего. \n<h1>Пассивное: Cleave</h1> Увеличивает Ваш урон по крипам на %bonus_damage_creeps_no_late%%%(на %bonus_damage_creeps_late%%% после 60 волны) и атаки наносят %cleave_damage_percent%%%  урона в радиусе %cleave_radius% вокруг основной цели(только ближний бой)<br><br><font color='#f00'>Отключается истощением</font>"
+      "DOTA_Tooltip_ability_item_bfury_3_Description"                   "<h1>Активное: Chop Tree</h1> Срубает выбранное дерево.<br><br>Дальность применения: %abilitycastrange%\n<h1>Пассивное: Quell</h1> Увеличивает урон от атак по существам, не являющимися героями, на %quelling_bonus% для героев ближнего боя и на %quelling_bonus_ranged% — для дальнего. \n<h1>Пассивное: Cleave</h1> Увеличивает Ваш урон по крипам на %bonus_damage_creeps_no_late%%%(на %bonus_damage_creeps_late%%% после 40 волны) и атаки наносят %cleave_damage_percent%%%  урона в радиусе %cleave_radius% вокруг основной цели(только ближний бой)<br><br><font color='#f00'>Отключается истощением</font>"
       "DOTA_Tooltip_ability_item_bfury_3_Lore"                          "Владелец этого могучего топора может выкашивать врагов целыми рядами."
       "DOTA_Tooltip_ability_item_bfury_3_Note0"                         ""
       "DOTA_Tooltip_ability_item_bfury_3_Note1"                         ""
@@ -1417,10 +1208,13 @@
       "DOTA_Tooltip_ability_item_bfury_3_attack_speed"                  "+$attack"
 
       "DOTA_Tooltip_Ability_item_force_boots_custom"        "Force Boots"
-      "DOTA_Tooltip_ability_item_force_boots_custom_Description"                 "<h1>Активное: Force</h1>Развеивает с владельца отрицательные эффекты и толкает его в направлении взгляда на расстояние в %push_length%.\n<h1>Пассивное: Speed Unlock</h1> Снимает с владельца ограничение на скорость передвижения.\nБонусы к скорости передвижения от нескольких пар ботинок не складываются."
+      "DOTA_Tooltip_ability_item_force_boots_custom_Description"                 "<h1>Активное: Force</h1>Развеивает с владельца отрицательные эффекты, восстанавливает %heal_restore% здоровья, дает барьер на %barrier% урона и толкает его в направлении взгляда на расстояние в %push_length%.\n<h1>Пассивное: Speed Unlock</h1> Снимает с владельца ограничение на скорость передвижения.\nБонусы к скорости передвижения от нескольких пар ботинок не складываются."
       "DOTA_Tooltip_ability_item_force_boots_custom_Lore"         "Неуловимые диковинки, которые никому не удалось исследовать, описать и классифицировать."
       "DOTA_Tooltip_ability_item_force_boots_custom_bonus_movement_speed"        "+$move_speed"
       "DOTA_Tooltip_ability_item_force_boots_custom_hp_regen"                 "+$hp_regen"
+
+      "DOTA_Tooltip_modifier_item_force_boots_custom_barrier"                       "Force Boots"
+      "DOTA_Tooltip_modifier_item_force_boots_custom_barrier_Description"        "Игнорирует входящий урон"
 
       "DOTA_Tooltip_Ability_item_dagon_custom"                                                  "Dagon"
       "DOTA_Tooltip_ability_item_dagon_custom_Description"                                "<h1>Активное: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий магический урон выбранному вражескому существу.<br><br>Отключает <b><font color='#53ea48'>пассивные</font></b> способности выбранной цели на %duration% сек.<br><br>Урон: %damage%<br>Дальность применения: %abilitycastrange%<br>Расход маны: %mana_cost_tooltip%"
@@ -1493,8 +1287,8 @@
        "DOTA_Tooltip_ability_item_bloodstone_2"                             "Bloodstone 2"
       "DOTA_Tooltip_ability_item_bloodstone_2_Description"                 "<h1>Активная: Bloodpact</h1> Превращает %mana_cost_percentage%%% от максимального запаса маны в здоровье в течение %restore_duration% сек.\n <h1>Пассивная: Mana Battery</h1>Каждый заряд увеличивает восстановление маны на %regen_per_charge% и урон от способностей на %amp_per_charge%%%. Изначально предмет имеет %initial_charges_tooltip% зарядов. Получает %kill_charges% заряд за каждое убийство рядом. <br><br> <b> Не теряет заряды при смерти</b>"
       "DOTA_Tooltip_ability_item_bloodstone_2_Lore"                        "Багрянец этого камня легко приметить даже в разгаре битвы: он будто бы наделяет владельца безграничными жизненными и духовными силами."
-      "DOTA_Tooltip_ability_item_bloodstone_2_bonus_health"                "+$health"
-      "DOTA_Tooltip_ability_item_bloodstone_2_bonus_mana"                  "+$mana"
+      "DOTA_Tooltip_ability_item_bloodstone_2_bonus_health_custom"                "+$health"
+      "DOTA_Tooltip_ability_item_bloodstone_2_bonus_mana_custom"                  "+$mana"
       "DOTA_Tooltip_ability_item_bloodstone_2_bonus_intellect"             "+$int" 
       "DOTA_Tooltip_ability_item_bloodstone_2_bonus_health_regen"          "+$hp_regen"
       "DOTA_Tooltip_ability_item_bloodstone_2_spell_amp"                   "%+к урону от заклинаний"
@@ -1502,6 +1296,7 @@
       "DOTA_Tooltip_ability_item_bloodstone_2_creep_lifesteal"             "%+к вампиризму заклинаниями (от крипов)"
       "DOTA_Tooltip_ability_item_bloodstone_2_mana_regen_multiplier"       "%+к усилению восстановления маны"
       "DOTA_Tooltip_ability_item_bloodstone_2_spell_lifesteal_amp"         "%+к усилению вампиризма от заклинаний"
+      "DOTA_Tooltip_ability_item_bloodstone_2_bonus_aoe"						"+$aoe_bonus"
    
       "DOTA_Tooltip_ability_item_ranged_cleave"                       "Replica Rackatee"
       "DOTA_Tooltip_ability_item_ranged_cleave_Description"             "<h1>Пассивное: Scatterblast</h1>ТОЛЬКО ДЛЯ ГЕРОЕВ ДАЛЬНЕГО БОЯ: наносит %cleave_dmg%%% урона от атак противникам в радиусе %cleave_radius% вокруг основной цели"
@@ -1520,7 +1315,7 @@
       "DOTA_Tooltip_ability_item_ranged_cleave_2_lore"                  "Многие задаются вопросом: как бабушка ростом в 4 фута может пережить атаку свирепых зверей Запределья? Ответ прост - чудовищная трехстволка Beatrix, скорее осадное орудие, чем дробовик, которое она называет 'boomstick'."
 
       "DOTA_Tooltip_ability_item_ranged_cleave_3"                       "Eternal Beadie's Boomstick"
-      "DOTA_Tooltip_ability_item_ranged_cleave_3_Description"           "<h1>Пассивная: Eternal Beadie's Boomstick</h1>ТОЛЬКО ДЛЯ ГЕРОЕВ ДАЛЬНЕГО БОЯ: Увеличивает Ваш урон по крипам на %bonus_damage_creeps_no_late%%%(на %bonus_damage_creeps_late%%% после 60 волны) и атаки наносят %cleave_dmg%%% урона в радиусе  %cleave_radius% вокруг основной цели<br><br><font color='#f00'>Отключается истощением</font>"
+      "DOTA_Tooltip_ability_item_ranged_cleave_3_Description"           "<h1>Пассивная: Eternal Beadie's Boomstick</h1>ТОЛЬКО ДЛЯ ГЕРОЕВ ДАЛЬНЕГО БОЯ: Увеличивает Ваш урон по крипам на %bonus_damage_creeps_no_late%%%(на %bonus_damage_creeps_late%%% после 40 волны) и атаки наносят %cleave_dmg%%% урона в радиусе  %cleave_radius% вокруг основной цели<br><br><font color='#f00'>Отключается истощением</font>"
       "DOTA_Tooltip_ability_item_ranged_cleave_3_Note0"                 ""
       "DOTA_Tooltip_ability_item_ranged_cleave_3_bonus_str"             "+$str"
       "DOTA_Tooltip_ability_item_ranged_cleave_3_bonus_agi"             "+$agi"
@@ -1645,7 +1440,6 @@
       //=================================================================================================================
 
       "DOTA_Tooltip_ability_alchemist_goblins_greed_custom"                               "Greevil's Greed (Heroic)"
-      "DOTA_Tooltip_ability_alchemist_goblins_greed_custom_abilitydraft_note"             "В этом режиме возможность расплавить Aghanim's Scepter, чтобы передать союзному герою все его улучшения, привязана к способности Greevil's Greed, а не Chemical Rage. Сам предмет дарует герою дополнительный урон от атак и заклинаний за каждый расплавленный для союзников Aghanim's Scepter."
       "DOTA_Tooltip_ability_alchemist_goblins_greed_custom_Description"                  "Активная способность создает руну Богатства. Дополнительное золото за убийство существ состоит из начального бонуса и нарастающего, который увеличивается с каждым существом, убитым после предыдущего. Также способность умножает золото от рун богатства."
       "DOTA_Tooltip_ability_alchemist_goblins_greed_custom_Lore"                          "Пускай эксперимент с горой и не удался, зато структуры поменьше Раззил легко обращает в звонкую монету."
       "DOTA_Tooltip_ability_alchemist_goblins_greed_custom_bonus_gold"                    "НАЧАЛЬНЫЙ БОНУС:"
@@ -1719,6 +1513,7 @@
 
       "DOTA_Tooltip_ability_beastmaster_primal_roar_shard_description"           ""
       "DOTA_Tooltip_ability_beastmaster_call_of_the_wild_boar_ability_note"      "<font color='#B694FF'>Summon power</font> влияет на эту способность с <font color='#B694FF'>180% эффективностью</font>"
+      "DOTA_Tooltip_ability_beastmaster_wild_axes_scepter_description"           ""
 
       //=================================================================================================================
       // Brewmaster
@@ -1729,6 +1524,23 @@
       //=================================================================================================================
       // Bristleback
       //=================================================================================================================
+
+      "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom"					"Viscous Nasal Goo"
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_Description"		"Обильно сморкается на жертву, снижая её броню и скорость передвижения. Эффекты способности складываются, а время действия обновляется с каждым её применением."
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_shard_description"		"Увеличивает максимум эффектов на %bonus_stack_limit%."
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_Lore"				"Простуду, подхваченную в снегах, Ригварл делает своим преимуществом."
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_goo_duration"		"ДЛИТЕЛЬНОСТЬ:"
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_base_armor"	"БАЗОВОЕ СНИЖЕНИЕ БРОНИ:"
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_armor_per_stack"	"СНИЖЕНИЕ БРОНИ ЗА ЭФФЕКТ:"
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_base_move_slow"		"%БАЗОВОЕ ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ:"
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_move_slow_per_stack"	"%ЗАМЕДЛЕНИЕ ЗА ЭФФЕКТ:"
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_stack_limit"		"МАКСИМУМ ЭФФЕКТОВ:"
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_radius_scepter"		 "РАДИУС:"
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_stack_limit_scepter"		 "МАКСИМУМ ЭФФЕКТОВ:"
+	  "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_abilitycastrange"		 "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:"
+
+      "DOTA_Tooltip_modifier_bristleback_viscous_nasal_goo_custom"				"Viscous Nasal Goo"
+	  "DOTA_Tooltip_modifier_bristleback_viscous_nasal_goo_custom_Description"	"Теряет %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% брони и замедляется на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
 
       //=================================================================================================================
       // Centaur
@@ -1803,7 +1615,6 @@
       "DOTA_Tooltip_ability_dragon_knight_elder_dragon_form_custom_duration"              "ДЛИТЕЛЬНОСТЬ:"
       "DOTA_Tooltip_ability_dragon_knight_elder_dragon_form_custom_bonus_movement_speed"     "ДОП. СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:"
       "DOTA_Tooltip_ability_dragon_knight_elder_dragon_form_custom_bonus_attack_range"    "ДОП. ДАЛЬНОСТЬ АТАКИ:"
-      "DOTA_Tooltip_ability_dragon_knight_elder_dragon_form_custom_abilitydraft_note"     "Aghanim's Shard: даёт способность Fireball."
 
       "DOTA_Tooltip_modifier_dragon_knight_elder_dragon_form_custom_frost"             "Замедление от леденящей атаки"
       "DOTA_Tooltip_modifier_dragon_knight_elder_dragon_form_custom_frost_Description"    "Скорость передвижения уменьшена на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%, скорость атаки уменьшена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%."
@@ -1885,7 +1696,7 @@
       "DOTA_Tooltip_ability_custom_legion_commander_duel_scepter_cooldown_reduction"      "УМЕНЬШЕНИЕ ПЕРЕЗАРЯДКИ:"
       "DOTA_Tooltip_ability_custom_legion_commander_duel_scepter_damage_reduction_pct"    "%СНИЖЕНИЕ УРОНА:"
       "DOTA_Tooltip_ability_custom_legion_commander_duel_ability_note"      "Можно применять на <font color='#B694FF'>крипов.</font>"
-      "DOTA_Tooltip_ability_custom_legion_commander_duel_shard_description"  ""
+      "DOTA_Tooltip_ability_custom_legion_commander_duel_shard_description"			"Увеличивает на %shard_duel_damage_bonus% урон за каждую победу с начала игры."
 
       "DOTA_Tooltip_modifier_duel_buff"                     "Duel"
       "DOTA_Tooltip_modifier_duel_buff_Description"            "Не выходит из дуэли, пока та не закончится или не умрет противник."
@@ -2274,7 +2085,7 @@
       // Bounty hunter
       //=================================================================================================================
 
-      "DOTA_Tooltip_ability_bounty_hunter_track_abilitydraft_note"              "Работает на крипов"
+
       "DOTA_Tooltip_ability_bounty_hunter_track_shard_description"              ""
       "DOTA_Tooltip_ability_bounty_hunter_wind_walk_shard_description"          "Заменяет перезарядку 2 зарядами, которые восстанавливаются %AbilityChargeRestoreTime% сек., и позволяет применять эту способность на союзных героев, не выходя из невидимости. Задержка до невидимости на союзниках — %ally_fade_time% сек."
 
@@ -2356,10 +2167,8 @@
       "DOTA_Tooltip_ability_drow_ranger_trueshot_lua_trueshot_ranged_damage"     "%ДОПОЛНИТЕЛЬНЫЙ УРОН:"
       "DOTA_Tooltip_ability_drow_ranger_trueshot_lua_radius"                  "РАДИУС:"
       
-      "DOTA_Tooltip_ability_drow_ranger_marksmanship_custom_ability_note"                   "Только эффект <font color='#B694FF'>Скипетра Аганима</font> <font color='#B694FF'>Marksmanship</font> работает на героев <font color='#B694FF'>ближнего боя</font>.<br>Аура бонуса ловкости эффект от<font color='#B694FF'>Marksmanship</font> не работает для <font color='#B694FF'>ближних героев</font>."
       "DOTA_Tooltip_ability_drow_ranger_marksmanship_custom"                           "Marksmanship"
       "DOTA_Tooltip_ability_drow_ranger_marksmanship_custom_Description"                  "Опыт в бою позволяет герою стрелять метче и эффективнее. С каждой атакой есть вероятность выпустить стрелу, игнорирующую базовую броню врага. Также даёт герою и союзникам дальнего боя неподалёку дополнительную ловкость, зависящую от ловкости владельца. Способность не действует, если в радиусе %disable_range% от её владельца есть вражеские герои."
-      "DOTA_Tooltip_ability_drow_ranger_marksmanship_custom_scepter_Description"          "Стрелы героя разделяются при попадании, нанося урон случайным существам вокруг цели. Каждая такая стрела считается обычной атакой, но наносит уменьшенный урон."
       "DOTA_Tooltip_ability_drow_ranger_marksmanship_custom_split_count_scepter"          "ДОП. СТРЕЛ:"
       "DOTA_Tooltip_ability_drow_ranger_marksmanship_custom_damage_reduction_scepter"     "%СНИЖЕНИЕ УРОНА СТРЕЛ:"
       "DOTA_Tooltip_ability_drow_ranger_marksmanship_custom_Lore"                   "Траксекс — воплощение мастерства стрельбы из лука."
@@ -2400,7 +2209,6 @@
       "DOTA_Tooltip_ability_faceless_void_time_lock_custom_Description"                "Атака может остановить время для вражеского существа, отчего оно получает ещё один удар."
       "DOTA_Tooltip_ability_faceless_void_time_lock_custom_Lore"                       "Удары Дарктеррора способны выбить противника в другое измерение."
       "DOTA_Tooltip_ability_faceless_void_time_lock_custom_Note1"                   "Не сочетается с эффектом от предмета Skull Basher."
-      "DOTA_Tooltip_ability_faceless_void_time_lock_custom_abilitydraft_note"          "В этом режиме эффект <b>сочетается</b> с предметом Skull Basher."
       "DOTA_Tooltip_ability_faceless_void_time_lock_custom_chance_pct"                 "%ШАНС:"
       "DOTA_Tooltip_ability_faceless_void_time_lock_custom_duration"                   "ДЛИТЕЛЬНОСТЬ:"
       "DOTA_Tooltip_ability_faceless_void_time_lock_custom_bonus_damage"                  "ДОПОЛНИТЕЛЬНЫЙ УРОН:"
@@ -2472,6 +2280,7 @@
       "DOTA_Tooltip_ability_lone_druid_true_form_custom_base_attack_time"                "БАЗОВЫЙ ИНТЕРВАЛ АТАК:"
       "DOTA_Tooltip_ability_lone_druid_true_form_custom_duration"                        "ДЛИТЕЛЬНОСТЬ:"
       "DOTA_Tooltip_ability_lone_druid_true_form_custom_transformation_time"             "ВРЕМЯ ПРЕВРАЩЕНИЯ:"
+      "DOTA_Tooltip_ability_lone_druid_true_form_custom_scepter_description"             "Делает способность переключаемой. Герой может проходить сквозь препятствия. Длительность способности бесконечная"
 
       "DOTA_Tooltip_ability_lone_druid_spirit_bear_ability_note"                         "<font color='#B694FF'>Summon power</font> влияет на эту способность с <font color='#B694FF'>100% эффективностью</font>"
 
@@ -2791,7 +2600,6 @@
 
       "DOTA_Tooltip_ability_custom_terrorblade_metamorphosis"                             "Metamorphosis (Heroic)"
       "DOTA_Tooltip_ability_custom_terrorblade_metamorphosis_Description"                 "Герой и все его иллюзии в радиусе %metamorph_aura_tooltip% превращаются в могущественных демонов, сражающихся в дальнем бою."
-      "DOTA_Tooltip_ability_custom_terrorblade_metamorphosis_abilitydraft_note"           "<span class=\"ADBlue\">Aghanim's Scepter:</span> способность <span class=\"ADWhite\"><b>Terror Wave</b></span> появляется при включении автоматического применения <span class=\"ADWhite\"><b>Metamorphosis</b></span>."
       "DOTA_Tooltip_ability_custom_terrorblade_metamorphosis_Lore"                        "Тише, тише. Ярость вскипает и берёт контроль над демоном, делая его ещё страшнее."
       "DOTA_Tooltip_ability_custom_terrorblade_metamorphosis_duration"                    "ДЛИТЕЛЬНОСТЬ:"
       "DOTA_Tooltip_ability_custom_terrorblade_metamorphosis_transformation_time"         "ВРЕМЯ ТРАНСФОРМАЦИИ:"
@@ -3392,7 +3200,6 @@
 
       "DOTA_Tooltip_ability_necrolyte_sadist_custom"                                                               "Ghost Shroud"
       "DOTA_Tooltip_ability_necrolyte_sadist_custom_Description"                                             "Герой открывает связь с миром усопших, замедляя врагов вокруг. В этом облике он не может атаковать, получает повышенный магический урон, но защищён от физических атак и быстрее восстанавливает свои здоровье и ману."
-      "DOTA_Tooltip_ability_necrolyte_sadist_custom_abilitydraft_note"                                 "Эффект перестаёт действовать, если применить заклинание, дающее невосприимчивость к магии (например, Blade Fury или Rage)"
       "DOTA_Tooltip_ability_necrolyte_sadist_custom_scepter_description"                               "Уменьшает перезарядку."
       "DOTA_Tooltip_ability_necrolyte_sadist_custom_Lore"                                                    "Душами своих жертв Ротунд'йер стирает грань между жизнью и смертью."
       "DOTA_Tooltip_ability_necrolyte_sadist_custom_duration"                                                "ДЛИТЕЛЬНОСТЬ:"
@@ -3780,8 +3587,20 @@
       // Witch doctor
       //=================================================================================================================
 
-      "DOTA_Tooltip_ability_witch_doctor_maledict_ability_note"         "Можно использовать на <font color='#B694FF'>крипов</font>."
+      "DOTA_Tooltip_ability_witch_doctor_maledict_custom_ability_note"         "Можно использовать на <font color='#B694FF'>крипов</font>."
       "DOTA_Tooltip_ability_witch_doctor_voodoo_restoration_ability_note"         "Если изучить талант на 1.5% от максимального здоровья, то Torture Pipe и Sky Staff перестают работать на эту способность"
+
+        "DOTA_Tooltip_ability_witch_doctor_maledict_custom"										"Maledict"
+	    "DOTA_Tooltip_ability_witch_doctor_maledict_custom_Description"							"Накладывает сглаз на всех вражеских героев в небольшой области, после чего они получают урон каждую секунду. Помимо этого, каждые 4 секунды им наносится периодический урон, зависящий от количества здоровья, потерянного с наложения сглаза."
+	    "DOTA_Tooltip_ability_witch_doctor_maledict_custom_radius"								"РАДИУС:"
+	    "DOTA_Tooltip_ability_witch_doctor_maledict_custom_damage"								"УРОН:"
+	    "DOTA_Tooltip_ability_witch_doctor_maledict_custom_bonus_damage"						"%УРОН ОТ ПОТЕРЯННОГО ЗДОРОВЬЯ:"
+	    "DOTA_Tooltip_ability_witch_doctor_maledict_custom_duration"							"ДЛИТЕЛЬНОСТЬ:"
+	    "DOTA_Tooltip_ability_witch_doctor_maledict_custom_Lore"								"Некоторые заклятия вуду способны заставить врага жалеть о том, что он повстречался с Жарвакко."
+	    "DOTA_Tooltip_ability_witch_doctor_maledict_custom_Note0"								"Если у жертвы больше здоровья, чем на момент произнесения этого заклинания, периодического урона не будет."
+
+        "DOTA_Tooltip_modifier_witch_doctor_maledict_custom"									"Maledict"
+		"DOTA_Tooltip_modifier_witch_doctor_maledict_custom_Description"						"Получает периодический урон, а также каждые 4 секунды получает дополнительный урон, основанный на том, сколько здоровья было потеряно с момента наложения сглаза."
 
       //=================================================================================================================
       // Zuus
@@ -4016,7 +3835,7 @@
       "DOTA_Tooltip_ability_item_extra_creature_explode_spider_Description"      "<h1>Используемая: Призвать</h1>Призывает в следующем раунде всем врагам - Baneling"
 
       "DOTA_Tooltip_ability_item_extra_creature_ogreseal"                        "Ogre Seal"
-      "DOTA_Tooltip_ability_item_extra_creature_ogreseal_Description"            "<h1>Используемая: Призвать</h1>Призывает в следующем раунде всем врагам - Ogre Seal. <font color='#e03e2e'>Доступен с 80 волны</font>"
+      "DOTA_Tooltip_ability_item_extra_creature_ogreseal_Description"            "<h1>Используемая: Призвать</h1>Призывает в следующем раунде всем врагам - Ogre Seal"
 
       "aviable_70_round"                                                         "Доступен с 80 волны"
       "aviable_70_round_old"                                                         "Доступен с 70 волны"
@@ -4104,69 +3923,14 @@
       "SkillSelection_Hide"         "Скрыть"
       "for_battlepass_skill"        "Доступен игрокам с Battlepass уровень 3"
 
-      "DOTA_Tooltip_modifier_skill_armorless_debuff"                                      "Armorless"
-      "DOTA_Tooltip_modifier_skill_armorless_debuff_Description"                          "Броня уменьшена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
-
-      "DOTA_Tooltip_modifier_skill_ceremonius_debuff"                                      "Ceremonius"
-      "DOTA_Tooltip_modifier_skill_ceremonius_debuff_Description"                          "Сопротивление к магии уменьшено на %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%% и сопротивление эффектам на %dMODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING%%%"
-
-      "DOTA_Tooltip_modifier_skill_deceleration_debuff"                                      "Deceleration"
-      "DOTA_Tooltip_modifier_skill_deceleration_debuff_Description"                          "Скорость атаки уменьшена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% и скорость передвижения на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT%"
-
-      "DOTA_Tooltip_modifier_skill_mage_slayer_debuff"                                      "Mage Slayer"
-      "DOTA_Tooltip_modifier_skill_mage_slayer_debuff_Description"                          "Урон способностей уменьшен на %dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%%"
-
-      "DOTA_Tooltip_modifier_skill_slackening_debuff"                                      "Slackening"
-      "DOTA_Tooltip_modifier_skill_slackening_debuff_Description"                          "Вся регенерация уменьшена на %dMODIFIER_PROPERTY_HP_REGEN_AMPLIFY_PERCENTAGE%%%"
-
-      "DOTA_Tooltip_modifier_skill_reducer_debuff"                                      "Reducer"
-      "DOTA_Tooltip_modifier_skill_reducer_debuff_Description"                          "Исходящий базовый урон уменьшен на %dMODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE%%%"
-
-      "DOTA_Tooltip_modifier_skill_radioactive_debuff"                                      "Radioactive"
-      "DOTA_Tooltip_modifier_skill_radioactive_debuff_Description"                          "Получает урон"
-
-      "DOTA_Tooltip_modifier_skill_enervation_debuff"                                      "Enervation"
-      "DOTA_Tooltip_modifier_skill_enervation_debuff_Description"                          "Дополнительная дальность заклинаний уменьшена на 50%%%"
-
-      "DOTA_Tooltip_modifier_skill_fearful_debuff"                                      "Fearful"
-      "DOTA_Tooltip_modifier_skill_fearful_debuff_Description"                          "Входящий физический и магический урон увеличен на 40%%%"
-
-      "DOTA_Tooltip_modifier_skill_last_chance_buff"                                      "Last chance"
-      "DOTA_Tooltip_modifier_skill_last_chance_buff_Description"                          "Неуязвим. Передвигается на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%% быстрее и после окончания эффекта восстановит 50% здоровья"
-
       "error_reroll_neutral_1"            "В нейтральном слоте предмет не имеет 5 Tier"
       "error_reroll_neutral_2"            "В нейтральном слоте нет предмета"
 
       "DOTA_Tooltip_Ability_item_reroll_neutral_book"               "Neutral Book"
       "DOTA_Tooltip_ability_item_reroll_neutral_book_Description"   "<h1>Активное: Reroll</h1>Заменяет текущий предмет в нейтральном слоте Tier 5, на другой Tier 5. <br><br> Предмет можно купить один раз и покупка будет доступна после 50 волны"
 
-      "DOTA_Tooltip_modifier_skill_overclocking"                                      "Overclocking"
-      "DOTA_Tooltip_modifier_skill_overclocking_Description"                          "Дополнительный исходящий урон"
-
-      "DOTA_Tooltip_modifier_skill_unbreakble"                                            "Unbreakble"
-      "DOTA_Tooltip_modifier_skill_unbreakble_Description"                                "Дополнительное сопротивление эффектам"
-
-      "DOTA_Tooltip_modifier_skill_zoo_director_buff"                                            "Zoo Director"
-      "DOTA_Tooltip_modifier_skill_zoo_director_buff_Description"                                "Здоровье увеличено на 50%%, атака на 50%%, скорость передвижения и размер модели на 10%%, сопротивление магии на 15%%, сопротивление эффектам на 15%%, броня на 15%%"
-
-
-      "DOTA_Tooltip_modifier_skill_second_life_cooldown"                                           "Перезарядка Second Life"
-      "DOTA_Tooltip_modifier_skill_last_chance_cooldown"                                           "Перезарядка Last Chance"
-      "DOTA_Tooltip_modifier_skill_goldstealer_cooldown"                                           "Перезарядка GoldStealer"
-      "DOTA_Tooltip_modifier_skill_goldgainer_cooldown"                                            "Перезарядка GoldGainer"
-      "DOTA_Tooltip_modifier_skill_linkens_sphere_cooldown"                                        "Перезарядка Linkens Sphere"
-
-      "DOTA_Tooltip_modifier_skill_armor_investor"                                        "Warrior Investor"
-      "DOTA_Tooltip_modifier_skill_armor_investor_Description"                            "Броня увеличена на %dMODIFIER_PROPERTY_TOOLTIP%"
-
-      "DOTA_Tooltip_modifier_skill_damage_investor"                                       "Warrior Investor"
-      "DOTA_Tooltip_modifier_skill_damage_investor_Description"                           "Урон увеличен на %dMODIFIER_PROPERTY_TOOLTIP%"
-
-      "DOTA_Tooltip_modifier_skill_magic_investor"                                        "Magic Investor"
-      "DOTA_Tooltip_modifier_skill_magic_investor_Description"                            "Магический урон увеличен на %dMODIFIER_PROPERTY_TOOLTIP%%%"
-
       "DOTA_Tooltip_Ability_item_ninja_gear_custom"          "Ninja Gear"
-      "DOTA_Tooltip_Ability_item_ninja_gear_custom_Description"          "<h1>Активное: Solitary Disguise</h1> Применяет на владельца эффект предмета Smoke of Deceit. Длительность %duration% секунд"
+      "DOTA_Tooltip_Ability_item_ninja_gear_custom_Description"          "<h1>Активное: Solitary Disguise</h1> Применяет на владельца эффект предмета Smoke of Deceit. Длительность %duration% секунд\n<h1>Примечание</h1>Атаки не сбивает невидимость"
       "DOTA_Tooltip_Ability_item_ninja_gear_custom_Lore"           "Ценное обмундирование, найденное юным исследователем в обломках и развалинах, парящих в бесконечной пустоте."
       "DOTA_Tooltip_Ability_item_ninja_gear_custom_bonus_agility"        "+$agi"
       "DOTA_Tooltip_Ability_item_ninja_gear_custom_passive_movement_bonus"           "+$move_speed"
@@ -4224,6 +3988,7 @@
     "DOTA_Tooltip_ability_riki_backstab_custom_Description"                                 "Герой уходит в тень, становясь невидимым. Каждая его атака наносит дополнительный урон, который зависит от ловкости и удавивается по существам, не являющимся героями. При совершении атаки невидимость пропадает."
     "DOTA_Tooltip_ability_riki_backstab_custom_damage_multiplier"                           "УРОН ЗА ЕДИНИЦУ ЛОВКОСТИ:"
     "DOTA_Tooltip_ability_riki_backstab_custom_fade_delay"                                  "ЗАДЕРЖКА ДО НЕВИДИМОСТИ:"
+    "DOTA_Tooltip_ability_riki_backstab_custom_agility_percent"                             "%ДОП. ЛОВКОСТЬ:"
     "DOTA_Tooltip_ability_riki_backstab_custom_Lore"                                        "Рики идёт за тобой."
 
     "DOTA_Tooltip_ability_naga_siren_song_of_the_siren_custom"                              "Song of the Siren (Heroic)"
@@ -4485,7 +4250,6 @@
     "DOTA_Tooltip_ability_doom_bringer_devour_custom_Description"                           "Пожирает вражеского или нейтрального крипа, перенимая его способности и получая дополнительную броню на время, пока он переваривается. Если автоматическое применение выключено, способности не перенимаются. Длительность действия равна времени перезарядки способности."
     "DOTA_Tooltip_ability_doom_bringer_devour_custom_ability_note"                                 "Золото от способности можно получить 3 раза за раунд"
     "DOTA_Tooltip_ability_doom_bringer_devour_custom_shard_description"                     ""
-    "DOTA_Tooltip_ability_doom_bringer_devour_custom_abilitydraft_note"                     "В этом режиме герой получает только пассивные способности сожранных нейтральных крипов. Способность Rearm <b>не</b> действует на перезарядку Devour."
     "DOTA_Tooltip_ability_doom_bringer_devour_custom_Lore"                                  "Обжорство и жадность Люцифера неистощимы."
     "DOTA_Tooltip_ability_doom_bringer_devour_custom_Note0"                                 "За сожранного крипа даётся не только дополнительное золото, но и награда за его убийство."
     "DOTA_Tooltip_ability_doom_bringer_devour_custom_Note1"                                 "Если применить на крипа без способностей, перенятые ранее способности сохранятся."
@@ -4505,7 +4269,6 @@
 
     "DOTA_Tooltip_ability_nevermore_shadowraze2_custom"                                    "Shadowraze"
     "DOTA_Tooltip_ability_nevermore_shadowraze2_custom_Description"                        "Герой опустошает участок земли неподалёку от себя, нанося урон всем врагам в зоне действия. Накладывает на жертву складывающийся эффект, с каждым попаданием способности Shadowraze увеличивающий урон от неё и замедляющий передвижение жертвы."
-    "DOTA_Tooltip_ability_nevermore_shadowraze2_custom_abilitydraft_note"                  "Способность имеет только среднюю дальность, но перезарядка заменена 3 зарядами."
     "DOTA_Tooltip_ability_nevermore_shadowraze2_custom_Lore"                               "Фирменный метод сбора душ."
     "DOTA_Tooltip_ability_nevermore_shadowraze2_custom_Note0"                              "Длительность эффекта обновляется при каждом наложении."
     "DOTA_Tooltip_ability_nevermore_shadowraze2_custom_shadowraze_range"                   "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:"
@@ -4586,42 +4349,6 @@
     "DOTA_Tooltip_ability_nevermore_shadowraze3_custom_ability_note"                        "Имеет несколько зарядов, но тратятся сразу на всех ShadowRaze"
     "DOTA_Tooltip_ability_tidehunter_arm_of_the_deep_custom_ability_note"                   "Работает без способности Ravage"
     
-    "skill_masters_gift"                                                                    "Master's Gift"
-    "skill_masters_gift_desc"                                                               "+25 неосновных аттрибутов. Универсальные герои получают +15 ко всем атрибутам"
-
-    "skill_magic_resist"                                                                    "Magic Resist"
-    "skill_magic_resist_desc"                                                               "+15% магического сопротивления"
-
-    "skill_retraining"                                                                      "Retraining"
-    "skill_retraining_desc"                                                                 "Каждые 5 раундов Вам дает книгу переобучения. Не дает, если вы входите в топ 2 лучших по нетворсу"
-
-    "skill_outsiders"                                                                       "Outsiders"
-    "skill_outsiders_desc"                                                                  "Последние 4 места по нетворсу получают дополнительно +100 золота за убийство крипа"
-
-    "skill_true_strike"                                                                     "True Strike"
-    "skill_true_strike_desc"                                                                "80% игнорировать уклонение цели"
-
-    "skill_kraken_shell"                                                                    "Kraken Shell"
-    "skill_kraken_shell_desc"                                                               "При получении урона в 1000 единиц, развеиваются все негативные эффекты и дается +15% сопротивление магии и эффектам на 5 сек (Перезарядка 12 секунд) (Отключается истощением)"
-
-    "skill_soul_cleanse"                                                                    "Soul Cleanse"
-    "skill_soul_cleanse_desc"                                                               "каждые 5 секунд с вас очищает все отрицательные эффекты"
-
-    "skill_rearm"                                                                           "Rearm"
-    "skill_rearm_desc"                                                                      "25% шанс что использованная способность сбросит перезарядку, ультимативная способность - 15% шанс"
-
-    "skill_fervor"                                                                          "Fervor"
-    "skill_fervor_desc"                                                                     "Каждая атака увеличивает ваш исходящий урон на 3.5% (максимум 12 стаков). При смене цели атаки, теряется 50% стаков"
-
-    "skill_block_shield"                                                                    "Block Shield"
-    "skill_block_shield_desc"                                                               "Блокирует 25% всего входящего урона"
-
-    "DOTA_Tooltip_modifier_skill_kraken_shell_buff"                                         "Навык Kraken Shell"
-    "DOTA_Tooltip_modifier_skill_kraken_shell_buff_Description"                             "Сопротивление магии увеличено на %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%%, сопротивление эффектам увеличено %dMODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING%%%"
-
-    "DOTA_Tooltip_modifier_skill_kraken_shell_buff_cooldown"                                "Навык Kraken Shell"
-    "DOTA_Tooltip_modifier_skill_kraken_shell_buff_cooldown_Description"                    "Перезарядка"
-
     "npc_dota_stranger"                                                                     "Stranger"
     "npc_dota_teleport_base_custom_red"                                                     "Портал"
     "npc_dota_teleport_base_custom_blue"                                                    "Портал"
@@ -4677,9 +4404,6 @@
 
     "DOTA_Tooltip_modifier_spectre_dispersion_custom_active"                            "Dispersion"
 
-    "DOTA_Tooltip_modifier_skill_fervor"                 "Fervor"
-    "DOTA_Tooltip_modifier_skill_fervor_description"     "Исходящий урон увеличен на %dMODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE%%%"
-
     "ban_duel_info_1"                                     "322 Запрещено"
     "ban_duel_info_2"                                     "Запрещено нарочно поддаваться друг другу с целью джекпота или перелива денег другим игрокам. Данные действия наказуемы, репорты отправляйте в наш дискорд-канал"
 
@@ -4704,6 +4428,7 @@
 	"DOTA_Tooltip_ability_item_giants_ring_custom_Lore"						        "Ценное приобретение довольно непримечательного правителя Эльзе, который отрёкся от своего престола и исчез."
 	"DOTA_Tooltip_ability_item_giants_ring_custom_bonus_strength"					"+$str"
 	"DOTA_Tooltip_ability_item_giants_ring_custom_movement_speed"					"+$move_speed"
+    "DOTA_Tooltip_ability_item_giants_ring_custom_status_resistance"				"%+$status_resist"
 	"DOTA_Tooltip_ability_item_giants_ring_custom_model_scale"						"%+к размеру модели"
 
     "wrong_item" "Это чужой предмет"
@@ -4813,15 +4538,6 @@
     "DOTA_Tooltip_modifier_cashback_creep_count"                                        "Cashback"
     "DOTA_Tooltip_modifier_cashback_creep_count_Description"                            "Урон от атак увеличен на %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% и урон заклинаний увеличен на %dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%%"
 
-    "DOTA_Tooltip_modifier_skill_berserker_debuff"                                      "Berserker"
-    "DOTA_Tooltip_modifier_skill_berserker_debuff_Description"                          "Входящий урон увеличен на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
-
-    "DOTA_Tooltip_modifier_skill_fervor_debuff"                                         "Fervor"
-    "DOTA_Tooltip_modifier_skill_fervor_debuff_Description"                             "Входящий урон увеличен на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
-
-    "DOTA_Tooltip_modifier_skill_overclocking_debuff"                                   "Overclocking"
-    "DOTA_Tooltip_modifier_skill_overclocking_debuff_Description"                       "Входящий урон увеличен на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
-
     "DOTA_Tooltip_ability_item_book_of_strength_custom"                "Книга Силы"
     "DOTA_Tooltip_ability_item_book_of_strength_custom_Description"       "Навсегда повышает Силу на 3"
     "DOTA_Tooltip_ability_item_book_of_agility_custom"                    "Книга Ловкости"
@@ -4832,48 +4548,6 @@
     "DOTA_Tooltip_modifier_attributes_book_custom"                                      "Книги Атрибутов"
     "DOTA_Tooltip_modifier_attributes_book_custom_Description"                          "Сила увеличена на %dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS%<br>Ловкость увеличена на %dMODIFIER_PROPERTY_STATS_AGILITY_BONUS%<br>Интеллект увеличена на %dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS%"
 
-    "DOTA_Tooltip_modifier_skill_acceleration_buff"                 "Acceleration"
-    "DOTA_Tooltip_modifier_skill_acceleration_buff_description"     "Скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% и скорость передвижения на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT%"
-
-    "DOTA_Tooltip_modifier_skill_breaker_debuff"                 "Breaker"
-    "DOTA_Tooltip_modifier_skill_breaker_debuff_description"     "Отключены пассивные способности"
-
-    "DOTA_Tooltip_modifier_skill_corrosive_debuff"                 "Corrosive"
-    "DOTA_Tooltip_modifier_skill_corrosive_debuff_description"     "Сопротивление к магии уменьшено на %dMODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING%%%"
-
-    "DOTA_Tooltip_modifier_skill_disarmer_debuff"                 "Disarmer"
-    "DOTA_Tooltip_modifier_skill_disarmer_debuff_description"     "Не может атаковать"
-
-    "DOTA_Tooltip_modifier_skill_dracarys_debuff"                 "Dracarys"
-    "DOTA_Tooltip_modifier_skill_dracarys_debuff_description"     "Скорость атаки уменьшена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% и скорость передвижения на %MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%"
-
-    "DOTA_Tooltip_modifier_skill_duelist_debuff"                 "Duelist"
-    "DOTA_Tooltip_modifier_skill_duelist_debuff_description"     "Входящий урон увеличен на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
-
-    "DOTA_Tooltip_modifier_skill_giants_aura_debuff"                 "Giants Aura"
-    "DOTA_Tooltip_modifier_skill_giants_aura_debuff_description"     "Сопротивление эффектам уменьшено до 0 и сопротивление магии уменьшено на %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_DIRECT_MODIFICATION%%%"
-
-    "DOTA_Tooltip_modifier_skill_protection_buff"                 "Protection"
-    "DOTA_Tooltip_modifier_skill_protection_buff_description"     "Броня увеличена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% и сопротивление к магии на %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%%"
-
-    "DOTA_Tooltip_modifier_skill_purger_debuff"                 "Purger"
-    "DOTA_Tooltip_modifier_skill_purger_debuff_description"     "Перезарядки способностей и предметов увеличены на %dMODIFIER_PROPERTY_COOLDOWN_PERCENTAGE%%%"
-
-    "DOTA_Tooltip_modifier_skill_wisdom"                 "Wisdom"
-    "DOTA_Tooltip_modifier_skill_wisdom_description"     "Урон от заклинаний увеличен на %dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%%"
-
-    "DOTA_Tooltip_modifier_skill_overclocking_debuff"                 "Duelist"
-    "DOTA_Tooltip_modifier_skill_overclocking_debuff_description"     "Входящий урон увеличен на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
-
-    "DOTA_Tooltip_modifier_skill_fervor_debuff"                 "Duelist"
-    "DOTA_Tooltip_modifier_skill_fervor_debuff_description"     "Входящий урон увеличен на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
-
-    "DOTA_Tooltip_modifier_skill_berserker_debuff"                 "Duelist"
-    "DOTA_Tooltip_modifier_skill_berserker_debuff_description"     "Входящий урон увеличен на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
-
-    "DOTA_Tooltip_modifier_skill_fearful_debuff"                 "Duelist"
-    "DOTA_Tooltip_modifier_skill_fearful_debuff_description"     "Входящий урон увеличен на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
-
     "DOTA_Tooltip_ability_abyssal_underlord_atrophy_aura_bonus_damage_from_creep"	        ""
     "DOTA_Tooltip_ability_abyssal_underlord_atrophy_aura_bonus_damage_from_creep_unique"	"ДОП. УРОН ЗА КРИПА НАВСЕГДА:"
     "DOTA_Tooltip_ability_centaur_return_damage_block"	                                    "%УМЕНЬШЕНИЕ ВХОДЯЩЕГО УРОНА:"
@@ -4882,7 +4556,6 @@
 
     "DOTA_Tooltip_modifier_item_moon_shard_buff_custom"	"Moon Shard"
 	"DOTA_Tooltip_modifier_item_moon_shard_buff_custom_Description"	"От поглощённого Moon Shard скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%, а радиус обзора ночью увеличен на %dMODIFIER_PROPERTY_BONUS_NIGHT_VISION_UNIQUE%."
-
 
     "npc_dota_elf_wolf"         "Волк"
     "npc_dota_ogreseal_big"     "Моржогр"
@@ -4898,7 +4571,207 @@
     "leave_from_game_is_banned"                   "Наказание за покидание игры"
     "leave_from_game_is_banned_label"             "Если покинуть игру или умереть от крипов до 5ой минуты, то в следующей игре выбор героев будет заблокирован! <br>Что бы снять блокировку, надо будет отыграть на герое, который выпал изначально, и занять как минимум топ 4! <br>Если игрок покидает игру 3 раза подряд, не отмыв, наказание за лив, то получает курсу(метка проклятого)! (курса которая выдается за 322! ). <br>Курса снижает исходящий урон по крипам и увеличивает входящий урон по вам! Что бы снять блокировку надо занять как минимум топ 4!"
     "current_game_banned"                           "Баны текущей игры"
+
+    "custom_items"  "CHA Предметы"
+
+    "ban_heroes_and_abilities"                  "Бан способностей и героев"
+    "ban_skills"                                "Бан навыков"
+    "choose_map"                                "Выбор арены"
+    "header_ban_skill"                          "Проголосуйте за бан навыка в каждом разряде"
+    "header_choose_map"                         "Выберите дизайн вашей арены"
+    "cha_Bans"                                  "Баны"
+    "choose_hero"                               "Выбор героя"
+
+    "DOTA_Tooltip_ability_item_pirate_hat_custom"							"Pirate Hat"
+    "DOTA_Tooltip_Ability_item_pirate_hat_custom_Description"		        "<h1>Активное: Dig</h1> Применяется %abilitychanneltime% сек. <br>Выкапывает руну богатства!"
+	"DOTA_Tooltip_Ability_item_pirate_hat_custom_Lore"				        "Просоленная шляпа, несущая проклятие извечной удачи."
+	"DOTA_Tooltip_Ability_item_pirate_hat_custom_bonus_attack_speed"		"+$attack"
+	"DOTA_Tooltip_Ability_item_pirate_hat_custom_bonus_ms"					"+$move_speed"
+    "DOTA_Tooltip_Ability_item_pirate_hat_custom_base_attack_speed"			"+$attack_pct"
+
+    "DOTA_Tooltip_Ability_item_panic_button_custom"		                    "Magic Lamp"
+    "DOTA_Tooltip_Ability_item_panic_button_custom_Description"		        "<h1>Пассивное: Rejuvenate </h1> Когда здоровье владельца падает ниже %health_threshold%%%, на него применяется сильное развеивание, и он излечивается на %heal%%% от максимального здоровья. а также на %buff_duration% сек. не даст наносить или получать урон."
+	"DOTA_Tooltip_Ability_item_panic_button_custom_bonus_health"	        "+$health"
+
+    "DOTA_Tooltip_ability_drow_ranger_multishot_custom"									"Multishot"
+	"DOTA_Tooltip_ability_drow_ranger_multishot_custom_Description"						"ПРЕРЫВАЕМАЯ — герой выпускает один залп стрел за другим, нанося врагам долю от урона и применяя на них усиленную способность Frost Arrows. Действует до %abilitychanneltime% сек."
+	"DOTA_Tooltip_ability_drow_ranger_multishot_custom_Lore"						"Когда лучница была юна, её попытки выпускать сразу несколько стрел считали пустой тратой времени. В войне Древних это умение стало вынужденной необходимостью."
+	"DOTA_Tooltip_ability_drow_ranger_multishot_custom_wave_count"							"ЧИСЛО ВОЛН:"
+	"DOTA_Tooltip_ability_drow_ranger_multishot_custom_scepter_wave_count"							"ЧИСЛО ВОЛН СО СКИПЕТРОМ:"
+	"DOTA_Tooltip_ability_drow_ranger_multishot_custom_arrow_count_per_wave"				"СТРЕЛ В ВОЛНЕ:"
+	"DOTA_Tooltip_ability_drow_ranger_multishot_custom_arrow_damage_pct"					"%ДОЛЯ ОТ УРОНА:"
+	"DOTA_Tooltip_ability_drow_ranger_multishot_custom_arrow_slow_duration"				"ЗАМЕДЛЕНИЕ ОТ СТРЕЛ:"
+	"DOTA_Tooltip_ability_drow_ranger_multishot_custom_arrow_range_multiplier"				"МНОЖИТЕЛЬ ДАЛЬНОСТИ АТАКИ:"
+	"DOTA_Tooltip_ability_drow_ranger_multishot_custom_Note0"								"Базовый урон стрел проходит сквозь невосприимчивость к магии."
+	"DOTA_Tooltip_ability_drow_ranger_multishot_custom_Note1"								"Замедление и дополнительный урон от Frost Arrows не проходят сквозь невосприимчивость к магии."
+
+    "DOTA_Tooltip_modifier_skill_call_of_the_ancient_buff"                          "Сall of the ancient"
+    "DOTA_Tooltip_modifier_skill_call_of_the_ancient_buff_Description"              "Это существо нельзя моментально убить способностью."
+
+    "DOTA_Tooltip_modifier_creep_spawner_upgrader"                                  "Creep Upgrader"
+    "DOTA_Tooltip_modifier_creep_spawner_upgrader_Description"                      "С 50 раунда все существа получают +3 к скорости передвижения и атаки за каждый раунд."
+
+    "cha_data_error_most_have_creep"                                                "Нельзя призвать больше 2 одинаковых крипов"
+
+    "DOTA_Tooltip_Ability_muerta_gunslinger_custom"								            "Gunslinger"
+	"DOTA_Tooltip_Ability_muerta_gunslinger_custom_Description"					            "При каждой атаке герой имеет шанс совершить дополнительный выстрел в случайную цель."
+	"DOTA_Tooltip_Ability_muerta_gunslinger_custom_Note0"							        "Если в радиусе действия нет других врагов, то второй выстрел будет совершён в ту же цель."
+	"DOTA_Tooltip_Ability_muerta_gunslinger_custom_Note1"							        "Максимальная дальность дополнительного выстрела равна дальности атаки героя + %target_search_bonus_range%."
+	"DOTA_Tooltip_Ability_muerta_gunslinger_custom_Note2"							        "На дополнительный выстрел действуют эффекты атаки."
+	"DOTA_Tooltip_Ability_muerta_gunslinger_custom_Lore"							        "Муэрта одаряет каждую свою жертву Милосердием, и лишь счастливцам выпадает знакомство ещё и с Пощадой."
+	"DOTA_Tooltip_Ability_muerta_gunslinger_custom_double_shot_chance"				        "%ШАНС:"
+
+    "DOTA_Tooltip_ability_witch_doctor_voodoo_restoration_custom"							"Voodoo Restoration"
+	"DOTA_Tooltip_ability_witch_doctor_voodoo_restoration_custom_Description"				"Герой направляет свои чары на лечение ближайших союзников, теряя ману каждую секунду действия этой способности."
+	"DOTA_Tooltip_ability_witch_doctor_voodoo_restoration_custom_Lore"						"Фокусы Жарвакко могут не только околдовать врагов, но и исцелить от различных болезней."
+	"DOTA_Tooltip_ability_witch_doctor_voodoo_restoration_custom_Note0"					    "Лечение происходит каждые %heal_interval% секунды."
+	"DOTA_Tooltip_ability_witch_doctor_voodoo_restoration_custom_Note1"					    "Лечит союзников, невосприимчивых к магии."
+	"DOTA_Tooltip_ability_witch_doctor_voodoo_restoration_custom_mana_per_second"			"МАНЫ В СЕКУНДУ:"
+    "DOTA_Tooltip_ability_witch_doctor_voodoo_restoration_custom_heal_percent"			    "%РЕГЕН. ЗДОРОВЬЯ ОТ МАКС. ЗДОРОВЬЯ:"
+	"DOTA_Tooltip_ability_witch_doctor_voodoo_restoration_custom_damage"					"УРОН:"
+	"DOTA_Tooltip_ability_witch_doctor_voodoo_restoration_custom_radius"					"РАДИУС:"
+
+    "DOTA_Tooltip_ability_tidehunter_gush_custom"											"Gush"
+	"DOTA_Tooltip_ability_tidehunter_gush_custom_Description"								"Призывает водяной поток, наносящий противникам урон и уменьшающий их скорость передвижения и броню."
+	"DOTA_Tooltip_ability_tidehunter_gush_custom_Lore"										"Во время битвы за Затонувшие острова Левиафан получил власть над самим морем."
+	"DOTA_Tooltip_ability_tidehunter_gush_custom_movement_speed"							"%ЗАМЕДЛЕНИЕ:"
+	"DOTA_Tooltip_ability_tidehunter_gush_custom_negative_armor"							"СНИЖЕНИЕ БРОНИ:"
+	"DOTA_Tooltip_ability_tidehunter_gush_custom_gush_damage"								"УРОН:"
+	"DOTA_Tooltip_ability_tidehunter_gush_custom_abilityduration"							"ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
+	"DOTA_Tooltip_ability_tidehunter_gush_custom_cast_range_scepter"  						"ДАЛЬНОСТЬ:"
+	"DOTA_Tooltip_ability_tidehunter_gush_custom_aoe_scepter"  							    "РАДИУС:"
+	"DOTA_Tooltip_ability_tidehunter_gush_custom_cooldown_scepter"  						"ПЕРЕЗАРЯДКА:"
+
+    "DOTA_Tooltip_modifier_tidehunter_gush_custom"					                        "Gush"
+	"DOTA_Tooltip_modifier_tidehunter_gush_custom_Description"		                        "Замедлен на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%, броня снижена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% ед."
+
+    "DOTA_Tooltip_ability_spectre_desolate_custom"								            "Desolate"
+	"DOTA_Tooltip_ability_spectre_desolate_custom_Description"					            "Каждая атака наносит дополнительный урон, если цель крип, то урон умножается на %creep_multiplier%."
+	"DOTA_Tooltip_ability_spectre_desolate_custom_Lore"						                "Часто воины оказываются наедине с образом Меркуриал. Но настоящий ли он — вот вопрос, что предрешит их судьбу."
+	"DOTA_Tooltip_ability_spectre_desolate_custom_Note0"						            "Урон наносится до завершения атаки."
+	"DOTA_Tooltip_ability_spectre_desolate_custom_Note1"						            "Действует на иллюзиях."
+	"DOTA_Tooltip_ability_spectre_desolate_custom_bonus_damage"				                "ДОПОЛНИТЕЛЬНЫЙ УРОН:"
+    "DOTA_Tooltip_ability_spectre_desolate_custom_attack_speed"				                "ДОП. СКОРОСТЬ АТАКИ:"
+
+    "DOTA_Tooltip_ability_skywrath_mage_mystic_flare_custom"					            "Mystic Flare"
+	"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_custom_Description"		            "Герой создаёт направленное поле сверхъестественной силы, сокрушая врагов. Поле наносит огромный урон в течение %duration% сек."
+	"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_custom_Lore"				            "Только самые опытные маги скайрасов могут разверзнуть в небесах такую бурю."
+	"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_custom_Note0"				            "Невосприимчивые к магии враги не учитываются при распределении урона."
+	"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_custom_Note1"				            "Наносит урон крипам, если в области действия нет вражеских героев."
+	"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_custom_radius"			                "РАДИУС:"
+	"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_custom_duration"			            "ДЛИТЕЛЬНОСТЬ:"
+	"DOTA_Tooltip_ability_skywrath_mage_mystic_flare_custom_damage"			                "УРОН:"
+
+    "DOTA_Tooltip_ability_storm_spirit_electric_vortex_custom"								    "Electric Vortex"
+	"DOTA_Tooltip_ability_storm_spirit_electric_vortex_custom_Description"					    "Создаёт вихрь, затягивающий врагов в место, где находится герой."
+	"DOTA_Tooltip_ability_storm_spirit_electric_vortex_custom_scepter_description"     	        "Способность становится ненаправленной и применяется на всех врагов вокруг героя."
+	"DOTA_Tooltip_ability_storm_spirit_electric_vortex_custom_Lore"						        "Неистовая и неудержимая энергичность Райдзина часто втягивает других в напряжённую ситуацию."
+	"DOTA_Tooltip_ability_storm_spirit_electric_vortex_custom_electric_vortex_pull_distance"	"ДАЛЬНОСТЬ ПРИТЯГИВАНИЯ:"
+	"DOTA_Tooltip_ability_storm_spirit_electric_vortex_custom_AbilityDuration"			        "ДЛИТЕЛЬНОСТЬ:"
+	"DOTA_Tooltip_ability_storm_spirit_electric_vortex_custom_radius_scepter"				    "РАДИУС:"
+
+    "DOTA_Tooltip_ability_zuus_lightning_bolt_custom"										"Lightning Bolt"
+	"DOTA_Tooltip_ability_zuus_lightning_bolt_custom_Description"							"Ударом молнии наносит врагу урон и ненадолго его оглушает. В радиусе %sight_radius_night% вокруг цели временно даётся беспрепятственный обзор и раскрывается невидимость. Способность можно применить на землю — тогда она подействует на всех в радиусе %spread_aoe%. Наносит крипам на %creep_damage_bonus_pct%%% больше урона."
+	"DOTA_Tooltip_ability_zuus_lightning_bolt_custom_abilitycastrange"					    "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:"
+	"DOTA_Tooltip_ability_zuus_lightning_bolt_custom_sight_radius_day"						"ДАЛЬНОСТЬ ОБЗОРА:"
+	"DOTA_Tooltip_ability_zuus_lightning_bolt_custom_sight_duration"						"ДЛИТЕЛЬНОСТЬ ОБЗОРА:"
+    "DOTA_Tooltip_ability_zuus_lightning_bolt_custom_damage_percent"						"%УРОН ОТ МАКС. ЗДОРОВЬЯ ЦЕЛИ:"
+	"DOTA_Tooltip_ability_zuus_lightning_bolt_custom_ministun_duration"					    "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
+	"DOTA_Tooltip_ability_zuus_lightning_bolt_custom_Lore"									"Ошеломляющее наказание для мятежных язычников."
+	"DOTA_Tooltip_ability_zuus_lightning_bolt_custom_Note0"								    "Останавливает прерываемые заклинания."
+
+    "DOTA_Tooltip_ability_special_bonus_unique_zeus_5"	                                    "+1 Заряд Lightning Bolt"
+
+    "DOTA_Tooltip_ability_zuus_cloud_custom"                                               "Nimbus"
+	"DOTA_Tooltip_ability_zuus_cloud_custom_Description"                                   "Создаёт в любом месте карты грозовое облако, которое автоматически ударяет врагов неподалёку молниями от способности Lightning Bolt."
+	"DOTA_Tooltip_ability_zuus_cloud_custom_cloud_duration"                                "ДЛИТЕЛЬНОСТЬ:"
+	"DOTA_Tooltip_ability_zuus_cloud_custom_cloud_bolt_interval"                           "БАЗОВЫЙ ИНТЕРВАЛ МОЛНИЙ:"
+	"DOTA_Tooltip_ability_zuus_cloud_custom_hits_to_kill_tooltip"				            "АТАК ДЛЯ УНИЧТОЖЕНИЯ:"
+	"DOTA_Tooltip_ability_zuus_cloud_custom_creep_hits_to_kill_tooltip"			            "АТАК КРИПОВ ДЛЯ УНИЧТОЖЕНИЯ:"
+	"DOTA_Tooltip_ability_zuus_cloud_custom_cloud_radius"									"РАДИУС:"
+	"DOTA_Tooltip_ability_zuus_cloud_custom_Note0"											"Вражеский герой получит %cloud_bounty_tooltip% золота за уничтожение облака."
+	"DOTA_Tooltip_ability_zuus_cloud_custom_Note1"											"Облако применяет на ближайшего врага способность Lightning Bolt текущего уровня."
+	"DOTA_Tooltip_ability_zuus_cloud_custom_Note2"											"Атаки башен и крипов наносят облаку половину урона."
+	"DOTA_Tooltip_ability_zuus_cloud_custom_lore"											"Где гневается бог грома, вскоре собираются тучи."
+
+    "DOTA_Tooltip_ability_dragon_knight_dragon_blood_custom"                                "Dragon Blood"
+    "DOTA_Tooltip_ability_dragon_knight_dragon_blood_custom_Description"					"Текущая в жилах героя кровь дракона усиливает его восстановление здоровья и броню."
+    "DOTA_Tooltip_ability_dragon_knight_dragon_blood_custom_bonus_health_regen"             "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ:"
+    "DOTA_Tooltip_ability_dragon_knight_dragon_blood_custom_bonus_armor"                    "ДОП. БРОНЯ:"
+    "DOTA_Tooltip_ability_dragon_knight_dragon_blood_custom_ability_note"                            "Значительно увеличены показатели!"
+    
+     // Notes
+    "DOTA_Tooltip_ability_skywrath_mage_concussive_shot_ability_note"                   "При использовании любого заклинания приминяется Concussive shot с перезарядкой 5 секунд"
+    "DOTA_Tooltip_ability_templar_assassin_meld_ability_note"                           "Пассивно увеличивает дальность атаки на 300"
+    "DOTA_Tooltip_ability_chaos_knight_chaos_bolt_ability_note"                         "Каждая атака имеет шанс 15% использовать способность на цель атаки с перезарядкой 4.5 секунд"
+    "DOTA_Tooltip_ability_tinker_defense_matrix_ability_note"                           "Пассивно срабатывает при получении 400 урона с перезарядкой 3 сек. и восстанавливает 300 здоровья"
+    "DOTA_Tooltip_ability_abaddon_aphotic_shield_ability_note"                          "Пассивно срабатывает при получении 400 урона с перезарядкой 3 сек."
+    "DOTA_Tooltip_ability_phantom_assassin_phantom_strike_ability_note"                 "Увеличена длительность. Во время действия способности дает 50% прорубающиго урон"
+    "DOTA_Tooltip_ability_clinkz_strafe_ability_note"                                   "Увеличена длительность. Дает дополнительную дальность атаки героям ближнего боя"
+    "DOTA_Tooltip_ability_spectre_spectral_dagger_ability_note"                         "Пассивно срабатывает при получении 500 урона с перезарядкой 3 сек."
+    "DOTA_Tooltip_ability_slark_dark_pact_ability_note"                                 "Пассивно срабатывает при получении 500 урона с перезарядкой 3 сек."
+    "DOTA_Tooltip_ability_enchantress_natures_attendants_ability_note"                  "Восстанавливает 5% здоровья в секунду"
+    "DOTA_Tooltip_ability_weaver_shukuchi_ability_note"                                 "Пассивно увеличивает физический и магический вампиризм на 30%"
+    "DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_ability_note"                  "Пассивно дает +100% к уменьшению расхода и сжигания маны, а также уменьшает перезарядку способностей и предметов на 15%"
+    "DOTA_Tooltip_ability_troll_warlord_berserkers_rage_ability_note"                   "Изменен интервал атаки на 1.1! дополнительная броня 5/7/10/14. Если способность активна, то увеличивает сопротивление эффектам на 25%"
+    "DOTA_Tooltip_ability_nevermore_dark_lord_ability_note"                             "Убийство крипа дает эффект на уменьшение брони"
+    "DOTA_Tooltip_ability_dazzle_poison_touch_ability_note"                             "Любой урон продлевает длительность эффекта"
+    "DOTA_Tooltip_ability_queenofpain_scream_of_pain_ability_note"                      "Противники, которые получили урон от способности получают страх на 1.5 секунд"
+    "DOTA_Tooltip_ability_earthshaker_enchant_totem_ability_note"                       "Пассивно срабатывает каждую 3 атаку"
+    "DOTA_Tooltip_ability_spirit_breaker_bulldoze_ability_note"                         "Пассивно увеличивает сопротивление эффектам на 20%"
+    "DOTA_Tooltip_ability_witch_doctor_voodoo_restoration_custom_ability_note"          "Способность наносит урон и восстанавливает 3% здоровья в секунду"
+    "DOTA_Tooltip_ability_tidehunter_gush_custom_ability_note"                          "Способность направлена на точку. Она подействует на всех врагов на своём пути."
+    "DOTA_Tooltip_ability_skywrath_mage_mystic_flare_custom_ability_note"               "Увеличен радиус! Урон способности не распределяется между целями"
+    "DOTA_Tooltip_ability_drow_ranger_marksmanship_custom_ability_note"                 "Увеличена дополнительная ловкость. Способность не отключается и работает на героев ближнего боя"
+    "DOTA_Tooltip_ability_storm_spirit_electric_vortex_custom_ability_note"             "Срабатывает моментально на всех существ в радиусе способности"
+    "DOTA_Tooltip_ability_bristleback_viscous_nasal_goo_custom_ability_note"            "Срабатывает моментально на всех существ в радиусе 900"
+    "DOTA_Tooltip_ability_zuus_lightning_bolt_custom_ability_note"                      "Работает на точку, а также наносит урон всем существам в радиусе 400. Наносит дополнительно 10% от максимального здоровья цели"
+    "DOTA_Tooltip_ability_spirit_breaker_greater_bash_ability_note"                     "Не отталкивает крипов"
+    "DOTA_Tooltip_ability_witch_doctor_paralyzing_cask_ability_note"                    "Увеличенный урон, количество скачков и длительность оглушения"
+    "DOTA_Tooltip_ability_grimstroke_soul_chain_ability_note"                           "Накладывает обезоруживание и работает на крипов"
+    "DOTA_Tooltip_ability_riki_backstab_custom_ability_note"                            "Увеличен урон за ловкость. Умение дает дополнительную ловкость"
+    "DOTA_Tooltip_ability_drow_ranger_multishot_custom_ability_note"                    "Значительные улучшения показателей!"
+    "DOTA_Tooltip_ability_dark_willow_bedlam_ability_note"                              "Значительные улучшения показателей!"
+    "DOTA_Tooltip_ability_snapfire_mortimer_kisses_ability_note"                        "Уменьшена перезарядка!"
+    "DOTA_Tooltip_ability_enigma_midnight_pulse_custom_ability_note"                    "урон от макс. здоровья!"
+    "DOTA_Tooltip_ability_centaur_hoof_stomp_ability_note"                                    "Значительно увеличен радиус стана!"
+    "DOTA_Tooltip_ability_centaur_return_ability_note"                                        "Пасивно уменьшает входящий урон!"
+    "DOTA_Tooltip_ability_chaos_knight_phantasm_ability_note"                                 "Урон по иллюзиям значительно уменшен"
+    "DOTA_Tooltip_ability_dawnbreaker_fire_wreath_ability_note"                               "Увеличенный радиус взмаха и длительность стана!"
+    "DOTA_Tooltip_ability_dawnbreaker_celestial_hammer_ability_note"                          "Радиус огненного следа увеличен"
+    "DOTA_Tooltip_ability_dawnbreaker_luminosity_custom_ability_note"                         "Увеличен вампиризм по крипам!"
+    "DOTA_Tooltip_ability_tiny_toss_ability_note"                                             "Для тосс не нужна цель!"
+    "DOTA_Tooltip_ability_abyssal_underlord_firestorm_custom_ability_note"                    "Способность наносит урон по Roshan"
+    "DOTA_Tooltip_ability_bounty_hunter_jinada_custom_ability_note"                           "Кража золота работает на крипов!"
+    "DOTA_Tooltip_ability_medusa_split_shot_ability_note"                                     "Если у вас есть Split shot то вам не может выпасть Arcane orb!"
+    "DOTA_Tooltip_ability_obsidian_destroyer_arcane_orb_ability_note"                         "Если у вас есть Arcane orb то вам не может выпасть Split shot!"
+    "DOTA_Tooltip_ability_frostivus2018_weaver_geminate_attack_custom_ability_note"           "Если у вас есть Frostheaven geminate attack то вам не может выпасть Arcane orb!"
+    "DOTA_Tooltip_ability_jakiro_liquid_fire_lua_ability_note"                                "Аганим шард дает Liquid Frost!"
+    "DOTA_Tooltip_ability_dark_seer_ion_shell_ability_note"                                   "Оглушение работает на крипов!"
+    "DOTA_Tooltip_ability_puck_dream_coil_custom_ability_note"                                "Если у вас есть Dream Coil то вам не может выпасть Tree Grab и Great Cleave!"
+    "DOTA_Tooltip_ability_tiny_tree_grab_lua_ability_note"                                    "Если у вас есть Tree Grab то вам не может выпасть Dream Coil!"
+    "DOTA_Tooltip_ability_sven_great_cleave_ability_note"                                     "Если у вас есть Great Cleave то вам не может выпасть Dream Coil!"
+    "DOTA_Tooltip_ability_lone_druid_true_form_custom_ability_note"                           "Значительные улучшения показателей! Аганим делает форму переключаемой и дает беспрепятственное передвижение!"
+    "DOTA_Tooltip_ability_sandking_epicenter_ability_note"                                    "Время подготовки уменьшено! Перезарядка уменьшена!"
+    "DOTA_Tooltip_ability_tinker_laser_ability_note"                                          "Перезарядка уменьшена!"
+    "DOTA_Tooltip_ability_tinker_heat_seeking_missile_lua_ability_note"                       "Перезарядка уменьшена!"
+    "DOTA_Tooltip_ability_nevermore_shadowraze1_custom_ability_note"                          "Каждый койл имеет 3 заряда."
+    "DOTA_Tooltip_ability_storm_spirit_static_remnant_ability_note"                           "Значительно увеличен радиус взрыва."
+    "DOTA_Tooltip_ability_shredder_whirling_death_ability_note"                               "Значительно увеличен радиус пилы!"
+    "DOTA_Tooltip_ability_techies_suicide_ability_note"                                       "Не наносит урон по себе! Время подготовки уменьшено"
+    "DOTA_Tooltip_ability_razor_plasma_field_ability_note"                                    "Вторая волна plasma field через 0.8 сек"
+    "DOTA_Tooltip_ability_razor_storm_surge_ability_note"                                "Увеличен шанс удара, число целей, длительность замедления. "
+    "DOTA_Tooltip_ability_spectre_desolate_custom_ability_note"                               "Дает скорость атаки! Урон по крипам увеличен!"
+    "DOTA_Tooltip_ability_ursa_overpower_ability_note"                                        "Число атак увеличено! Во время действия способности дает 50% прорубающиго урон"
+    "DOTA_Tooltip_ability_viper_poison_attack_ability_note"                                   "Не требует маны!"
+    "DOTA_Tooltip_ability_doom_bringer_devour_custom_ability_note"                     "В этом режиме герой получает только пассивные способности сожранных нейтральных крипов. Способность Rearm <b>не</b> действует на перезарядку Devour."
+    "DOTA_Tooltip_ability_necrolyte_sadist_custom_ability_note"                                 "Эффект перестаёт действовать, если применить заклинание, дающее невосприимчивость к магии (например, Blade Fury или Rage)"
+    "DOTA_Tooltip_ability_custom_terrorblade_metamorphosis_ability_note"           "<span class=\"ADBlue\">Aghanim's Scepter:</span> способность <span class=\"ADWhite\"><b>Terror Wave</b></span> появляется при включении автоматического применения <span class=\"ADWhite\"><b>Metamorphosis</b></span>."
+    "DOTA_Tooltip_ability_faceless_void_time_lock_custom_ability_note"          "В этом режиме эффект <b>сочетается</b> с предметом Skull Basher."
+    "DOTA_Tooltip_ability_bounty_hunter_track_ability_note"              "Работает на крипов"
+    "DOTA_Tooltip_ability_dragon_knight_elder_dragon_form_custom_ability_note"     "Aghanim's Shard: даёт способность Fireball."
+    "DOTA_Tooltip_ability_alchemist_goblins_greed_custom_ability_note"             "В этом режиме возможность расплавить Aghanim's Scepter, чтобы передать союзному герою все его улучшения, привязана к способности Greevil's Greed, а не Chemical Rage. Сам предмет дарует герою дополнительный урон от атак и заклинаний за каждый расплавленный для союзников Aghanim's Scepter."
+
+    "skill_selected_upgrade_round"      "Выбранные навыки будут улучшаться в зависимости от текущего раунда<br><br>После 30 раунда (не процентные навыки) увеличиваются в 2 раза<br><br>После 50 раунда (не процентные навыки) увеличиваются в 3 раза<br><br>После 50 раунда (процентные навыки) увеличиваются в 2 раза<br><br>Не улучшаемые навыки: Дальность атаки, Перезарядка способностей, Сопротивление урону"
 } 
 }
-
-
