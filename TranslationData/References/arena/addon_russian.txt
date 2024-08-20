@@ -63,6 +63,7 @@
       "drag_description"                                                            "Зажмите и перетащите способность"
       "reorder_interrupted"                                                         "Ошибочка"
       "AbilityOrderSubTitle"                                                        "Или нажмите F8 чтоб поменять порядок способностей"
+      "AbilityOrderSubTitle2"                                                       "Нажав на иконку замка, вы уберете эту способность из списка замены способностей"
       "guide_settings"                                                              "Подробнее о предметах"
       "skills_settings"                                                             "Подробнее о навыках"
       "cha_guide"                                                                   "Гайды"
@@ -268,6 +269,16 @@
       "cha_emblem_7"                                                                "Цветочная"
       "cha_emblem_8"                                                                "Кристальная"
       "cha_emblem_9"                                                                "Водная"
+      "cha_emblem_10"                                                               "Морозная"
+      "cha_emblem_11"                                                               "Бабочки"
+      "cha_emblem_12"                                                               "Электричество"
+      "cha_emblem_13"                                                               "Музыкальная"
+      "cha_emblem_14"                                                               "Музыкальная 2"
+      "cha_emblem_15"                                                               "Божество"
+      "cha_emblem_16"                                                               "Верный попугай"
+      "cha_emblem_17"                                                               "Защита"
+      "cha_emblem_18"                                                               "Броня"
+      "cha_emblem_19"                                                               "Огненный"
       "select"                                                                      "Выбрать "
       "select_sounds"                                                               "Выбрать звуки"
       "keybind_cast_ability_7"                                                      "Способность 7"
@@ -1181,6 +1192,7 @@
       "DOTA_Tooltip_ability_item_butterfly_2_bonus_attack_speed"              "+$attack"     
       "DOTA_Tooltip_ability_item_butterfly_2_bonus_damage"                 "+$damage"  
       "DOTA_Tooltip_ability_item_butterfly_2_bonus_movespeed"                 "+$move_speed" 
+      "DOTA_Tooltip_ability_item_butterfly_2_bonus_attack_speed_pct"				"%+$attack_pct"	
       "DOTA_Tooltip_ability_item_butterfly_2_bonus_universal_evasion"                 "%ШАНС УНИВЕРС. УКЛОНЕНИЯ" 
 
       "DOTA_Tooltip_Ability_item_bfury_2"                            "Battle Fury 2"
@@ -3170,6 +3182,10 @@
       "DOTA_Tooltip_ability_lion_finger_of_death_custom_mana_cost_scepter"                "РАСХОД МАНЫ:"
       "DOTA_Tooltip_ability_lion_finger_of_death_custom_cooldown_scepter"                 "ПЕРЕЗАРЯДКА:"
       "DOTA_Tooltip_ability_lion_finger_of_death_custom_splash_radius_scepter"            "ОБЛАСТЬ ДЕЙСТВИЯ:"
+      "DOTA_Tooltip_ability_lion_finger_of_death_custom_punch_duration"						"ДЛИТЕЛЬНОСТЬ КУЛАКА:"
+	  "DOTA_Tooltip_ability_lion_finger_of_death_custom_punch_bonus_damage_base"				"ДОП. УРОН КУЛАКА:"
+	  "DOTA_Tooltip_ability_lion_finger_of_death_custom_punch_bonus_damage_per_stack"		"ДОП. УРОН КУЛАКА ЗА ЭФФЕКТ:"
+	  "DOTA_Tooltip_ability_lion_finger_of_death_custom_cleave_damage"						"%ПРОРУБАЮЩИЙ УРОН:"
  
       "DOTA_Tooltip_modifier_lion_finger_of_death_custom_passive"                         "Убийств способностью Finger of Death"
       "DOTA_Tooltip_modifier_lion_finger_of_death_custom_passive_Description"             "Урон от Finger of Death увеличен на %dMODIFIER_PROPERTY_TOOLTIP%."
@@ -4773,5 +4789,13 @@
     "DOTA_Tooltip_ability_alchemist_goblins_greed_custom_ability_note"             "В этом режиме возможность расплавить Aghanim's Scepter, чтобы передать союзному герою все его улучшения, привязана к способности Greevil's Greed, а не Chemical Rage. Сам предмет дарует герою дополнительный урон от атак и заклинаний за каждый расплавленный для союзников Aghanim's Scepter."
 
     "skill_selected_upgrade_round"      "Выбранные навыки будут улучшаться в зависимости от текущего раунда<br><br>После 30 раунда (не процентные навыки) увеличиваются в 2 раза<br><br>После 50 раунда (не процентные навыки) увеличиваются в 3 раза<br><br>После 50 раунда (процентные навыки) увеличиваются в 2 раза<br><br>Не улучшаемые навыки: Дальность атаки, Перезарядка способностей, Сопротивление урону"
+    "telegram_support"                  "Поддержка Telegram: @TheArenaSupport"
+    "kaspi_description"                 "Сканируйте QR-Код и оплачивайте. <br>Важно! После оплаты отпишите в Телеграмм ваш DOTA ID<br>100 coins - 500 Тенге"
+
+    "last_duel_agree"                   "Согласен"
+    "last_duel_decline"                 "Отказаться"
+
+    "SubscriberInfoBanType"             "С подпиской у вас появляется возможность забанить 3 скилла и 2 героя"
+    "hint_duel_notification_aegis"      "Осторожнее ! Проигравший в этой дуэли потеряет аегис"
 } 
 }
